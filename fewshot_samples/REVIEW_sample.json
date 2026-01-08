@@ -1,0 +1,166 @@
+{
+  "type": "REVIEW",
+  "pdf": "1760091187079_1608702.pdf",
+  "input_text": "\n[第1页]\n中国血液净化2025年10月第24卷第10期Chin J Blood Purif,October,2025,Vol.24,No.10\n·指南与共识·\n·\n·793\nYY/T 0793.4-2022《血液透析和相关治疗用液体的制备和质量管理\n第4部分：血液透析和相关治疗用透析液质量》标准解读\n柯军\n1\n叶晓燕\n2\n何晓帆\n1,3\n张云\n1\n【摘要】本文分析了我国医药行业标准YY/T 0793.4-2022《血液透析和相关治疗用液体的制备和质\n量管理第4部分：血液透析和相关治疗用透析液质量》与国际标准化组织(the International Organi-\nzation for Standardization，ISO)23500-5:2019的差异，并对主要条款进行解读。通过对标准的深入\n分析，帮助临床机构进一步提升血液透析和相关治疗用透析液的质量，对保障患者临床安全具有重要作\n用。\n【关键词】血液透析和相关治疗用透析液；微生物污染物；化学污染物\n中图分类号：R459.5\n文献标识码：A\ndoi:10.3969/j.issn.1671-4091.2025.10.001\nInterpretion of the standard YY/T 0793.4-2022 Preparation and quality management of fluids for hemo-\ndialysis and related therapies-Part 4: Quality of dialysis fluid for hemodialysis and related therapies\nKE Jun\n1, YE Xiao-yan\n2, HE Xiao-fan\n1，3, ZHANG Yun\n1 1Guang dong Medical Devices Quality Surveillance and\nTest Institute,Guangzhou 510663, China;\n2Guangzhou Vocational College of Technology &Business, Guang-\nzhou 511442, China;\n3Key Laboratory for Extracorporeal Circulation Devices,National Medical Products Ad-\nministration,Guangzhou 510663,China\nCorresponding author: KE Jun, Email:gzkj2003@163.com\n【Abstract】This article analyzes the differences between the standard YY/T 0793.4-2022 and the interna-\ntional standard (the International Organization for Standardization, ISO) 23500-5:2019, and provides an inter-\npretation of key clauses. Through in-depth analysis of the standards, it aims to help clinical institutions further\nimprove the quality of dialysis fluids used in hemodialysis and related therapies, which playing a crucial role\nin ensuring patient clinical safety.\n【Key words】Dialysis fluid for hemodialysis and related therapies; Microbiological contaminants;\nChemical contaminants\n在国际标准中，血液透析和相关治疗用透析液\n(dialysis solution)指由透析用水和浓缩物制得\n的液体，通常为含有电解质、缓冲液和葡萄糖的水溶\n液，在血液透析和血液透析滤过中用于和血液进行\n物质交换\n[1]。透析液与透析器配合使用，通过弥散\n(diffusion)、对流(convection)和超滤(ultrafil-\ntration)等物理机制清除尿毒症毒素(如尿素、肌\n酐、β2-微球蛋白)、纠正电解质紊乱(如高钾血症、\n高磷血症)及调节酸碱失衡(代谢性酸中毒)，达到内\n环境的平衡\n[2]。\n血液透析液主要包括标准透析液、超纯透析液\n和在线配制的置换液。血液透析液的质量直接关系\n到患者的治疗效果和生命安全，为确保透析液的安\n全性和有效性，各国都制定了严格的标准来规范其\n生产和质量检测。透析液直接参与血液透析治疗，\n因此不能含有毒、致热原、重金属等对机体有害的物\n质\n[3]。其中，微生物污染物和化学污染物的检测是\n透析液质量控制的重要环节。超纯透析液通常用于\n高通量血液透析治疗，置换液常用于血液滤过和血\n液透析滤过治疗，在线配制的置换液需达到静脉输\n液标准\n[3]。\n基金项目：广州市高校其他改革类项目(2024QTGG021)\n作者单位：510663 广州，\n1广东省医疗器械质量监督检验所机械化学室\n511442 广州，\n2广州科技贸易职业学院生物技术与健康学院\n510663 广州，\n3国家药品监督管理局体外循环器械重点实验室\n通信作者：柯军510663 广州，\n1广东省医疗器械质量监督检验所机械化学室Email:gzkj2003@163.com\n\n[第2页]\n中国血液净化2025年10月第24卷第10期Chin J Blood Purif,October,2025,Vol.24,No.10\n1\n标准介绍\n1.1\nYY(/T) 0793系列标准的组成\n《血液透析和相关治疗用液体的制备和质量管\n理》系列标准由1 项国家标准和4 项行业标准组成，\nYY/T 0793.4-2022是该系列行业标准中的第4部分。\n2019 年，国际标准化组织(the Internation-\nal Organization for Standardization，ISO)外科\n植入物技术委员会(ISO/TC150)心血管植入物和体\n外系统分技术委员会(SC2)(Technical Committee\nISO/TC150,Implants for surgery,Subcommittee\nSC2,Cardiovascular implants and extracorporeal\nsystems)编写了ISO 23500系列标准并发布实施，该\n系列标准由5 个部分组成，涉及血液透析和相关治\n疗用液体的制备和质量管理。我国标准化组织全国\n医用体外循环设备标准化技术委员会自2020 年起\n组织标准起草工作组结合我国实际情况修改采用\nISO 23500系列标准，形成了1项国家标准和4项行\n业标准[即YY(/T) 0793 系列标准]，自2022 年以来\n陆续发布实施。该系列标准涉及血液透析和相关治\n疗用液体的制备和质量管理，包括通用要求、血液透\n析和相关治疗用水处理设备、血液透析和相关治疗\n用水、血液透析和相关治疗用浓缩物、血液透析和相\n关治疗用透析液质量，系列标准信息详见表1\n[4-8]。\n1.2\nYY/T 0793.4-2022概况\nISO 23500系列标准由5部分组成，其中血液透\n析和相关治疗用透析液质量是该系列标准的第5部\n分即ISO 23500-5：2019《血液透析和相关治疗用液\n体的制备和质量管理第5部分：血液透析和相关治\n疗用透析液质量》。YY/T 0793.4-2022 标准修改采\n用了ISO 23500-5:2019，于2022 年7 月1 日首次发\n布，2023年7月1日实施\n[8]。\n在医疗机构中如果透析液的制备过程不规范，\n即使透析液制备用水及浓缩物符合YY 0793.2-\n2023和YY 0793.3-2023的标准要求，透析液中也可\n能出现微生物及污染物超标。YY/T 0793.4-2022\n适用于血液透析和相关治疗用透析液的质量管理，\n而YY 0793.3-2023 则规定了血液透析和相关治疗\n用浓缩物的技术要求(包括浓缩粉和浓缩液)。两者\n虽都属于YY/T 0793 系列标准，但在具体适用范围\n和关注点上存在差异。YY/T 0793.4-2022 和YY\n0793.3-2023 互为补充、相辅相成，通过实施这些标\n准，能有效提升血液透析治疗的临床安全性和有效\n性，降低患者并发症的风险，两者不能混淆使用\n[7,8]。\n1.3\nYY/T 0793.4-2022与ISO 23500-5:2019的主\n要差异\nISO 23500-5:2019 由ISO在2019年发布，欧洲\n标准化委员会(Comité Européen de Normalisa-\ntion，CEN)完整接受了该标准并在所有下属成员国\n中实施，形成了欧洲标准EN ISO 23500-5:2019。\n美国医疗器械促进协会(The Association for\nthe Advancement of Medical Instrumentation,\nAAMI)负责批准了相应的转换标准,经美国国家标准\n表1\n我国《血液透析和相关治疗用液体的制备和质量管理》系列标准信息表\n标准名称\n采标情况\n发布日期\n实施日期\nGB/T 43050-2023血液透析和相关治疗\nISO 23500-1:2019 Preparation and quality\n2023-09-07\n2025-04-01\n用液体的制备和质量管理通用要求\nmanagement of fluids for haemodialysis and\nrelated therapies-Part1: General\nrequirements,MOD\nYY/T 0793.1-2022血液透析和相关治\nISO 23500-2:2019 Preparation and quality\n2022-07-01\n2024-07-01\n疗用液体的制备和质量管理\n第1部\nmanagement of fluids for haemodialysis and\n分：血液透析和相关治疗用水处理设备\nrelated therapies-Part2: Water treatment\nequipment for haemodialysis applications\nand related therapies,MOD\nYY 0793.2-2023血液透析和相关治疗\nISO 23500-3:2019 Preparation and quality\n2023-11-22\n2026-12-01\n用液体的制备和质量管理\n第2部\nmanagement of fluids for haemodialysis and\n分：血液透析和相关治疗用水\nrelated therapies-Part3: Water for\nhaemodialysis and related therapies,MOD\nYY 0793.3-2023血液透析和相关治疗\nISO 23500-4:2019 Preparation and quality\n2023-06-20\n2025-07-01\n用液体的制备和质量管理\n第3部分：\nmanagement of fluids for haemodialysis and\n血液透析和相关治疗用浓缩物\nrelated therapies-Part4: Concentrates for\nhaemodialysis and related therapies,MOD\nYY/T 0793.4-2022血液透析和相关治\nISO 23500-5:2019 Preparation and quality\n2022-07-01\n2023-07-01\n疗用液体的制备和质量管理\n第4部\nmanagement of fluids for haemodialysis and\n分：血液透析和相关治疗用透析液质量\nrelated therapies-Part5: Quality of dialysis\nfluid for haemodialysis and related\ntherapies,MOD\n注：GB/T，推荐性国家标准；YY/T，推荐性医药行业标准；YY，强制性医药行业标准；MOD，修改采用。\n·\n·794\n\n[第3页]\n中国血液净化2025年10月第24卷第10期Chin J Blood Purif,October,2025,Vol.24,No.10\n学会(American National Standards Institute,\nANSI) 审核成为美国国家标准ANSI/AAMI/ISO\n23500-5:2019。欧盟和美国标准均与国际标准\nISO 23500-5:2019 保持一致，适用范围包括标准透\n析液、超纯透析液和置换液。我国血液透析滤过和\n血液滤过治疗用的置换液属于处方药，其配方需通\n过药品监管部门审批，按照药品标准生产和使用，因\n此YY/T 0793.4-2022的适用范围仅包括标准透析液\n及超纯透析液，不适用于置换液，YY/T 0793.4-2022\n中删除了置换液的相关条款(包括在线血液滤过或\n在线血液透析滤过的置换液、非在线配制的血液透\n析滤过和血液滤过的置换液)，这也是YY/T 0793.4-\n2022与ISO 23500-5:2019最重要的差异\n[8,9]。\n除此以外，YY/T 0793.4-2022 根据我国临床治\n疗用透析液的实际情况，对ISO 23500-5:2019的部\n分内容进行了适当的修改和补充。对于微生物污染\n的检测方法，YY/T 0793.4-2022 结合了我国医药行\n业实际情况，对检测方法进行了优化和细化，以提高\n检测结果的准确性和可靠性。对于化学污染物的检\n测方法，YY/T 0793.4-2022也根据我国的实际情况进\n行了相应的修改，检测方法可直接引用YY 0793.2-\n2023《血液透析和相关治疗用液体的制备和质量管\n理第2部分：血液透析和相关治疗用水》，避免了2份\n标准内容重复。这些差异体现了YY/T 0793.4-2022\n对我国透析液行业的针对性和适用性，从而更好的\n保障透析液质量安全。主要差异详见表2\n[8,9]。\n2\n标准解读\n2.1\n透析液中的微生物污染物及其检测方法\n脂多糖或内毒素导致的热原反应与革兰氏阴性\n菌有关。进一步研究显示革兰氏阴性水生细菌能在\n医院多种液体中迅速增殖，包括蒸馏水、去离子水、\n反渗透水及软化水等，这些液体曾作为血液透析系\n统供应用水\n[9]。透析液作为平衡盐溶液，在其生产\n过程中使用了上述液体，为这类细菌提供了适宜的\n生长环境。研究指出即便细菌污染水平较低，热原\n反应的发生率亦与透析液中细菌数量呈直接相关\n性\n[10]。因此，ISO 23500-5:2019 标准将透析液的微\n生物污染控制视为至关重要的环节。\nYY/T 0793.4-2022 中规定标准透析液的微生\n物计数总数应小于100 CFU/ml，内毒素含量应小于\n0.5 EU/ml；超纯透析液的微生物计数总数应小于\n0.1 CFU/ml，内毒素含量应小于0.03 EU/ml。ISO\n23500-5:2019 认为透析液中真菌(酵母菌和丝状真\n菌)的存在可能与细菌和内毒素的存在有关，但未给\n出此类污染物的最大限度值\n[11]。为与YY(/T)0793\n系列标准一致，按照《中华人民共和国药典》2020版\n的规定\n[12]，YY/T 0793.4-2022 明确微生物计数总数\n包括需氧菌、霉菌和酵母菌。\n此外YY/T 0793.4-2022 要求设定标准透析液\n的微生物限量和内毒素含量的干预水平(通常为微\n生物计数总数和内毒素最大允许含量的50%)。若\n标准透析液中的微生物总数超过干预水平，则应立\n即采取纠正措施(如消毒)降低微生物水平并重新检\n测。对于超纯透析液，若微生物计数总数和内毒素\n含量超过上限值，则应采取纠正措施将其降至可接\n受水平。\n与ISO 23500-5:2019 中给出的微生物培养方\n法不同，YY/T 0793.4-2022 引用了《中华人民共和\n国药典》2020版四部的微生物培养方法以符合我国\n国情\n[12]。2种方法的差异详见表3。\n需要说明的是这些方法仅提供细菌生物负载的\n相对指标，并非绝对测定值\n[11]。不同的培养基类型\n及培养周期可导致菌落浓度及回收的微生物类型产\n生差异\n[11,13]。有研究指出使用Reasoner’s 2A 琼脂\n培养基(Reasoner’s agar no.2,R2A)和胰酪大豆胨\n琼脂培养基(tryptic soy agar,TSA)对菌落数进行\n测定时，标准透析用水和标准透析液产生≥50 CFU/\nml 菌落数的生物负载并无显著性差异\n[13]。需要指\n出的是当需要更高灵敏度的检测方法时，应采用薄\n膜过滤法，\n《中华人民共和国药典》2020版四部对该\n方法做了详细规定\n[12]。\n与ISO 23500-5:2019 一致，YY/T 0793.4-2022\n表2\nYY/T 0793.4-2022与ISO 23500-5:2019的主要差异\n差异内容\nYY/T 0793.4-2022\nISO 23500-5:2019\n原因\n适用范围\n不含置换液\n包含置换液\n置换液在我国按处方药管理\n微生物要求\n标准透析液：微生物计数总数应小于\n标准透析液：细菌总数应小于\n按照《中华人民共和国药典》\n100 CFU/ml；\n100 CFU/ml；\n的规定，YY/T 0793.4-2022\n超纯透析液：微生物计数总数应小于\n超纯透析液：细菌总数应小于\n中的微生物计数包括需氧菌、\n0.1 CFU/ml\n0.1 CFU/ml\n霉菌和酵母菌\n微生物检测方法\n依据《中华人民共和国药典》增加微\n无具体检测方法\n中华人民共和国药典》中的微\n生物检测方法(微生物计数法)\n生物检测方法是法定方法\n化学污染物检测方法\n删除了ISO 23500-5:2019的附录B\n附录B给出了化学污染物最大\nYY 0793.2-2023中已给出详\n允许限量和推荐的检测方法\n细检测方法\n·\n·795\n\n[第4页]\n中国血液净化2025年10月第24卷第10期Chin J Blood Purif,October,2025,Vol.24,No.10\n中内毒素含量也采用鲎试剂法(limulus amoeby-\ncyte lysate，LAL)检测。\n2.2\n透析液中的化学污染物及其检测方法\n透析液是由透析用水和透析浓缩物制得的液\n体，通过透析液输送系统输送至透析器，因此透析液\n中化学污染物主要来源于透析用水和透析浓缩物。\n水质量控制是血液透析质量管理的基础，透析用水\n检测方法的正确性是获得客观准确结果的基础\n[14]。\nISO 23500-5:2019的附录B详细给出了透析用水化\n学污染物的种类、浓度上限值和分析方法，为避免重\n复，YY/T 0793.4",
+  "expected_output": {
+    "doc_metadata": {
+      "title": "YY/T 0793.4-2022《血液透析和相关治疗用液体的制备和质量管理第4部分：血液透析和相关治疗用透析液质量》标准解读",
+      "authors": "柯军; 叶晓燕; 何晓帆; 张云",
+      "organization": "中国血液净化（Chin J Blood Purif）",
+      "publish_date": "Not Found",
+      "year": "2025",
+      "doi": "10.3969/j.issn.1671-4091.2025.10.001",
+      "document_type": "REVIEW",
+      "sources": [
+        "p1"
+      ]
+    },
+    "scope": {
+      "objective": "分析我国医药行业标准YY/T 0793.4-2022《血液透析和相关治疗用液体的制备和质量管理第4部分：血液透析和相关治疗用透析液质量》与ISO 23500-5:2019的差异，并对主要条款进行解读，以帮助临床机构进一步提升透析液质量，保障患者临床安全。",
+      "target_population": "临床机构（血液透析和相关治疗用透析液质量管理相关人员）",
+      "sources": [
+        "p1"
+      ]
+    },
+    "recommendations": [
+      {
+        "id": "R1",
+        "text": "YY/T 0793.4-2022 要求设定标准透析液的微生物限量和内毒素含量的干预水平(通常为微生物计数总数和内毒素最大允许含量的50%)。",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "id": "R2",
+        "text": "若标准透析液中的微生物总数超过干预水平，则应立即采取纠正措施(如消毒)降低微生物水平并重新检测。",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "id": "R3",
+        "text": "对于超纯透析液，若微生物计数总数和内毒素含量超过上限值，则应采取纠正措施将其降至可接受水平。",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "id": "R4",
+        "text": "需要指出的是当需要更高灵敏度的检测方法时，应采用薄膜过滤法，《中华人民共和国药典》2020版四部对该方法做了详细规定。",
+        "sources": [
+          "p3"
+        ]
+      }
+    ],
+    "key_findings": [
+      {
+        "finding": "我国标准YY/T 0793.4-2022修改采用ISO 23500-5:2019，并对主要条款进行解读，旨在帮助临床机构提升透析液质量、保障患者临床安全。",
+        "data": "Not Found",
+        "sources": [
+          "p1"
+        ]
+      },
+      {
+        "finding": "YY(/T) 0793系列标准由1项国家标准和4项行业标准组成；YY/T 0793.4-2022是该系列行业标准中的第4部分。",
+        "data": "Not Found",
+        "sources": [
+          "p2"
+        ]
+      },
+      {
+        "finding": "YY/T 0793.4-2022 于2022年7月1日首次发布，2023年7月1日实施。",
+        "data": "2022-07-01发布；2023-07-01实施",
+        "sources": [
+          "p2"
+        ]
+      },
+      {
+        "finding": "YY/T 0793.4-2022 与ISO 23500-5:2019最重要的差异：我国标准适用范围仅包括标准透析液及超纯透析液，不适用于置换液，并删除了置换液相关条款；ISO/欧盟/美国标准适用范围包括标准透析液、超纯透析液和置换液。",
+        "data": "Not Found",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "finding": "标准透析液微生物与内毒素限值：微生物计数总数应小于100 CFU/ml，内毒素含量应小于0.5 EU/ml。",
+        "data": "<100 CFU/ml；<0.5 EU/ml",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "finding": "超纯透析液微生物与内毒素限值：微生物计数总数应小于0.1 CFU/ml，内毒素含量应小于0.03 EU/ml。",
+        "data": "<0.1 CFU/ml；<0.03 EU/ml",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "finding": "为与YY(/T)0793系列标准一致并依据《中华人民共和国药典》2020版规定，YY/T 0793.4-2022 明确微生物计数总数包括需氧菌、霉菌和酵母菌。",
+        "data": "Not Found",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "finding": "YY/T 0793.4-2022 的微生物培养方法引用《中华人民共和国药典》2020版四部的微生物培养方法以符合我国国情；与ISO 23500-5:2019给出的微生物培养方法不同。",
+        "data": "Not Found",
+        "sources": [
+          "p3"
+        ]
+      },
+      {
+        "finding": "YY/T 0793.4-2022 中内毒素含量采用鲎试剂法（LAL）检测。",
+        "data": "LAL法",
+        "sources": [
+          "p4"
+        ]
+      },
+      {
+        "finding": "透析液中化学污染物主要来源于透析用水和透析浓缩物；透析液通过透析液输送系统输送至透析器。",
+        "data": "Not Found",
+        "sources": [
+          "p4"
+        ]
+      },
+      {
+        "finding": "水质量控制是血液透析质量管理的基础，透析用水检测方法的正确性是获得客观准确结果的基础。",
+        "data": "Not Found",
+        "sources": [
+          "p4"
+        ]
+      },
+      {
+        "finding": "ISO 23500-5:2019附录B给出透析用水化学污染物的种类、浓度上限值和分析方法；YY/T 0793.4-2022删除了ISO 23500-5:2019的附录B，化学污染物检测方法可直接引用YY 0793.2-2023以避免重复。",
+        "data": "Not Found",
+        "sources": [
+          "p3",
+          "p4"
+        ]
+      },
+      {
+        "finding": "透析液在血液透析和血液透析滤过中用于和血液进行物质交换，通过弥散、对流和超滤等机制清除尿毒症毒素、纠正电解质紊乱及调节酸碱失衡。",
+        "data": "示例毒素：尿素、肌酐、β2-微球蛋白；示例紊乱：高钾血症、高磷血症；示例失衡：代谢性酸中毒",
+        "sources": [
+          "p1"
+        ]
+      },
+      {
+        "finding": "血液透析液主要包括标准透析液、超纯透析液和在线配制的置换液；在线配制的置换液需达到静脉输液标准（背景描述）。",
+        "data": "Not Found",
+        "sources": [
+          "p1"
+        ]
+      }
+    ],
+    "extraction_notes": {
+      "completeness": "High",
+      "pages_with_key_content": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ]
+    }
+  }
+}

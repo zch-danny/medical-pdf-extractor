@@ -1,0 +1,76 @@
+{
+  "type": "OTHER",
+  "pdf": "1757066770930_1608702.pdf",
+  "input_text": "--- 第1页 ---\nSchistosomiasis\nRoutine health information system and health facility data for \nneglected tropical diseases\n\n--- 第2页 ---\n\n--- 第3页 ---\nSchistosomiasis\nRoutine health information system and health facility data for \nneglected tropical diseases\n\n--- 第4页 ---\nRoutine health information system and health facility data for neglected tropical diseases: schistosomiasis\nISBN 978-92-4-010754-0 (electronic version)\nISBN 978-92-4-010755-7 (print version)\n© World Health Organization 2025\nSome rights reserved. This work is available under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence \n(CC BY-NC-SA 3.0 IGO; https://creativecommons.org/licenses/by-nc-sa/3.0/igo). \nUnder the terms of this licence, you may copy, redistribute and adapt the work for non-commercial purposes, provided the work \nis appropriately cited, as indicated below. In any use of this work, there should be no suggestion that WHO endorses any specific \norganization, products or services. The use of the WHO logo is not permitted. If you adapt the work, then you must license your \nwork under the same or equivalent Creative Commons licence. If you create a translation of this work, you should add the following \ndisclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO). WHO \nis not responsible for the content or accuracy of this translation. The original English edition shall be the binding and authentic \nedition”.\nAny mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the \nWorld Intellectual Property Organization (http://www.wipo.int/amc/en/mediation/rules/).\nSuggested citation. Routine health information system and health facility data for neglected tropical diseases: schistosomiasis. \nGeneva: World Health Organization; 2025. Licence: CC BY-NC-SA 3.0 IGO.\nCataloguing-in-Publication (CIP) data. CIP data are available at https://iris.who.int/.\nSales, rights and licensing. To purchase WHO publications, see https://www.who.int/publications/book-orders. To submit \nrequests for commercial use and queries on rights and licensing, see https://www.who.int/copyright. \nThird-party materials. If you wish to reuse material from this work that is attributed to a third party, such as tables, figures or \nimages, it is your responsibility to determine whether permission is needed for that reuse and to obtain permission from the \ncopyright holder. The risk of claims resulting from infringement of any third-party-owned component in the work rests solely with \nthe user.\nGeneral disclaimers. The designations employed and the presentation of the material in this publication do not imply the \nexpression of any opinion whatsoever on the part of WHO concerning the legal status of any country, territory, city or area or of its \nauthorities, or concerning the delimitation of its frontiers or boundaries. Dotted and dashed lines on maps represent approximate \nborder lines for which there may not yet be full agreement.\nThe mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended \nby WHO in preference to others of a similar nature that are not mentioned. Errors and omissions excepted, the names of proprietary \nproducts are distinguished by initial capital letters.\nAll reasonable precautions have been taken by WHO to verify the information contained in this publication. However, the published \nmaterial is being distributed without warranty of any kind, either expressed or implied. The responsibility for the interpretation \nand use of the material lies with the reader. In no event shall WHO be liable for damages arising from its use. \nDesign and layout by L’IV Com Sàrl.\n\n--- 第5页 ---\niii\nContents\nAcknowledgements .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   . iv\nAbbreviations .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . v\n1.\tIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1\n1.1\t Approach to development of this guidance .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  1\n1.2\t Declarations of interest .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  1\n1.3\t Objectives .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ...[截断]",
+  "expected_output": {
+    "doc_metadata": {
+      "title": "Routine health information system and health facility data for neglected tropical diseases: schistosomiasis",
+      "document_type": "政策指导文件",
+      "organization": "World Health Organization",
+      "publish_date": "2025",
+      "language": "English",
+      "sources": [
+        "p4"
+      ]
+    },
+    "scope": {
+      "description": "本文件为卫生工作者及相关健康项目成员提供关于血吸虫病（schistosomiasis）在健康设施层面常规数据收集、分析和使用的指导，涵盖指标、数据质量、分析及解读建议。",
+      "sources": [
+        "p9",
+        "p10"
+      ]
+    },
+    "key_findings": [
+      {
+        "id": "F1",
+        "category": "流行病学与防治",
+        "finding": "截至2023年，全球有至少254百万人需要血吸虫病预防性治疗，预防性化疗仍在50个流行国家实施。",
+        "sources": [
+          "p9"
+        ]
+      },
+      {
+        "id": "F2",
+        "category": "治疗建议",
+        "finding": "WHO指南建议所有感染者（无论年龄）均应在所有卫生设施获得吡喹酮治疗，社区大规模治疗剩余药品应留存于卫生设施以备后续使用。",
+        "sources": [
+          "p9"
+        ]
+      },
+      {
+        "id": "F3",
+        "category": "数据指导目标",
+        "finding": "文件旨在指导卫生设施层面血吸虫病数据的分析与使用，包括核心指标、数据质量问题、分析方法及解读注意事项。",
+        "sources": [
+          "p9"
+        ]
+      },
+      {
+        "id": "F4",
+        "category": "目标人群",
+        "finding": "本文件适用于所有参与血吸虫病诊治的卫生工作者及相关健康项目成员。",
+        "sources": [
+          "p10"
+        ]
+      }
+    ],
+    "conclusions": [
+      {
+        "id": "C1",
+        "text": "通过本文件，读者可利用卫生设施数据描述血吸虫病核心指标及流行趋势、监测诊断与治疗项目绩效、理解趋势变化的地理与时间因素，并评估数据质量及其对解读的影响。",
+        "sources": [
+          "p9"
+        ]
+      }
+    ],
+    "limitations": [
+      {
+        "id": "L1",
+        "text": "文件仅为数据分析与使用提供指导，具体数据收集、报告及解读需结合实际情况与数据质量，且对数据的解释和使用责任归于读者，WHO不承担因使用本文件造成的任何损失。",
+        "sources": [
+          "p4"
+        ]
+      }
+    ]
+  }
+}
