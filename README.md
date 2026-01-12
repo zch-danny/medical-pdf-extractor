@@ -8,10 +8,11 @@
 - **动态Few-shot**: 根据类型加载对应高质量示例
 - **结构化提取**: 提取元数据、推荐意见、关键发现、结论等
 - **来源追溯**: 每项信息标注页码来源
+- **长文档支持**: 方案5支持处理超长文档(100+页)
 
 ## 性能指标
 
-### v7.2 测试结果 (100个PDF)
+### v7.2 生产版本 (100个PDF)
 
 | 指标 | 结果 |
 |------|------|
@@ -19,13 +20,21 @@
 | 平均评分 | 9.60/10 (GPT-5.2评估) |
 | ≥8分占比 | 100% |
 | 平均耗时 | ~58秒/文件 |
+| 文档限制 | ≤15页 |
 
-### 各维度评分
-- accuracy (准确性): 9.0+
-- completeness (完整性): 8.0+
-- structure (结构性): 9.0+
-- page_accuracy (页码准确): 8.5+
-- no_hallucination (无编造): 9.5+
+### 方案5 v4 长文档版本 (10个PDF测试)
+
+| 指标 | 结果 |
+|------|------|
+| 成功率 | 100% |
+| 平均覆盖率 | 74.9% |
+| 平均耗时 | ~78秒/文件 |
+| 文档支持 | 无页数限制 |
+
+**按文档长度表现:**
+- 短文档(≤30页): 83%覆盖率
+- 中等(31-100页): 56%覆盖率
+- 长文档(>100页): 55%覆盖率
 
 ## 快速开始
 
@@ -40,6 +49,8 @@ pip install vllm pymupdf requests
 ```
 
 ### 使用示例
+
+#### 标准版本 (≤15页文档)
 ```python
 from production_extractor_v7 import extract_pdf
 
@@ -49,8 +60,18 @@ if result["success"]:
     print(f"文档类型: {result['doc_type']}")
     print(f"耗时: {result['time']:.1f}s")
     print(f"提取结果: {result['result']}")
-else:
-    print(f"失败: {result['error']}")
+```
+
+#### 长文档版本 (方案5)
+```python
+from field_retrieval_extractor import extract_pdf
+
+result = extract_pdf("/path/to/long_document.pdf")
+
+print(f"文档类型: {result['doc_type']}")
+print(f"覆盖率: {result['stats']['coverage_ratio']*100:.0f}%")
+print(f"推荐意见: {len(result.get('recommendations', []))}条")
+print(f"关键发现: {len(result.get('key_findings', []))}条")
 ```
 
 ## 输出格式
@@ -63,7 +84,8 @@ else:
   "recommendations": [
     {"id": "1.1", "text": "推荐内容", "strength": "强度", "sources": ["px"]}
   ],
-  "key_evidence": [{"id": "E1", "description": "...", "sources": ["px"]}]
+  "key_findings": [{"finding": "...", "sources": ["px"]}],
+  "conclusions": [{"text": "...", "sources": ["px"]}]
 }
 ```
 
@@ -84,6 +106,13 @@ else:
 | v4 | 4.1 | 基线 |
 | v6 | 7.1 | 静态few-shot |
 | v7.2 | **9.6** | 动态few-shot + 健壮性优化 |
+| 方案5 v4 | - | 字段级检索增强，支持长文档 |
+
+## 核心文件
+
+- `production_extractor_v7.py` - 生产版本提取器 (≤15页)
+- `field_retrieval_extractor.py` - 方案5长文档提取器
+- `fewshot_samples/` - Few-shot示例目录
 
 ## License
 
