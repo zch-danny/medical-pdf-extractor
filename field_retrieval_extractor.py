@@ -1,11 +1,11 @@
 """
-方案5优化版 v3: 字段级检索增强提取器
-新增优化:
-1. 并行提取各字段(3-4x加速)
-2. 增加top_k和overlap提高覆盖率
-3. 二次检索：首次低分chunk补充检索
-4. 输出格式与原v7兼容
-5. 更精细的去重和质量控制
+方案5 v4: 增强版字段级检索提取器
+优化:
+1. 增强目录检测(TOC模式识别)
+2. 内容密度加权检索
+3. 章节标题定位加权
+4. 集成Few-shot样本
+5. top_k提升到12
 """
 import json
 import re
@@ -14,7 +14,7 @@ import requests
 import fitz
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple, Set
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import math
@@ -29,6 +29,8 @@ class TextChunk:
     text: str
     pages: List[int]
     char_count: int
+    content_density: float = 0.0  # 内容密度分数
+    has_section_header: bool = False  # 是否包含章节标题
 
 # ============ 工具函数 ============
 def clean_json_string(s: str) -> str:
@@ -68,7 +70,6 @@ def extract_first_json(text: str) -> Optional[str]:
     return None
 
 def deduplicate_items(items: List[Dict], key_field: str = "finding", threshold: float = 0.6) -> List[Dict]:
-    """去重：基于文本相似度"""
     if not items:
         return []
     
@@ -98,7 +99,6 @@ def deduplicate_items(items: List[Dict], key_field: str = "finding", threshold: 
     return result
 
 def normalize_sources(sources: Any) -> List[str]:
-    """标准化sources格式"""
     if not sources:
         return []
     if isinstance(sources, str):
@@ -114,9 +114,9 @@ def normalize_sources(sources: Any) -> List[str]:
     return []
 
 
-# ============ 智能分块器 v3 ============
-class SmartPDFChunkerV3:
-    """智能PDF分块器：更大overlap，更精细的跳页逻辑"""
+# ============ 智能分块器 v4 ============
+class SmartPDFChunkerV4:
+    """智能PDF分块器v4：增强目录检测+内容密度计算"""
     
     SKIP_PATTERNS = [
         r'^table\s+of\s+contents?$',
@@ -134,15 +134,87 @@ class SmartPDFChunkerV3:
         r'^缩略语',
         r'^glossary$',
         r'^术语表',
+        r'^list\s+of\s+(tables?|figures?)',
+    ]
+    
+    # 章节标题模式
+    SECTION_PATTERNS = [
+        r'^\d+\.?\s+[A-Z]',  # "1 Introduction" or "1. Introduction"
+        r'^\d+\.\d+\.?\s+[A-Z]',  # "1.1 Methods"
+        r'^Chapter\s+\d+',
+        r'^Section\s+\d+',
+        r'^第[一二三四五六七八九十\d]+[章节]',
+        r'^[一二三四五六七八九十]+[、.]\s*\S',
     ]
     
     def __init__(self, chunk_size: int = 4500, overlap: int = 600):
         self.chunk_size = chunk_size
         self.overlap = overlap
         self._skip_re = [re.compile(p, re.IGNORECASE) for p in self.SKIP_PATTERNS]
+        self._section_re = [re.compile(p, re.MULTILINE) for p in self.SECTION_PATTERNS]
+    
+    def _is_toc_page(self, text: str, page_num: int) -> bool:
+        """增强的目录页检测"""
+        # 只检测前15页
+        if page_num > 15:
+            return False
+        
+        # 特征1: 大量的 "..." 或 ". . ." 模式
+        dot_pattern = r'\.{3,}|(\.\s){3,}'
+        dot_count = len(re.findall(dot_pattern, text))
+        if dot_count > 10:
+            return True
+        
+        # 特征2: 大量的页码模式 (数字在行尾)
+        page_num_pattern = r'\d{1,3}\s*$'
+        lines = text.strip().split('\n')
+        page_num_lines = sum(1 for line in lines if re.search(page_num_pattern, line.strip()))
+        if page_num_lines > 15:
+            return True
+        
+        # 特征3: 首行包含"Contents"等
+        first_lines = '\n'.join(lines[:5]).lower()
+        if any(kw in first_lines for kw in ['contents', 'table of contents', '目录']):
+            return True
+        
+        return False
+    
+    def _calculate_content_density(self, text: str) -> float:
+        """计算内容密度分数 (0-1)"""
+        if not text.strip():
+            return 0.0
+        
+        # 有意义的词汇比例
+        words = re.findall(r'\b[a-zA-Z]{3,}\b|\b[\u4e00-\u9fff]+', text)
+        word_chars = sum(len(w) for w in words)
+        
+        # 去除空白和标点后的字符
+        clean_text = re.sub(r'\s+', '', text)
+        if len(clean_text) == 0:
+            return 0.0
+        
+        density = word_chars / len(clean_text)
+        
+        # 惩罚目录特征
+        dot_count = len(re.findall(r'\.{3,}', text))
+        if dot_count > 5:
+            density *= 0.3
+        
+        return min(1.0, density)
+    
+    def _has_section_header(self, text: str) -> bool:
+        """检测是否包含章节标题"""
+        for pattern in self._section_re:
+            if pattern.search(text):
+                return True
+        return False
     
     def _should_skip_page(self, text: str, page_num: int, total_pages: int) -> bool:
         if len(text.strip()) < 80:
+            return True
+        
+        # 目录页检测
+        if self._is_toc_page(text, page_num):
             return True
         
         first_lines = '\n'.join(text.strip().split('\n')[:3])
@@ -150,7 +222,7 @@ class SmartPDFChunkerV3:
             if pattern.search(first_lines):
                 return True
         
-        # 参考文献特征检测
+        # 参考文献特征
         ref_pattern = r'\(\d{4}\)|\d{4}[;,]|\[\d+\]'
         ref_count = len(re.findall(ref_pattern, text))
         if ref_count > 15 and page_num > total_pages * 0.7:
@@ -159,16 +231,14 @@ class SmartPDFChunkerV3:
         return False
     
     def _is_key_page(self, text: str, page_num: int, total_pages: int) -> bool:
-        """判断是否为关键页"""
-        text_lower = text.lower()[:1000]
+        text_lower = text.lower()[:1500]
         
-        # 首尾页
         if page_num <= 2 or page_num >= total_pages - 1:
             return True
         
-        # 包含关键章节标题
         key_sections = ['abstract', 'summary', 'conclusion', 'result', 'finding',
-                        'recommendation', 'discussion', '摘要', '结论', '结果', '推荐']
+                        'recommendation', 'discussion', 'executive summary',
+                        '摘要', '结论', '结果', '推荐', '执行摘要']
         for kw in key_sections:
             if kw in text_lower:
                 return True
@@ -179,9 +249,9 @@ class SmartPDFChunkerV3:
         doc = fitz.open(pdf_path)
         total_pages = doc.page_count
         
-        # 提取有效页面
         valid_pages = []
         skipped_count = 0
+        toc_pages = []
         key_page_nums = []
         
         for i, page in enumerate(doc):
@@ -190,13 +260,18 @@ class SmartPDFChunkerV3:
             
             if self._should_skip_page(text, page_num, total_pages):
                 skipped_count += 1
+                if self._is_toc_page(text, page_num):
+                    toc_pages.append(page_num)
                 continue
             
             is_key = self._is_key_page(text, page_num, total_pages)
             if is_key:
                 key_page_nums.append(page_num)
             
-            valid_pages.append((page_num, text))
+            content_density = self._calculate_content_density(text)
+            has_section = self._has_section_header(text)
+            
+            valid_pages.append((page_num, text, is_key, content_density, has_section))
         
         doc.close()
         
@@ -206,12 +281,14 @@ class SmartPDFChunkerV3:
         # 合并文本
         full_text = ""
         page_positions = []
+        page_metadata = {}  # page_num -> (density, has_section)
         
-        for page_num, text in valid_pages:
+        for page_num, text, is_key, density, has_section in valid_pages:
             start = len(full_text)
             full_text += f"\n[p{page_num}]\n{text}\n"
             end = len(full_text)
             page_positions.append((start, end, page_num))
+            page_metadata[page_num] = (density, has_section)
         
         # 分chunk
         chunks = []
@@ -230,15 +307,24 @@ class SmartPDFChunkerV3:
             
             chunk_text = full_text[pos:end]
             chunk_pages = []
+            chunk_density = 0.0
+            chunk_has_section = False
+            
             for start_p, end_p, page_num in page_positions:
                 if start_p < end and end_p > pos:
                     chunk_pages.append(page_num)
+                    if page_num in page_metadata:
+                        d, s = page_metadata[page_num]
+                        chunk_density = max(chunk_density, d)
+                        chunk_has_section = chunk_has_section or s
             
             chunks.append(TextChunk(
                 index=chunk_idx,
                 text=chunk_text,
                 pages=chunk_pages,
-                char_count=len(chunk_text)
+                char_count=len(chunk_text),
+                content_density=chunk_density,
+                has_section_header=chunk_has_section
             ))
             
             chunk_idx += 1
@@ -248,6 +334,7 @@ class SmartPDFChunkerV3:
             "total_doc_pages": total_pages,
             "kept_pages": len(valid_pages),
             "skipped_pages": skipped_count,
+            "toc_pages_detected": toc_pages,
             "key_pages": key_page_nums,
             "total_chunks": len(chunks)
         }
@@ -255,9 +342,9 @@ class SmartPDFChunkerV3:
         return chunks, stats
 
 
-# ============ 增强检索器 v3 ============
-class EnhancedRetrieverV3:
-    """增强版检索器：二次检索补充"""
+# ============ 增强检索器 v4 ============
+class EnhancedRetrieverV4:
+    """增强版检索器v4：内容密度+章节标题加权"""
     
     FIELD_KEYWORDS = {
         "metadata": [
@@ -287,11 +374,13 @@ class EnhancedRetrieverV3:
             "compared", "versus", "trial", "study", "analysis", "data",
             "p-value", "p value", "p<", "p=", "p =", "ci", "confidence interval",
             "hazard ratio", "odds ratio", "risk ratio", "relative risk", "rr",
-            "absolute risk", "ard", "number needed", "nnt", "nntt", "or", "hr",
-            "mean difference", "md", "smd", "standardized mean", "forest plot",
-            "heterogeneity", "i2", "i²", "meta-analysis", "pooled",
-            "sensitivity", "specificity", "auc", "roc",
+            "absolute risk", "ard", "number needed", "nnt", "or", "hr",
+            "mean difference", "md", "smd", "forest plot", "pooled",
+            "heterogeneity", "i2", "i²", "meta-analysis",
+            "sensitivity", "specificity", "auc", "roc", "accuracy",
+            "incidence", "prevalence", "mortality", "morbidity",
             "95%", "99%", "0.05", "0.01", "0.001", "statistically",
+            "table", "figure", "fig.", "tab.",
             "结果", "发现", "显示", "证据", "显著", "效果", "安全性",
             "风险比", "优势比", "置信区间", "异质性", "敏感性", "特异性"
         ],
@@ -301,7 +390,7 @@ class EnhancedRetrieverV3:
             "limitation", "limitations", "weakness", "strength", "strengths",
             "implication", "implications", "future", "further research",
             "clinical significance", "practical implications", "policy",
-            "take-away", "key message", "main finding",
+            "take-away", "key message", "main finding", "take home",
             "结论", "总结", "综上所述", "局限", "局限性", "启示", "意义",
             "未来研究", "临床意义", "关键信息"
         ]
@@ -314,7 +403,6 @@ class EnhancedRetrieverV3:
     def _build_index(self):
         self.doc_freq = Counter()
         self.term_freq = []
-        self.chunk_scores = {}  # 缓存各字段的分数
         
         for chunk in self.chunks:
             text_lower = chunk.text.lower()
@@ -332,6 +420,7 @@ class EnhancedRetrieverV3:
         if not keywords:
             return 0.0
         
+        chunk = self.chunks[chunk_idx]
         score = 0.0
         tf = self.term_freq[chunk_idx]
         n_docs = len(self.chunks)
@@ -348,14 +437,24 @@ class EnhancedRetrieverV3:
         if chunk_idx == 0:
             score *= 1.4
         elif chunk_idx == n_docs - 1:
-            score *= 1.25
+            score *= 1.3
         elif chunk_idx <= 2:
             score *= 1.15
+        elif chunk_idx >= n_docs - 3:
+            score *= 1.1
+        
+        # 内容密度加权 (v4新增)
+        density_boost = 1.0 + chunk.content_density * 0.3
+        score *= density_boost
+        
+        # 章节标题加权 (v4新增)
+        if chunk.has_section_header:
+            score *= 1.2
         
         return score
     
-    def retrieve(self, field: str, top_k: int = 8) -> List[TextChunk]:
-        """检索相关chunk，支持二次检索补充"""
+    def retrieve(self, field: str, top_k: int = 12) -> List[TextChunk]:
+        """检索相关chunk"""
         scores = [(self._score_chunk(i, field), i, c) for i, c in enumerate(self.chunks)]
         scores.sort(key=lambda x: x[0], reverse=True)
         
@@ -364,18 +463,18 @@ class EnhancedRetrieverV3:
         
         # 主检索
         for score, idx, chunk in scores:
-            if score > 0.5 and idx not in seen_indices and len(result) < top_k:
+            if score > 0.3 and idx not in seen_indices and len(result) < top_k:
                 result.append(chunk)
                 seen_indices.add(idx)
         
-        # 二次检索：如果结果不足，降低阈值
+        # 补充检索
         if len(result) < top_k // 2:
             for score, idx, chunk in scores:
                 if score > 0 and idx not in seen_indices and len(result) < top_k:
                     result.append(chunk)
                     seen_indices.add(idx)
         
-        # 确保包含首尾
+        # 确保首尾
         n_docs = len(self.chunks)
         if 0 not in seen_indices:
             result.insert(0, self.chunks[0])
@@ -385,13 +484,64 @@ class EnhancedRetrieverV3:
         return result if result else [self.chunks[0]]
 
 
-# ============ 并行字段提取器 ============
-class ParallelFieldExtractor:
-    """并行字段提取器：加速多字段提取"""
+# ============ Few-shot加载器 ============
+class FewshotLoader:
+    """Few-shot样本加载器"""
+    
+    def __init__(self, fewshot_dir: Path = FEWSHOT_DIR):
+        self.fewshot_dir = fewshot_dir
+        self._cache = {}
+    
+    def load(self, doc_type: str) -> Optional[Dict]:
+        if doc_type in self._cache:
+            return self._cache[doc_type]
+        
+        sample_path = self.fewshot_dir / f"{doc_type}_sample.json"
+        if sample_path.exists():
+            try:
+                with open(sample_path, encoding='utf-8') as f:
+                    data = json.load(f)
+                    self._cache[doc_type] = data
+                    return data
+            except:
+                pass
+        
+        self._cache[doc_type] = None
+        return None
+    
+    def get_example_output(self, doc_type: str, max_chars: int = 1500) -> str:
+        """获取格式化的示例输出"""
+        sample = self.load(doc_type)
+        if not sample or "expected_output" not in sample:
+            return ""
+        
+        output = sample["expected_output"]
+        # 简化示例
+        simplified = {}
+        if "doc_metadata" in output:
+            simplified["doc_metadata"] = output["doc_metadata"]
+        if "recommendations" in output and doc_type == "GUIDELINE":
+            simplified["recommendations"] = output["recommendations"][:2]
+        if "key_findings" in output:
+            simplified["key_findings"] = output["key_findings"][:2]
+        if "conclusions" in output:
+            simplified["conclusions"] = output["conclusions"][:1]
+        
+        example_str = json.dumps(simplified, ensure_ascii=False, indent=2)
+        if len(example_str) > max_chars:
+            example_str = example_str[:max_chars] + "..."
+        
+        return example_str
+
+
+# ============ 并行字段提取器 v4 ============
+class ParallelFieldExtractorV4:
+    """并行字段提取器v4：集成Few-shot"""
     
     def __init__(self, api_url: str = LOCAL_API, max_workers: int = 3):
         self.api_url = api_url
         self.max_workers = max_workers
+        self.fewshot_loader = FewshotLoader()
     
     def _call_llm(self, prompt: str, max_tokens: int = 2500) -> str:
         resp = requests.post(
@@ -400,7 +550,7 @@ class ParallelFieldExtractor:
                 "model": "qwen3-8b",
                 "messages": [{"role": "user", "content": prompt}],
                 "max_tokens": max_tokens,
-                "temperature": 0.12,
+                "temperature": 0.1,
                 "chat_template_kwargs": {"enable_thinking": False}
             },
             timeout=200
@@ -410,10 +560,15 @@ class ParallelFieldExtractor:
             raise Exception(f"LLM API错误: {data.get('error', data)}")
         return data["choices"][0]["message"]["content"]
     
-    def extract_metadata(self, chunks: List[TextChunk]) -> Dict:
+    def extract_metadata(self, chunks: List[TextChunk], doc_type: str) -> Dict:
         text = "\n---\n".join([c.text for c in chunks])[:12000]
-        prompt = f"""从以下医学文献片段提取基本信息。
-
+        
+        # 获取few-shot示例
+        example = self.fewshot_loader.get_example_output(doc_type, 800)
+        example_section = f"\n示例输出格式:\n{example}\n" if example else ""
+        
+        prompt = f"""从以下医学文献提取基本信息。
+{example_section}
 文本：
 {text}
 
@@ -423,7 +578,7 @@ class ParallelFieldExtractor:
   "authors": "作者(逗号分隔)",
   "organization": "机构/期刊",
   "publish_date": "年份",
-  "document_type": "类型(指南/综述/研究/手册等)",
+  "document_type": "类型",
   "doi": "DOI(如有)",
   "language": "语言",
   "sources": ["p1"]
@@ -470,10 +625,14 @@ class ParallelFieldExtractor:
                 pass
         return {"content_summary": "", "sources": []}
     
-    def extract_recommendations(self, chunks: List[TextChunk]) -> List[Dict]:
+    def extract_recommendations(self, chunks: List[TextChunk], doc_type: str) -> List[Dict]:
         text = "\n---\n".join([c.text for c in chunks])[:14000]
+        
+        example = self.fewshot_loader.get_example_output(doc_type, 1000)
+        example_section = f"\n参考示例格式:\n{example}\n" if example else ""
+        
         prompt = f"""从以下临床指南提取所有推荐意见。
-
+{example_section}
 文本：
 {text}
 
@@ -581,24 +740,23 @@ class ParallelFieldExtractor:
                 pass
         return {"conclusions": []}
     
-    def extract_parallel(self, retriever, doc_type: str, top_k: int = 8) -> Dict:
+    def extract_parallel(self, retriever, doc_type: str, top_k: int = 12) -> Tuple[Dict, Set[int]]:
         """并行提取所有字段"""
         results = {}
         
-        # 准备各字段的chunks
         tasks = {
-            "metadata": (self.extract_metadata, retriever.retrieve("metadata", top_k=4)),
+            "metadata": (lambda c: self.extract_metadata(c, doc_type), retriever.retrieve("metadata", top_k=4)),
             "scope": (self.extract_scope, retriever.retrieve("scope", top_k=4)),
             "key_findings": (self.extract_findings, retriever.retrieve("key_findings", top_k=top_k)),
             "conclusions": (self.extract_conclusions, retriever.retrieve("conclusions", top_k=top_k)),
         }
         
         if doc_type == "GUIDELINE":
-            tasks["recommendations"] = (self.extract_recommendations, retriever.retrieve("recommendations", top_k=top_k))
+            tasks["recommendations"] = (lambda c: self.extract_recommendations(c, doc_type), 
+                                        retriever.retrieve("recommendations", top_k=top_k))
         
         all_covered_pages = set()
         
-        # 并行执行
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = {}
             for field, (func, chunks) in tasks.items():
@@ -623,19 +781,19 @@ class ParallelFieldExtractor:
         return results, all_covered_pages
 
 
-# ============ 主提取器 v3 ============
-class FieldRetrievalExtractorV3:
-    """方案5 v3: 并行增强版"""
+# ============ 主提取器 v4 ============
+class FieldRetrievalExtractorV4:
+    """方案5 v4: 增强版"""
     
-    def __init__(self, api_url: str = LOCAL_API, chunk_size: int = 4500, top_k: int = 8):
+    def __init__(self, api_url: str = LOCAL_API, chunk_size: int = 4500, top_k: int = 12):
         self.api_url = api_url
-        self.chunker = SmartPDFChunkerV3(chunk_size=chunk_size, overlap=600)
-        self.field_extractor = ParallelFieldExtractor(api_url, max_workers=3)
+        self.chunker = SmartPDFChunkerV4(chunk_size=chunk_size, overlap=600)
+        self.field_extractor = ParallelFieldExtractorV4(api_url, max_workers=3)
         self.top_k = top_k
     
     def classify(self, text: str) -> str:
         prompt = """判断医学文档类型，返回: GUIDELINE/REVIEW/OTHER
-- GUIDELINE: 临床指南/诊疗规范/共识/实践建议
+- GUIDELINE: 临床指南/诊疗规范/共识/技术评估/实践建议
 - REVIEW: 综述/系统评价/Meta分析
 - OTHER: 原始研究/手册/报告/其他
 
@@ -672,21 +830,22 @@ class FieldRetrievalExtractorV3:
                 return {"success": False, "error": "PDF内容为空", "time": time.time() - start_time}
             
             total_pages = chunk_stats["total_doc_pages"]
-            print(f"[v3] 文档{total_pages}页，保留{chunk_stats['kept_pages']}页，{len(chunks)}个chunk")
+            print(f"[v4] 文档{total_pages}页，保留{chunk_stats['kept_pages']}页，{len(chunks)}个chunk")
+            if chunk_stats.get("toc_pages_detected"):
+                print(f"[v4] 检测到目录页: {chunk_stats['toc_pages_detected']}")
             
             # Step 2: 分类
             doc_type = self.classify(chunks[0].text)
-            print(f"[v3] 类型: {doc_type}")
+            print(f"[v4] 类型: {doc_type}")
             
             # Step 3: 构建检索器
-            retriever = EnhancedRetrieverV3(chunks)
+            retriever = EnhancedRetrieverV4(chunks)
             
             # Step 4: 并行提取
-            print(f"[v3] 开始并行提取...")
+            print(f"[v4] 开始并行提取(top_k={self.top_k})...")
             results, covered_pages = self.field_extractor.extract_parallel(retriever, doc_type, self.top_k)
             results["doc_type"] = doc_type
             
-            # 确保格式兼容v7
             if "doc_metadata" not in results:
                 results["doc_metadata"] = results.pop("metadata", {})
             
@@ -701,6 +860,7 @@ class FieldRetrievalExtractorV3:
                     "total_pages": total_pages,
                     "kept_pages": chunk_stats["kept_pages"],
                     "skipped_pages": chunk_stats["skipped_pages"],
+                    "toc_pages_detected": chunk_stats.get("toc_pages_detected", []),
                     "total_chunks": len(chunks),
                     "covered_pages": sorted(covered_pages),
                     "coverage_ratio": len(covered_pages) / total_pages if total_pages > 0 else 0,
@@ -721,7 +881,7 @@ class FieldRetrievalExtractorV3:
 
 
 def extract_pdf(pdf_path: str) -> Dict[str, Any]:
-    return FieldRetrievalExtractorV3().extract(pdf_path)
+    return FieldRetrievalExtractorV4().extract(pdf_path)
 
 
 if __name__ == "__main__":
@@ -730,7 +890,7 @@ if __name__ == "__main__":
     result = extract_pdf(pdf)
     
     print(f"\n{'='*60}")
-    print(f"方案5 v3 测试结果")
+    print(f"方案5 v4 测试结果")
     print(f"{'='*60}")
     print(f"成功: {result.get('success')}")
     print(f"类型: {result.get('doc_type')}")
@@ -740,6 +900,8 @@ if __name__ == "__main__":
         s = result["stats"]
         print(f"\n--- 统计 ---")
         print(f"总页: {s['total_pages']} | 保留: {s['kept_pages']} | 跳过: {s['skipped_pages']}")
+        if s.get('toc_pages_detected'):
+            print(f"目录页: {s['toc_pages_detected']}")
         print(f"覆盖: {len(s['covered_pages'])}页 ({s['coverage_ratio']*100:.1f}%)")
         print(f"发现: {s['findings_count']} | 结论: {s['conclusions_count']} | 推荐: {s['recommendations_count']}")
     
