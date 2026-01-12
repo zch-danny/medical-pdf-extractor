@@ -1,0 +1,36 @@
+# ===========================================
+# PDF Summarization Service Dependencies
+# ===========================================
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# PDF Processing
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# LLM Client
+openai>=1.3.0
+httpx>=0.25.0
+
+# Data Validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.0
+tenacity>=8.2.0
+
+# Async Support
+aiofiles>=23.2.0
+
+# Cache (Optional - falls back to memory cache if not available)
+redis>=5.0.0
+
+# Optional: Local Model (if not using vLLM API)
+# transformers>=4.36.0
+# torch>=2.1.0
+# accelerate>=0.25.0

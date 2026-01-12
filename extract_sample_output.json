@@ -1,0 +1,135 @@
+{
+  "filename": "1756864558155_1608702.pdf",
+  "classify": {
+    "type": "GUIDELINE",
+    "conf": "high",
+    "evidence": {
+      "primary": "标题明确包含 'Guidance' 且由 NICE（英国国家健康与护理卓越研究院）正式发布，包含推荐意见和临床建议",
+      "secondary": [
+        "文档中包含具体的治疗推荐和使用条件",
+        "文档由权威机构发布，具有规范性文件性质"
+      ],
+      "exclusion": "文献不是指南的解读或摘译，而是正式的临床实践指南"
+    },
+    "meta": {
+      "issuing_body": "NICE (National Institute for Health and Care Excellence)",
+      "study_design": "技术评估指南",
+      "outcome": "评估 benralizumab 在治疗复发性或难治性嗜酸性肉芽肿性血管炎 (EGPA) 中的疗效和成本效益"
+    },
+    "route": "重点提取推荐意见、使用条件、成本效益分析及实施建议",
+    "loc": [
+      "第1页",
+      "第2页",
+      "第4页"
+    ]
+  },
+  "classify_time": 6.627096176147461,
+  "extract": {
+    "doc_metadata": {
+      "title": "Benralizumab for treating relapsing or refractory eosinophilic granulomatosis with polyangiitis",
+      "authors": "",
+      "organization": "NICE",
+      "year": "2025",
+      "version": "TA1096",
+      "doi": "Not Available",
+      "document_type": "Clinical Guideline",
+      "funding": "",
+      "coi_statement": "",
+      "sources": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ]
+    },
+    "guideline_methods": {
+      "development_process": "Not Reported",
+      "evidence_review_method": "Not Reported",
+      "grading_system": "Not Reported",
+      "consensus_method": "Not Reported",
+      "external_review": "Not Reported",
+      "sources": [
+        "p3"
+      ]
+    },
+    "scope": {
+      "clinical_questions": [
+        "Benralizumab as an add-on to standard care for treating relapsing or refractory eosinophilic granulomatosis with polyangiitis (EGPA) in adults"
+      ],
+      "target_population": "Adults with relapsing or refractory EGPA",
+      "target_users": [
+        "Healthcare professionals",
+        "Commissioners",
+        "Providers"
+      ],
+      "settings": [
+        "NHS in England"
+      ],
+      "sources": [
+        "p1",
+        "p4"
+      ]
+    },
+    "recommendations": [
+      {
+        "id": "1.1",
+        "topic": "Benralizumab as an add-on to standard care",
+        "recommendation_text": "Benralizumab as an add-on to standard care can be used, within its marketing authorisation, as an option to treat relapsing or refractory eosinophilic granulomatosis with polyangiitis (EGPA) in adults. It can only be used if the company provides it according to the commercial arrangement.",
+        "strength": "Strong",
+        "evidence_quality": "Not Graded",
+        "class_level": "N/A",
+        "key_references": [],
+        "sources": [
+          "p1"
+        ]
+      },
+      {
+        "id": "1.2",
+        "topic": "Stopping benralizumab",
+        "recommendation_text": "Stop benralizumab after 52 weeks if the EGPA has not responded. Response is: • a Birmingham Vasculitis Activity Score (BVAS) score of 0, and • a reduction in oral corticosteroid use, either: － by 50% or more since starting benralizumab, or － to 7.5 mg or less per day.",
+        "strength": "Strong",
+        "evidence_quality": "Not Graded",
+        "class_level": "N/A",
+        "key_references": [],
+        "sources": [
+          "p1"
+        ]
+      },
+      {
+        "id": "1.3",
+        "topic": "Treatment with benralizumab before guidance",
+        "recommendation_text": "This recommendation is not intended to affect treatment with benralizumab that was started in the NHS before this guidance was published. People having treatment outside this recommendation may continue without change to the funding arrangements in place for them before this guidance was published, until they and their NHS healthcare professional consider it appropriate to stop.",
+        "strength": "Not Graded",
+        "evidence_quality": "Not Graded",
+        "class_level": "N/A",
+        "key_references": [],
+        "sources": [
+          "p1"
+        ]
+      }
+    ],
+    "key_evidence_summaries": [
+      {
+        "topic": "Benralizumab plus standard care",
+        "summary": "Benralizumab plus standard care has not been directly compared in a clinical trial with standard care alone. But indirect comparisons suggest that benralizumab plus standard care increases the likelihood of remission (having fewer or no symptoms of EGPA) and reduces relapse (having worse symptoms) compared with standard care alone.",
+        "study_references": [],
+        "sources": [
+          "p5"
+        ]
+      }
+    ],
+    "special_populations": [],
+    "research_gaps": [],
+    "implementation": {
+      "facilitators": [
+        "NICE has produced tools and resources to support the implementation of this guidance"
+      ],
+      "barriers": [],
+      "sources": [
+        "p4"
+      ]
+    }
+  },
+  "extract_time": 26.917781591415405
+}

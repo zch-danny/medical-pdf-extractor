@@ -1,0 +1,42 @@
+{
+  "test_time": "2026-01-08 10:24:47",
+  "test_files": 10,
+  "results": [
+    {
+      "concurrency": 1,
+      "total_time": 65.68602156639099,
+      "avg_per_file": 6.534358358383178,
+      "min_time": 3.212963342666626,
+      "max_time": 8.057361364364624,
+      "throughput": 9.134363532636248,
+      "success_rate": 1.0
+    },
+    {
+      "concurrency": 2,
+      "total_time": 44.05090641975403,
+      "avg_per_file": 8.099850463867188,
+      "min_time": 4.044980764389038,
+      "max_time": 11.034870624542236,
+      "throughput": 13.62060508545945,
+      "success_rate": 1.0
+    },
+    {
+      "concurrency": 3,
+      "total_time": 33.83869004249573,
+      "avg_per_file": 9.066825461387634,
+      "min_time": 5.10282826423645,
+      "max_time": 11.366075992584229,
+      "throughput": 17.731182833806525,
+      "success_rate": 1.0
+    },
+    {
+      "concurrency": 5,
+      "total_time": 22.4079110622406,
+      "avg_per_file": 10.440254044532775,
+      "min_time": 5.944359540939331,
+      "max_time": 12.690833568572998,
+      "throughput": 26.776257649962535,
+      "success_rate": 1.0
+    }
+  ]
+}

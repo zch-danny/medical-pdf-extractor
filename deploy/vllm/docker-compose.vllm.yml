@@ -1,0 +1,71 @@
+# vLLM 独立部署配置
+# 用于在 GPU 服务器上单独部署 vLLM
+
+version: '3.8'
+
+services:
+  vllm-qwen3:
+    image: vllm/vllm-openai:latest
+    container_name: vllm-qwen3-8b
+    ports:
+      - "8000:8000"
+    environment:
+      - HUGGING_FACE_HUB_TOKEN=${HF_TOKEN:-}
+      - CUDA_VISIBLE_DEVICES=0
+    volumes:
+      # HuggingFace 模型缓存
+      - ${HF_CACHE_DIR:-~/.cache/huggingface}:/root/.cache/huggingface
+      # 或者挂载本地模型目录
+      # - /path/to/local/models:/models
+    command: >
+      --model Qwen/Qwen3-8B
+      --host 0.0.0.0
+      --port 8000
+      --max-model-len 32768
+      --gpu-memory-utilization 0.9
+      --trust-remote-code
+      --enable-prefix-caching
+      --disable-log-requests
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  # 可选：多 GPU 配置 (tensor parallel)
+  vllm-qwen3-tp2:
+    image: vllm/vllm-openai:latest
+    container_name: vllm-qwen3-8b-tp2
+    profiles: ["multi-gpu"]  # 需要显式启用: docker-compose --profile multi-gpu up
+    ports:
+      - "8001:8000"
+    environment:
+      - HUGGING_FACE_HUB_TOKEN=${HF_TOKEN:-}
+    volumes:
+      - ${HF_CACHE_DIR:-~/.cache/huggingface}:/root/.cache/huggingface
+    command: >
+      --model Qwen/Qwen3-8B
+      --host 0.0.0.0
+      --port 8000
+      --max-model-len 65536
+      --gpu-memory-utilization 0.9
+      --tensor-parallel-size 2
+      --trust-remote-code
+      --enable-prefix-caching
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 2
+              capabilities: [gpu]
+    restart: unless-stopped

@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  # PDF 摘要 API 服务
+  pdf-summarizer:
+    build:
+      context: .
+      dockerfile: deploy/docker/Dockerfile
+    container_name: pdf-summarizer
+    ports:
+      - "8080:8080"
+    environment:
+      - APP_ENV=prod
+      - API_HOST=0.0.0.0
+      - API_PORT=8080
+      - VLLM_API_BASE=http://vllm-server:8000/v1
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - vllm-server
+    restart: unless-stopped
+    networks:
+      - summarizer-network
+
+  # vLLM 推理服务
+  vllm-server:
+    image: vllm/vllm-openai:latest
+    container_name: vllm-qwen3
+    ports:
+      - "8000:8000"
+    environment:
+      - HUGGING_FACE_HUB_TOKEN=${HF_TOKEN:-}
+    volumes:
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    command: >
+      --model Qwen/Qwen3-8B
+      --host 0.0.0.0
+      --port 8000
+      --max-model-len 32768
+      --gpu-memory-utilization 0.9
+      --trust-remote-code
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    networks:
+      - summarizer-network
+
+networks:
+  summarizer-network:
+    driver: bridge

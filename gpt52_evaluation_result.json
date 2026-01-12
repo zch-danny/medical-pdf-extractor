@@ -1,0 +1,135 @@
+{
+  "filename": "1756864558155_1608702.pdf",
+  "qwen_classify": {
+    "type": "GUIDELINE",
+    "conf": "high",
+    "evidence": {
+      "primary": "标题明确包含 'Guidance' 且由 NICE（英国国家健康与护理卓越研究院）正式发布，包含推荐意见和临床建议",
+      "secondary": [
+        "文档中包含具体的治疗推荐和使用条件",
+        "文档由权威机构发布，具有规范性文件性质"
+      ],
+      "exclusion": "文献不是指南的解读或摘译，而是正式的临床实践指南"
+    },
+    "meta": {
+      "issuing_body": "NICE (National Institute for Health and Care Excellence)",
+      "study_design": "技术评估指南",
+      "outcome": "评估 benralizumab 在治疗复发性或难治性嗜酸性肉芽肿性血管炎 (EGPA) 中的疗效和成本效益"
+    },
+    "route": "重点提取推荐意见、使用条件、成本效益分析及实施建议",
+    "loc": [
+      "第1页",
+      "第2页",
+      "第4页"
+    ]
+  },
+  "qwen_extract": {
+    "doc_metadata": {
+      "title": "Benralizumab for treating relapsing or refractory eosinophilic granulomatosis with polyangiitis",
+      "authors": "",
+      "organization": "NICE",
+      "year": "2025",
+      "version": "TA1096",
+      "doi": "Not Available",
+      "document_type": "Clinical Guideline",
+      "funding": "",
+      "coi_statement": "",
+      "sources": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ]
+    },
+    "guideline_methods": {
+      "development_process": "Not Reported",
+      "evidence_review_method": "Not Reported",
+      "grading_system": "Not Reported",
+      "consensus_method": "Not Reported",
+      "external_review": "Not Reported",
+      "sources": [
+        "p3"
+      ]
+    },
+    "scope": {
+      "clinical_questions": [
+        "Benralizumab as an add-on to standard care for treating relapsing or refractory eosinophilic granulomatosis with polyangiitis (EGPA) in adults"
+      ],
+      "target_population": "Adults with relapsing or refractory EGPA",
+      "target_users": [
+        "Healthcare professionals",
+        "Commissioners",
+        "Providers"
+      ],
+      "settings": [
+        "NHS in England"
+      ],
+      "sources": [
+        "p1",
+        "p4"
+      ]
+    },
+    "recommendations": [
+      {
+        "id": "1.1",
+        "topic": "Benralizumab as an add-on to standard care",
+        "recommendation_text": "Benralizumab as an add-on to standard care can be used, within its marketing authorisation, as an option to treat relapsing or refractory eosinophilic granulomatosis with polyangiitis (EGPA) in adults. It can only be used if the company provides it according to the commercial arrangement.",
+        "strength": "Strong",
+        "evidence_quality": "Not Graded",
+        "class_level": "N/A",
+        "key_references": [],
+        "sources": [
+          "p1"
+        ]
+      },
+      {
+        "id": "1.2",
+        "topic": "Stopping benralizumab",
+        "recommendation_text": "Stop benralizumab after 52 weeks if the EGPA has not responded. Response is: • a Birmingham Vasculitis Activity Score (BVAS) score of 0, and • a reduction in oral corticosteroid use, either: － by 50% or more since starting benralizumab, or － to 7.5 mg or less per day.",
+        "strength": "Strong",
+        "evidence_quality": "Not Graded",
+        "class_level": "N/A",
+        "key_references": [],
+        "sources": [
+          "p1"
+        ]
+      },
+      {
+        "id": "1.3",
+        "topic": "Treatment with benralizumab before guidance",
+        "recommendation_text": "This recommendation is not intended to affect treatment with benralizumab that was started in the NHS before this guidance was published. People having treatment outside this recommendation may continue without change to the funding arrangements in place for them before this guidance was published, until they and their NHS healthcare professional consider it appropriate to stop.",
+        "strength": "Not Graded",
+        "evidence_quality": "Not Graded",
+        "class_level": "N/A",
+        "key_references": [],
+        "sources": [
+          "p1"
+        ]
+      }
+    ],
+    "key_evidence_summaries": [
+      {
+        "topic": "Benralizumab plus standard care",
+        "summary": "Benralizumab plus standard care has not been directly compared in a clinical trial with standard care alone. But indirect comparisons suggest that benralizumab plus standard care increases the likelihood of remission (having fewer or no symptoms of EGPA) and reduces relapse (having worse symptoms) compared with standard care alone.",
+        "study_references": [],
+        "sources": [
+          "p5"
+        ]
+      }
+    ],
+    "special_populations": [],
+    "research_gaps": [],
+    "implementation": {
+      "facilitators": [
+        "NICE has produced tools and resources to support the implementation of this guidance"
+      ],
+      "barriers": [],
+      "sources": [
+        "p4"
+      ]
+    }
+  },
+  "gpt52_evaluation": "```json\n{\n  \"scores\": {\n    \"accuracy\": 7,\n    \"completeness\": 6,\n    \"structure\": 7,\n    \"recommendations\": 8,\n    \"metadata\": 7,\n    \"overall\": 7.0\n  },\n  \"strengths\": [\n    \"核心推荐条款1.1–1.3的原文表述基本完整且与第4页一致（含商业协议限制、52周停药条件、既往用药不受影响）\",\n    \"范围（成人复发/难治EGPA、NHS英格兰情境）与原文“must be funded in NHS in England/within 90 days”等信息基本对齐，并提取了关键证据摘要（间接比较提示缓解与复发获益）\"\n  ],\n  \"weaknesses\": [\n    \"引用页码sources标注存在明显错配：推荐内容实际来自p4，但AI标为p1，影响可追溯性与审计\",\n    \"方法学相关字段大量填“Not Reported”，但在所给前5页里确实未出现，仍可在结构上区分“未在截取页出现”与“全文未报告”，当前表达易造成误解\"\n  ],\n  \"missing_info\": [\n    \"“What this means in practice”部分的关键实施要求未完整结构化提取（如：NHS英格兰必须资助、发布后90天内落实、可常规使用的价值判断）\",\n    \"第2页“Your responsibility”中的责任/合规要点未提取（如Yellow Card不良事件报告、平等与健康不平等、环境可持续要求）\",\n    \"文档类型更精确应为NICE Technology appraisal guidance（技术评估指南），当前仅写Clinical Guideline不够准确\",\n    \"发布日期（Published: 3 September 2025）未提取到元数据\"\n  ],\n  \"errors\": [\n    \"recommendations内的sources标注为p1不正确：1.1–1.3出现在原文第4页（p4）\",\n    \"doc_metadata.document_type标为“Clinical Guideline”不精确/可能错误：原文标题页明确为“Technology appraisal guidance (TA1096)”\"\n  ],\n  \"suggestions\": [\n    \"修正所有条目的sources页码映射，至少做到：推荐= p4，证据理由= p5，目录/章节信息= p3，责任声明= p2，封面元数据= p1\",\n    \"在implementation中单列结构化字段提取“must be funded”“within 90 days”等强制性实施要求，并补充发布日期、URL、页数等元数据\",\n    \"将“Not Reported”细分为“Not in provided pages / Not in document”，并在methods里仅在有证据时填入（避免给人全文缺失之误导）\",\n    \"strength字段建议不要主观给“Strong”，除非原文或NICE分级明确；可改为“NICE recommendation (TA)”或“Unspecified”并保留原句以减少推断\"\n  ],\n  \"summary\": \"推荐条款提取较准确，但来源页码错配与文档类型标注不精确拉低了可追溯性与元数据质量，且实施与责任声明等关键信息仍有遗漏。\"\n}\n```",
+  "model_used": "gpt-5.2"
+}

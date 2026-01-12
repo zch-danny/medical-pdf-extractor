@@ -1,0 +1,35 @@
+# vLLM GPU 推理服务 Dockerfile
+# 适用于 Qwen3-8B 模型
+
+FROM vllm/vllm-openai:latest
+
+LABEL maintainer="Your Name"
+LABEL description="vLLM Server for Qwen3-8B"
+
+# 环境变量
+ENV MODEL_NAME=Qwen/Qwen3-8B
+ENV VLLM_HOST=0.0.0.0
+ENV VLLM_PORT=8000
+ENV MAX_MODEL_LEN=32768
+ENV GPU_MEMORY_UTILIZATION=0.9
+
+# HuggingFace 缓存目录
+ENV HF_HOME=/root/.cache/huggingface
+ENV TRANSFORMERS_CACHE=/root/.cache/huggingface/transformers
+
+# 暴露端口
+EXPOSE 8000
+
+# 健康检查
+HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# 启动命令
+CMD ["python", "-m", "vllm.entrypoints.openai.api_server", \
+     "--model", "Qwen/Qwen3-8B", \
+     "--host", "0.0.0.0", \
+     "--port", "8000", \
+     "--max-model-len", "32768", \
+     "--gpu-memory-utilization", "0.9", \
+     "--trust-remote-code", \
+     "--enable-prefix-caching"]

@@ -1,0 +1,33 @@
+# 环境变量和敏感信息
+.env
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 日志
+logs/
+*.log
+
+# 测试结果和临时数据
+eval_results/
+eval_results_vllm/
+test_results.json
+*_test_results.json
+
+# 备份文件
+*.bak*
+
+# 符号链接和大文件
+comparison_results
+pdf_samples/
+
+# IDE
+.vscode/
+.idea/
