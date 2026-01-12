@@ -1,0 +1,262 @@
+[
+  {
+    "pdf": "1756453705743_8248372.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6,
+      "comments": "提取结果准确反映了指南的核心内容，包括目标人群、干预措施和主要推荐意见。结构清晰，分为元数据、范围和推荐，便于理解和使用。来源引用到具体页码，但部分推荐意见的来源页码可能不够详细，且部分推荐内容可能未完全覆盖所有指南要点（如实施细节、患者教育等）。未发现虚构内容，整体无明显幻觉。建议补充完整所有推荐意见，并细化来源引用。"
+    }
+  },
+  {
+    "pdf": "1756453713224_1608702.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.2,
+      "comments": "提取结果准确反映了文献的基本元数据、范围关键词和章节结构，内容真实无虚构，结构清晰，引用了来源页码。唯一不足为未能提取推荐意见和关键证据，影响了完整性。整体质量较高，适合后续加工使用。"
+    }
+  },
+  {
+    "pdf": "1756453814456_1608702.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果高度准确，涵盖了文献的核心元数据（标题、作者、机构、年份、类型等），关键字和目录内容详尽，审稿人信息丰富。结构清晰，字段划分合理。引用来源标注为p1，虽未细致到每条信息，但已基本满足溯源要求。未见虚构内容。publish_date和doi未找到，略有不全。整体质量优秀。"
+    }
+  },
+  {
+    "pdf": "1756453891288_1608702.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 10,
+      "average": 8.8,
+      "comments": "提取结果准确反映了文献的基本元数据、范围关键词和目录结构，未出现虚构内容。结构清晰，字段划分合理。部分内容（如recommendations和key_evidence）未提取，导致完整性略有不足。引用页码来源较为简略，仅标注为p1，细节可进一步完善。整体质量较高，适合后续医学知识处理。"
+    }
+  },
+  {
+    "pdf": "1756453929400_8248372.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6,
+      "comments": "提取结果准确反映了指南的核心内容，包括目标人群、疾病、干预措施和主要推荐意见。结构清晰，分为元数据、范围、推荐意见和关键证据。引用来源基本合理，但部分证据的来源页码不完整（如key_evidence最后一条未给出完整页码）。内容无明显虚构，推荐意见与当前循证医学一致。整体完整性较高，但部分细节（如部分证据未完整提取、部分推荐未细化）略有欠缺。"
+    }
+  },
+  {
+    "pdf": "1756460577061_8106296.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9,
+      "comments": "提取结果准确反映了文献的基本信息、范围、主要推荐意见和关键证据，结构清晰，分区合理，引用了具体页码，未见虚构内容。完整性略有不足，部分推荐和证据可能未完全覆盖全文内容，且key_evidence部分有截断。整体质量较高，适合医学文献综述和指引使用。"
+    }
+  },
+  {
+    "pdf": "1756460835542_8106296.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6,
+      "comments": "提取结果准确反映了指南的主要内容和推荐，结构清晰，分为元数据、范围和具体推荐，且每条推荐均有来源页码标注。内容基本完整，涵盖了文件的核心要点，但部分推荐内容可能因截断略有缺失，完整性略受影响。未发现明显虚构内容。来源引用较规范，但部分推荐未详细到具体段落。整体质量较高，适合后续使用。"
+    }
+  },
+  {
+    "pdf": "1756469724872_8106296.pdf",
+    "doc_type": "REVIEW",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果准确反映了文献的主要内容和更新要点，涵盖了背景、更新内容、删减内容、局限性及结论，结构清晰，分条列举关键发现并有对应页码标注，基本无虚构内容。唯一小幅扣分在于部分细节可能未完全展开，引用页码较为宽泛。整体质量很高，适合后续利用。"
+    }
+  },
+  {
+    "pdf": "1756694891048_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果准确，内容与卵巢癌基因检测专家共识文件高度一致，涵盖了目标人群、临床应用、主要推荐意见及关键证据，结构清晰，条理分明。引用了具体页面，溯源性良好。未发现虚构内容。部分细节（如推荐分级、证据等级）可进一步补充以提升完整性和引用规范性。整体质量很高，适合用于医学信息整理和临床参考。"
+    }
+  },
+  {
+    "pdf": "1756694954932_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 10,
+      "no_hallucination": 10,
+      "average": 9.6,
+      "comments": "提取结果高度准确，涵盖了指南的核心内容和主要推荐意见，结构清晰，分为元数据、适用范围、推荐意见和关键证据，便于理解和使用。所有内容均有明确的页码来源，未发现虚构信息。个别细节如部分推荐意见的细微表述可能略有简化，但整体完整性和准确性很高。"
+    }
+  },
+  {
+    "pdf": "1756705897161_5579292.pdf",
+    "doc_type": "REVIEW",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果准确反映了原文的主要内容和结构，涵盖了CLEAR清单的制定过程、核心条目及其解读，细节丰富，结构清晰，条目分明。引用了具体页码，便于溯源。未发现虚构内容。部分细节如F19条目内容略有截断，整体完整性略受影响，但对主旨无实质影响。整体为高质量医学文献提取结果。"
+    }
+  },
+  {
+    "pdf": "1756706418200_5579292.pdf",
+    "doc_type": "OTHER",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果内容准确，涵盖了文献的主要信息点和核心结论，结构清晰，分为元数据、研究范围、主要发现和结论。引用了具体页码，体现了较好的溯源性。未发现虚构内容。个别细节（如工具具体条目举例、专家名单等）可进一步补充以提升完整性和准确性。整体质量优秀，适合医学文献评估和后续利用。"
+    }
+  },
+  {
+    "pdf": "1756706468788_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 10,
+      "no_hallucination": 10,
+      "average": 9.6,
+      "comments": "提取结果高度准确，涵盖了指南的核心内容、目标、主要推荐意见及关键证据，结构清晰、分层合理。所有要点均有明确的来源页码标注，未发现虚构内容。部分细节（如全部19主项和50子项的完整列表）未完全展开，略有简化，但整体完整性和准确性极高，适合快速理解和引用。"
+    }
+  },
+  {
+    "pdf": "1756709332581_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 9,
+      "no_hallucination": 9,
+      "average": 8.8,
+      "comments": "提取结果整体准确，核心信息（题目、作者、机构、推荐意见、临床问题、关键证据）均有覆盖，结构清晰，分为元数据、范围、推荐、证据等模块，且均有来源页码标注。内容未见明显虚构或错误。唯一不足是部分证据描述略显简略，且最后一条证据内容不完整（疑似截断），影响完整性。总体质量较高，适合医学文献快速检索与评估。"
+    }
+  },
+  {
+    "pdf": "1756709678102_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6,
+      "comments": "提取结果准确反映了指南的核心内容，包括文献元数据、目标人群、目标、主要推荐及其流程。结构清晰，分为元数据、范围和推荐。引用来源页码，但仅为p1，略显简略。内容基本无虚构，信息真实可靠。部分细节（如具体每项能力和里程碑的详细内容）未完全展开，导致完整性略有不足。整体质量较高，适合医学文献管理和快速评估。"
+    }
+  },
+  {
+    "pdf": "1756709847051_5579292.pdf",
+    "doc_type": "REVIEW",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果高度准确，核心信息与文献主题和内容一致，涵盖研究背景、方法、主要发现和结论，结构清晰，分条列出要点。引用页码合理，未发现虚构内容。唯一小瑕疵是部分结论因截断略显不完整，但整体完整性高。"
+    }
+  },
+  {
+    "pdf": "1756710006526_5579292.pdf",
+    "doc_type": "OTHER",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果高度准确，关键信息与指南内容一致，未见虚构内容。内容涵盖材料类型、适应证、主要结论及局限性，结构清晰，分层合理。引用页码基本准确，但部分细节可进一步细化。整体完整性和无幻觉表现优秀，适合医学文献总结应用。"
+    }
+  },
+  {
+    "pdf": "1756710561227_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4,
+      "comments": "提取结果准确反映了指南的核心内容，包括元数据、适用范围、推荐意见和关键信息，结构清晰，字段划分合理。引用了具体页码，溯源性较好。未发现虚构内容。略有提升空间在于部分细节（如推荐分级、更多背景信息）可进一步补充。整体质量高。"
+    }
+  },
+  {
+    "pdf": "1756710859463_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6,
+      "comments": "提取结果准确反映了原文主要信息，包括题目、作者、机构、发表时间、DOI、类型等元数据，以及目标人群、干预措施、实施场景等范围信息。推荐意见内容与原文一致，未出现虚构内容，结构清晰，分条列举，便于理解。引用来源以页码标注，但部分推荐意见未完整标注页码，且部分内容略显简略，未涵盖全部细节，导致完整性略有不足。整体质量较高，适合后续使用。"
+    }
+  },
+  {
+    "pdf": "1756711019517_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6,
+      "comments": "提取结果整体准确，关键信息（标题、作者、目的、方法、结果、结论、推荐意见）均有覆盖，结构清晰，推荐意见有编号和共识强度，且引用了来源页码。部分推荐意见被截断（如1.5），导致完整性略有不足。文献类型标注为Original Communication而非GUIDELINE，可能与实际类型略有出入。未见明显虚构内容。"
+    }
+  }
+]

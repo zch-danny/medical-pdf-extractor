@@ -1,0 +1,2455 @@
+[
+  {
+    "pdf": "1756453705743_8248372.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Opioid Prescribing for Acute Pain Management in Children and Adolescents in Outpatient Settings: Clinical Practice Guideline",
+        "authors": "Scott E. Hadland, MD, MPH, MS, FAAP, Rita Agarwal, MD, FAAP, FASA, Sudha R. Raman, PhD, Michael J. Smith, MD, MSCE, Amy Bryl, MD, FAAP, Jeremy Michel, MD, MHS, FAAP, Lorraine I. Kelley-Quon, MD, MSHS, FACS, FAAP, Mehul V. Raval, MD, MS, FAAP, Madeline H. Renny, MD, MS, FAAP, Beth Larson-Steckler, Scott Wexelblatt, MD, FAAP, Robert T. Wilder, MD, PhD, FAAP, Susan K. Flinn, MA",
+        "organization": "American Academy of Pediatrics",
+        "publish_date": "November 2024",
+        "year": "2024",
+        "doi": "e2024068752",
+        "document_type": "Clinical Practice Guideline",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Children and adolescents in outpatient settings",
+        "condition": "Acute pain",
+        "intervention": "Opioid prescribing",
+        "objective": "To provide evidence-based approaches to safely prescribe opioids for acute pain, minimize risks, and address disparities in pain treatment"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Clinicians should treat acute pain using a multimodal approach that includes the appropriate use of nonpharmacologic therapies, nonopioid medications, and, when needed, opioid medications.",
+          "strength": "Strong",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Opioids should not be prescribed as monotherapy for children or adolescents who have acute pain.",
+          "strength": "Strong",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "When using opioids for acute pain management, clinicians should prescribe immediate-release opioid formulations, start with the lowest age- and weight-appropriate doses, and provide an initial supply of 5 or fewer days, unless the pain is related to trauma or surgery with expected duration of pain longer than 5 days.",
+          "strength": "Strong",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Clinicians should not prescribe codeine or tramadol for patients younger than 12 years; adolescents 12 to 18 years of age who have obesity, obstructive sleep apnea, or severe lung disease; to treat postsurgical pain after tonsillectomy or adenoidectomy in patients younger than 18 years; or for any breastfeeding patient.",
+          "strength": "Strong",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "The CPG recommends providing opioids when appropriate for treating acutely worsened pain in children and adolescents who have a history of chronic pain; clinicians should partner with other opioid-prescribing clinicians involved in the patient’s care and/or a specialist in chronic pain or palliative care to determine an appropriate treatment plan.",
+          "strength": "Strong",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "Caution should be used when treating acute pain in those who are taking sedating medications.",
+          "strength": "Strong",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "The CPG describes potential harms of discontinuing or rapidly tapering opioids in individuals who have been on stable, long-term opioids to treat chronic pain.",
+          "strength": "Strong",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "The guideline also recommends providing naloxone and information on naloxone, safe storage and disposal of opioids, and direct observation of medication administration.",
+          "strength": "Strong",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "Clinicians are encouraged to help caregivers develop a plan for safe disposal.",
+          "strength": "Strong",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "e1",
+          "text": "The CPG contains 12 key action statements based on evidence from randomized controlled trials, high-quality observational studies, and, when studies are lacking or could not feasibly or ethically be conducted, from expert opinion.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "e2",
+          "text": "Each key action statement includes a level of evidence, the benefit-harm relationship, and the strength of recommendation.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 33.06650924682617
+  },
+  {
+    "pdf": "1756453713224_1608702.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias",
+        "authors": "François Mach, Konstantinos C. Koskinas, Jeanine E. Roeters van Lennep, Lale Tokgözoğlu, Lina Badimon, Colin Baigent, Marianne Benn, Christoph J. Binder, Alberico L. Catapano, Guy G. De Backer, Victoria Delgado, Natalia Fabin, Brian A. Ference, Ian M. Graham, Ulf Landmesser, Ulrich Laufs, Borislava Mihaylova, Børge Grønne Nordestgaard, Dimitrios J. Richter, Marc S. Sabatine, and ESC/EAS Scientific Document Group",
+        "organization": "European Society of Cardiology (ESC) and the European Atherosclerosis Society (EAS)",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "keywords": [
+          "Guidelines",
+          "Dyslipidaemia",
+          "Lipid-lowering drugs",
+          "Low-density lipoproteins",
+          "Lipoprotein(a)",
+          "Hypertriglyceridaemia",
+          "Cardiovascular risk",
+          "Familial hypercholesterolaemia",
+          "Acute coronary syndromes"
+        ],
+        "sections": [
+          "Preamble",
+          "Introduction",
+          "Estimation of total cardiovascular risk and implications for dyslipidaemia management",
+          "New low-density lipoprotein cholesterol-lowering therapies",
+          "Combination of lipid-lowering therapies during index hospitalization for acute coronary syndromes",
+          "Lipoprotein(a)",
+          "Hypertriglyceridaemia",
+          "Primary prevention in people with human immunodeficiency virus infection",
+          "Patients with cancer at high or very high chemotherapy-related cardiovascular toxicity risk",
+          "Dietary supplements",
+          "Evidence tables",
+          "Data availability statement",
+          "Author information",
+          "Appendix",
+          "References"
+        ],
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [],
+      "key_evidence": []
+    },
+    "time": 15.998389482498169
+  },
+  {
+    "pdf": "1756453814456_1608702.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 ESC/EACTS Guidelines for the management of valvular heart disease",
+        "authors": "Fabien Praz, Michael A. Borger, Jonas Lanz, Mateo Marin-Cuartas, Ana Abreu, Marianna Adamo, Nina Ajmone Marsan, Fabio Barili, Nikolaos Bonaros, Bernard Cosyns, Ruggero De Paulis, Habib Gamra, Marjan Jahangiri, Anders Jeppsson, Robert J.M. Klautz, Benoit Mores, Esther Pérez-David, Janine Pöss, Bernard D. Prendergast, Bianca Rocca, Xavier Rossello, Mikio Suzuki, Holger Thiele, Christophe Michel Tribouilloy, Wojtek Wojakowski, and ESC/EACTS Scientific Document Group",
+        "organization": "European Society of Cardiology (ESC) and European Association for Cardio-Thoracic Surgery (EACTS)",
+        "publish_date": "Not Found",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "keywords": [
+          "Guidelines",
+          "European Society of Cardiology (ESC)",
+          "European Association for Cardio-Thoracic Surgery (EACTS)",
+          "Valvular heart disease",
+          "Aortic stenosis",
+          "Aortic regurgitation",
+          "Mitral stenosis",
+          "Mitral regurgitation",
+          "Tricuspid regurgitation",
+          "Tricuspid stenosis",
+          "Multivalvular disease",
+          "TAVI",
+          "SAVR",
+          "Heart surgery",
+          "Transcatheter edge-to-edge repair",
+          "Transcatheter valve replacement"
+        ],
+        "table_of_contents": [
+          "1. Preamble",
+          "2. Introduction",
+          "2.1. What is new",
+          "3. The Heart Team and Heart Valve Centre",
+          "3.1. The Heart Valve Network",
+          "3.1.1. Composition of the Heart Team",
+          "3.1.2. Procedural volume and clinical outcomes",
+          "4. Imaging of patients with valvular heart disease",
+          "4.1. Initial valve assessment",
+          "4.2. Associated diseases and conditions",
+          "4.3. Evaluation of valvular heart disease dynamics and variability",
+          "4.4. Assessment of extravalvular cardiac consequences from valvular heart disease",
+          "4.5. Evaluation of eligibility, planning, and guiding of interventions",
+          "5. Clinical evaluation of patients with valvular heart disease",
+          "5.1. Clinical examination",
+          "5.2. Assessment of comorbidities and risk stratification",
+          "5.3. Biomarkers",
+          "5.4. Exercise testing",
+          "5.5. Invasive investigations",
+          "5.5.1. Coronary angiography"
+        ],
+        "reviewers": [
+          "Alec Vahanian",
+          "Carlos-A. Mestres",
+          "Leila Abid",
+          "Suleman Aktaa",
+          "Enoch F. Akowuah",
+          "Elena Arbelo",
+          "Folkert W. Asselbergs",
+          "Emanuele Barbato",
+          "Giuseppe Boriani",
+          "Margarita Brida",
+          "Sergio Buccheri",
+          "Robert A. Byrne",
+          "Ovidiu Chioncel",
+          "Lenard Conradi",
+          "Michele De Bonis",
+          "Victoria Delgado",
+          "Anna Franzone",
+          "Kristina Hermann Haugaa",
+          "Bettina Heidecker",
+          "Borja Ibanez",
+          "Bernard Iung",
+          "Stefan James",
+          "Lars Køber",
+          "Konstantinos C. Koskinas",
+          "Ulf Landmesser",
+          "Gregory Y.H. Lip",
+          "John William McEvoy",
+          "Gil Meltzer",
+          "David Messika-Zeitoun",
+          "Borislava Mihaylova",
+          "Richard Mindham",
+          "Inge Moelgaard",
+          "Jens Cosedis Nielsen",
+          "Gareth Owens",
+          "Agnes A. Pasquet",
+          "Thomas Pilgrim",
+          "Eva Prescott",
+          "Eduard Quintana",
+          "Volker Rudolph",
+          "Rafael Sadaba",
+          "Anna Sannino",
+          "Felix C. Tanner",
+          "Marina Urena",
+          "Ilonca Vaartjes",
+          "Christiaan Vrints",
+          "Alexander Wahba",
+          "Thomas Walther",
+          "Adam Witkowski",
+          "Katja Zeppenfeld"
+        ]
+      },
+      "recommendations": [],
+      "key_evidence": []
+    },
+    "time": 32.40023350715637
+  },
+  {
+    "pdf": "1756453891288_1608702.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 ESC Guidelines for the management of cardiovascular disease and pregnancy",
+        "authors": "Julie De Backer, Kristina H. Haugaa, Nina Eide Hasselberg, Michèle de Hosson, Margarita Brida, Silvia Castelletti, Matthew Cauldwell, Elisabetta Cerbai, Lia Crotti, Natasja M.S. de Groot, Mette-Elise Estensen, Eva S. Goossens, Bernhard Haring, Donata Kurpas, Carmel M. McEniery, Sanne A.E. Peters, Amina Rakisheva, Antonia Sambola, Oliver Schlager, Florian S. Schoenhoff, Tommaso Simoncini, Françoise Steinbach, Isabella Sudano, Lorna Swan, Anne Marie Valente, and ESC Scientific Document Group",
+        "organization": "European Society of Cardiology (ESC)",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "https://doi.org/10.1093/eurheartj/ehaf193",
+        "document_type": "Clinical Practice Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "keywords": [
+          "Guidelines",
+          "Pregnancy",
+          "Cardiovascular",
+          "Heart failure",
+          "Arrhythmias",
+          "Genetic counselling",
+          "Risk stratification",
+          "Pregnancy heart team",
+          "Cardiomyopathies",
+          "Drugs in pregnancy",
+          "Aortic disease",
+          "Adult congenital heart disease",
+          "Peripartum cardiomyopathy",
+          "Hypertensive disorders of pregnancy",
+          "Adverse pregnancy outcomes"
+        ],
+        "table_of_contents": {
+          "1. Preamble": [
+            "p1"
+          ],
+          "2. Introduction": [
+            "p1"
+          ],
+          "2.1. Why we need new Guidelines on cardiovascular disease and pregnancy": [
+            "p1"
+          ],
+          "2.2. Why these Guidelines are important": [
+            "p1"
+          ],
+          "2.3. What is new": [
+            "p1"
+          ],
+          "2.4. What has changed": [
+            "p1"
+          ],
+          "3. General considerations": [
+            "p1"
+          ],
+          "3.1. Epidemiology": [
+            "p1"
+          ],
+          "3.2. Physiology of pregnancy": [
+            "p1"
+          ],
+          "4. The Pregnancy Heart Team": [
+            "p1"
+          ],
+          "4.1. Concept and requirements": [
+            "p1"
+          ],
+          "4.2. Pre-pregnancy counselling and family planning": [
+            "p1"
+          ],
+          "4.2.1. Risk assessment": [
+            "p1"
+          ],
+          "4.2.1.1. Maternal risk assessment": [
+            "p1"
+          ],
+          "4.2.2. Genetic counselling": [
+            "p1"
+          ],
+          "4.2.2.1. Pre-natal and pre-implantation diagnosis": [
+            "p1"
+          ],
+          "4.2.3. Reproductive technology": [
+            "p1"
+          ],
+          "4.2.4. Contraception": [
+            "p1"
+          ],
+          "4.2.5. Termination of pregnancy including psychological support": [
+            "p1"
+          ],
+          "4.3. Diagnostic methods in pregnancy": [
+            "p1"
+          ]
+        }
+      },
+      "recommendations": [],
+      "key_evidence": []
+    },
+    "time": 22.13757014274597
+  },
+  {
+    "pdf": "1756453929400_8248372.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Patent Ductus Arteriosus in Preterm Infants",
+        "authors": "Namasivayam Ambalavanan, MD, Susan W. Aucott, MD, Arash Salavitabar, MD, Victor Y. Levy, MD",
+        "organization": "American Academy of Pediatrics",
+        "publish_date": "May 2025",
+        "year": "2025",
+        "doi": "https://doi.org/10.1542/peds.2025-071425",
+        "document_type": "Clinical Report",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Preterm infants",
+        "condition": "Patent ductus arteriosus (PDA)",
+        "intervention": "Medical and procedural closure of PDA",
+        "outcome": "Clinical outcomes including mortality, bronchopulmonary dysplasia, and neurodevelopmental outcomes"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Medical closure of a PDA using ibuprofen or acetaminophen is an option for a hemodynamically significant PDA (hsPDA).",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Recent data from multiple clinical trials indicate the lack of benefits of prophylactic or early (<2 weeks of age) medical closure of PDA as compared with expectant management, and they are, therefore, not recommended.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "There are insufficient data to support firm recommendations on management of infants with an hsPDA beyond 2 weeks of age as relative benefits and risks of expectant management with close monitoring, attempted pharmacologic closure, or procedural (transcatheter/surgical) closure have not been adequately defined.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "If the hsPDA persists despite medical therapy (or if medical therapy is contraindicated), such infants may be considered for either transcatheter closure or surgical ligation.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "In recent years, surgical closure of the PDA has become less frequent, and transcatheter closure is more common in many centers.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "There is a lack of evidence to guide management of an hsPDA, necessitating equipoise regarding treatment options and timing and a need for trials that can expand the available body of evidence, especially regarding long-term cardiopulmonary and neurodevelopmental outcomes.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "Delayed closure of the PDA is common in preterm infants, particularly at more extreme immaturity.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Echocardiography is essential for confirming the presence of a PDA and assessing hemodynamic significance.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "In the PDA-TOLERATE study, 40% of infants born at less than 28 weeks’ gestation had no PDA or minimal respiratory impact from their PDA in the first 2 weeks of life.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "In the Trial of Indomethacin Prophylaxis in Preterms (TIPP), 50% of placebo recipients never developed clinical signs of a PDA.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "In a trial of early vs late indomethacin treatment of infants born at 26 through 31 weeks’ gestation in whom PDA was confirmed by echocardiography on day 3, the ductus closed spontaneously by 9 days of age in 78% of those randomized to late intervention.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Of infants discharged home with persistent patent ductus, 50% will go on to close spontaneously by 9 months of age (approximately 49 weeks’ PMA) and 80% will close by 2 years of age.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The hemodynamic significance of the PDA during that time is unclear and has not been well studied.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The diversion of blood flow from the systemic circulation may surpass compensatory increases in total cardiac output, resulting in compromised perfusion of vital organs such as the bowel, kidney, and brain.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Prolonged patency is associated with numerous adverse outcomes, including prolonged assisted ventilation and higher rates of death, bronchopulmonary dysplasia (BPD), pulmonary hemorrhage, necrotizing enterocolitis (NEC), impaired renal function, intraventricular hemorrhage (IVH), periventricular leukomalacia (PVL), and cerebral palsy (CP).",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Neonatal echocardiography has a critical role for PDA diagnosis and evaluation of therapeutic responses.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 38.331910133361816
+  },
+  {
+    "pdf": "1756460577061_8106296.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "authors": "Christopher Massey, Usman Latif, Timothy R Deer, Hemant Kalia, Maged Guirguis, Mark C Bicket, Nasir Khatri, Reda Tolba, Krishnan Chakravarthy, Ryan Budwany, David W Lee, Ankur A Patel, Alexandra M Moreira, Daniel A Jimenez, Raj G Patel, Iden Cowan, Sandy Christiansen, Derron Wilson, Kenneth B Chapman, Chau Vu, Suzanne Manzi, Sara Nashi, Muhammad Waheed, Anuj Shah, Morad Nasseri, Patrick Buchanan, Nomen Azeem, Erika A Petersen, Michael E Schatman, Alaa Abd-Elsayed, Dawood Sayed",
+        "organization": "American Society of Pain and Neuroscience (ASPN)",
+        "publish_date": "20 August 2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "topic": "Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "target_population": "Pain clinicians",
+        "intended_use": "To help clinicians understand AI and implement it into their practice",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "The ASPN Artificial Intelligence Guidelines are designed to help clinicians understand AI and implement it into their practice. This Neuron Project is designed to evolve with the changing landscape of AI.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "An expert panel was chosen to discuss and write the best practice guidelines on AI. The primary authors conducted a literature search on PubMed, cross-referencing key terms in pain management and AI.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "After a thorough review of the current literature, the information collected was divided into broad categories of potential benefits, potential harms, and ways to ensure the benefits outweigh the potential harms of AI.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "These guidelines include only the most essential aspects of AI that clinicians need to know and understand before implementing AI into their practice.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "All authors achieved consensus on guidelines for implementing and using AI in pain management following a process of critical review and edits by the entire group of authors.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "All authors approved final guidelines.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "E1",
+          "text": "Over 12,000 articles were found using the above search results. Many articles were reviews and clinical guidelines.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E2",
+          "text": "The framework created from these guidelines allowed authors to fill in knowledge gaps and discuss the most critical elements pain clinicians should comprehend about AI.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E3",
+          "text": "The field of artificial intelligence is rapidly growing. As it expands into healthcare, it is necessary to prevent breaches of sensitive data and potential harm to patients.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E4",
+          "text": "Guidelines that constantly evolve and grow with expanding indications for AI are essential to maximize benefit and prevent harm.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 27.620733499526978
+  },
+  {
+    "pdf": "1756460835542_8106296.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 ESC Clinical Consensus Statement on mental health and cardiovascular disease",
+        "authors": "Héctor Bueno, Christi Deaton, Marta Farrero, Faye Forsyth, Frieder Braunschweig, Sergio Buccheri, Simona Dragan, Sofie Gevaert, Claes Held, Donata Kurpas, Karl-Heinz Ladwig, Christos D. Lionis, Angela H.E.M. Maas, Caius Ovidiu Merșa, Richard Mindham, Susanne S. Pedersen, Martina Rojnic Kuzman, Sebastian Szmit, Rod S. Taylor, Izabella Uchmanowicz, Noa Vilchinsky, and ESC Scientific Document Group",
+        "organization": "European Society of Cardiology (ESC)",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Clinical Consensus Statement",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "title": "The scope of this consensus statement",
+        "content": "The scope of this consensus statement includes the relationship between mental health and cardiovascular disease, the impact of mental health on cardiovascular risk, and the role of mental health conditions in the development and management of cardiovascular disease. It also addresses the importance of integrated care models such as the psycho-cardio team and the use of psychological therapies and psychotropic drugs.",
+        "sources": [
+          "p2"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "3.1",
+          "text": "The relationship between mental and cardiovascular health and disease is complex and bidirectional. Mental health conditions can contribute to the development and progression of cardiovascular disease, and vice versa.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "3.2",
+          "text": "Enduring problems such as chronic stress, depression, anxiety, and post-traumatic stress disorder are associated with an increased risk of cardiovascular disease and poorer outcomes in patients with existing cardiovascular conditions.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "3.3",
+          "text": "The aims of the document are to provide a comprehensive overview of the interplay between mental health and cardiovascular disease, to highlight the importance of mental health screening and intervention in cardiovascular care, and to promote the integration of mental health services into cardiovascular care pathways.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "3.4",
+          "text": "The Psycho-Cardio team is a multidisciplinary team that includes cardiologists, psychiatrists, psychologists, and other healthcare professionals who work together to provide integrated care for patients with both cardiovascular disease and mental health conditions.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.1",
+          "text": "Positive mental health states, such as optimism and resilience, are associated with better cardiovascular health outcomes, including reduced risk of cardiovascular disease and improved recovery after cardiac events.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "4.2",
+          "text": "Psychosocial stress, including chronic stress and perceived stress, is a significant risk factor for the development of cardiovascular disease and is associated with increased mortality and morbidity in patients with cardiovascular disease.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "4.3",
+          "text": "Work stress and unemployment are associated with an increased risk of cardiovascular disease, including hypertension, coronary artery disease, and stroke. These factors may also contribute to poor adherence to treatment and lifestyle modifications.",
+          "strength": "Strongly recommended",
+          "sources": [
+            "p4"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "section": "3.1",
+          "text": "The relationship between mental and cardiovascular health and disease is complex and bidirectional. Mental health conditions can contribute to the development and progression of cardiovascular disease, and vice versa.",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "section": "3.2",
+          "text": "Enduring problems such as chronic stress, depression, anxiety, and post-traumatic stress disorder are associated with an increased risk of cardiovascular disease and poorer outcomes in patients with existing cardiovascular conditions.",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "section": "4.1",
+          "text": "Positive mental health states, such as optimism and resilience, are associated with better cardiovascular health outcomes, including reduced risk of cardiovascular disease and improved recovery after cardiac events.",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "section": "4.2",
+          "text": "Psychosocial stress, including chronic stress and perceived stress, is a significant risk factor for the development of cardiovascular disease and is associated with increased mortality and morbidity in patients with cardiovascular disease.",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "section": "4.3",
+          "text": "Work stress and unemployment are associated with an increased risk of cardiovascular disease, including hypertension, coronary artery disease, and stroke. These factors may also contribute to poor adherence to treatment and lifestyle modifications.",
+          "sources": [
+            "p4"
+          ]
+        }
+      ]
+    },
+    "time": 42.405067682266235
+  },
+  {
+    "pdf": "1756469724872_8106296.pdf",
+    "success": true,
+    "doc_type": "REVIEW",
+    "result": {
+      "doc_metadata": {
+        "title": "Fleischner学会胸部影像学术语汇编(2024版)更新解读",
+        "authors": "冯靖; 崔磊",
+        "organization": "南通市第一人民医院(南通大学第二附属医院)影像科; 东台市人民医院影像科",
+        "publish_date": "2025-08-01",
+        "year": "2025",
+        "doi": "10.3969/j.issn.1671-4091.2025.10.001",
+        "document_type": "REVIEW",
+        "sources": [
+          "p1-p5"
+        ]
+      },
+      "scope": {
+        "subject": "胸部影像学",
+        "keywords": [
+          "胸部影像学",
+          "体层摄影术,X 线计算机",
+          "医学术语"
+        ],
+        "coverage": "Fleischner学会2024版胸部影像学术语汇编的更新内容"
+      },
+      "key_findings": [
+        {
+          "id": "F1",
+          "finding": "Fleischner学会在1984年发布了第一版«胸部放射学术语汇编»,规范了X线胸片检查过程中用于疾病描述的相关术语和解释,奠定了术语标准化的基础。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F2",
+          "finding": "2024年,Fleischner学会联合多学科专家发布了第四版«胸部影像学术语汇编(2024)»,删减了一些已经过时的词汇,新增和重新定义了一批新的术语,如环礁征等。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F3",
+          "finding": "新版术语汇编根据术语的相关性对部分术语进行了重新分类,将它们编排在同一个主题词下,以便读者更容易地比较和理解这类术语。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F4",
+          "finding": "新版术语汇编不再细分病理学、X线胸片和CT影像上的定义,而是在每个术语旁注明了是正常解剖(解剖学)、生理现象(生理学)或是异常发现(病理学)。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F5",
+          "finding": "新增内容包括气道、石棉肺、吸入、环礁征、支气管软化症、囊性、栓塞/栓子、脓胸、纤维化、磨玻璃、肺间质异常、间质性肺疾病、不规则、分叶、淋巴结、黏液栓塞、气管旁线、肺炎、毛刺、气管/支气管软化症等术语。",
+          "sources": [
+            "p1-p3"
+          ]
+        },
+        {
+          "id": "F6",
+          "finding": "重新分类排版的内容包括解剖学分布、肺不张、支气管扩张、肺气肿、肺裂、模式、胸膜、小叶间隔等术语的分类和定义。",
+          "sources": [
+            "p3-p4"
+          ]
+        },
+        {
+          "id": "F7",
+          "finding": "删减的内容包括急性间质肺炎、串珠样间隔征、细支气管炎、大泡性肺气肿、脱屑性间质性肺炎、弥漫性肺泡损害、折叠肺、特发性肺纤维化、浸润、淋巴样间质性肺炎、非特异性间质性肺炎、盘状肺不张、进行性大块肺纤维化、假空洞、假胸膜斑、呼吸细支气管间质性肺病、寻常性间质性肺炎等术语。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "F8",
+          "finding": "Fleischner胸部术语汇编(2024版)的局限性包括标准化命名仅针对X线胸片和CT检查,未涵盖PET检查相关的命名法和报告标准化。",
+          "sources": [
+            "p5"
+          ]
+        }
+      ],
+      "conclusions": [
+        "Fleischner学会2024版胸部影像学术语汇编旨在提高影像学术语的准确性和标准化,促进医学领域的跨学科交流和协作。",
+        "新版术语汇编通过新增、重新分类和删减术语,增强了术语的实用性和临床指导意义。",
+        "尽管存在局限性,但该术语汇编为胸部疾病的诊断和治疗提供了更严格和一致的术语表达,有助于科研工作者在大型数据库中的检索工作。",
+        "未来需要进一步扩展术语汇编的覆盖范围,包括PET检查相关的命名法和报告标准化,以适应医学技术的发展需求。"
+      ]
+    },
+    "time": 49.88231825828552
+  },
+  {
+    "pdf": "1756694891048_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "基于临床需求的卵巢癌基因检测规范化选择中国专家共识（2025 年版）",
+        "authors": "邓雷，李芳梅，王煜宁，宋玉丽，于爱军，张颐，张师前",
+        "organization": "中国抗癌协会中西整合卵巢癌专业委员会",
+        "publish_date": "2025-09-01",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "专家共识",
+        "sources": [
+          "p1-p6"
+        ]
+      },
+      "scope": {
+        "target_population": "卵巢癌患者",
+        "clinical_applications": [
+          "卵巢癌基因检测的规范化选择",
+          "精准诊断、预后评估及治疗决策",
+          "基于临床需求的基因检测方案制定"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "推荐所有新诊断的非黏液性上皮性卵巢癌（包括输卵管癌和原发性腹膜癌）患者进行BRCA1/2基因检测；BRCA基因检测未发现致病性突变者建议行HRD检测，并根据BRCA1/2、HRD状态以及是否应用贝伐珠单抗，决策维持治疗方案",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "对于新确诊的上皮性卵巢癌患者，建议尽早进行胚系BRCA1/2基因检测，以指导治疗和家族遗传风险评估。如果胚系BRCA1/2检测结果为阴性或为临床意义不明变异，则进一步检测体细胞BRCA1/2突变",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "已完成前期治疗处于观察期的非胚系BRCA突变患者，可以推迟至疾病复发时，进行体细胞BRCA1/2致病性或可能致病性突变的检测",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "当BRCA1/2基因检测未发现致病性突变时，建议进行HRD检测，以进一步评估PARP抑制剂的获益可能性",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "铂敏感复发的上皮性卵巢癌患者，如初始治疗时未进行BRCA及HRD检测，建议在复发时补充包括BRCA和HRD的全面检测，以帮助预测患者对PARP抑制剂的治疗反应",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "对于计划采用PARP抑制剂作为单药挽救性治疗的铂耐药上皮性卵巢癌患者，仅需进行胚系和（或）体细胞BRCA1/2检测，而HRD状态对后线PARP抑制剂的疗效预测价值有限，因此无需额外进行HRD检测",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "Ⅱ~Ⅳ期卵巢癌完成初始治疗并达到完全缓解（complete response，CR）或部分缓解（partial response，PR）后，推荐行基于生物标志物的维持治疗。具体维持治疗方案的选择可根据化疗是否联合贝伐珠单抗以及基因状态而定",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "若化疗时联合应用贝伐珠单抗，可继续采用贝伐珠单抗维持治疗（无论患者BRCA突变状态如何）。对于既往未使用PARP抑制剂或者PARP抑制剂维持治疗期间肿瘤无进展的患者，如合并有BRCA1/2突变（无论体系还是胚系突变），化疗结束后可以继续PARP抑制剂维持治疗，不推荐贝伐珠单抗联合PARP抑制剂作为维持治疗手段",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "BRCA无突变且化疗时未联合贝伐珠单抗，不建议维持治疗",
+          "strength": "强",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.10",
+          "text": "推荐持续或复发卵巢癌患者，在其他治疗方案无效时检测MMR及MSI，可尝试根据MMR及MSI状态进行免疫治疗，多塔利单抗推荐用于dMMR/高度MSH的复发或晚期患者，帕博利珠单抗应用于高度MSI或dMMR或肿瘤突变负荷（tumor mutation burden，TMB）≥10 mut/Mb患者",
+          "strength": "强",
+          "sources": [
+            "p5"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "e1",
+          "text": "BRCA1/2基因突变与卵巢癌风险显著相关，13%～21%的高级别浆液性卵巢癌（high-grade serous ovarian carcinoma，HGSOC）患者携带胚系BRCA1/2突变（gBRCA1/2m），6%携带体细胞BRCA1/2突变（sBRCA1/2m）",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "e2",
+          "text": "50%左右的卵巢癌患者可能存在HRD",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "e3",
+          "text": "MMR缺失在HGSOC中很少见，但可见于5%～10%的子宫内膜异位症相关的透明细胞和子宫内膜样卵巢癌",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "e4",
+          "text": "MMR检测可指导卵巢癌预后判定和治疗。目前研究证实，帕博利珠单抗可提高晚期dMMR/高度MSI卵巢癌患者的客观缓解率和总体疾病控制率",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "e5",
+          "text": "GARNET研究证实，多塔利单抗治疗卵巢癌患者，持续缓解时间可达25.1个月以上",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "e6",
+          "text": "肿瘤突变负荷高（tumor mutation burden high，TMB-H）（TMB≥10 mut/Mb）的实体瘤患者，更可能从免疫检查点抑制剂治疗中获益",
+          "sources": [
+            "p5"
+          ]
+        }
+      ]
+    },
+    "time": 73.53800964355469
+  },
+  {
+    "pdf": "1756694954932_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "类风湿关节炎病证结合诊疗指南（2025年）",
+        "authors": "中华中医药学会《类风湿关节炎病证结合诊疗指南》项目组",
+        "organization": "中华中医药学会",
+        "publish_date": "2025-09-01",
+        "year": "2025",
+        "doi": "10.13288/j.11-2166/r.2025.17.018",
+        "document_type": "诊疗指南",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "description": "本指南适用于类风湿关节炎（ICD-11 编码：FA20）的诊断、辨证、治疗、疗效评价和健康管理，适合临床一线中医师、中西医结合医师、全科医师使用。",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "4.1",
+          "text": "推荐意见1：治疗以达到临床缓解或低疾病活动度，减少或延缓关节破坏及脏腑损害，提高患者生活质量，降低残疾为目标。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.2",
+          "text": "推荐意见2：基本病机为正虚邪实。正气不足，外感风寒湿热等病邪，化生痰瘀，痹阻筋骨关节甚或脏腑。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.3",
+          "text": "推荐意见3：中医治疗以扶正祛邪、三因制宜为基本原则。早期诊断、早期治疗、选择适宜的中医综合治疗方案或中西医联合方案是病情控制的关键。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.4",
+          "text": "推荐意见4：常见八个证候类型，分别是风湿痹阻证、寒湿痹阻证、湿热痹阻证、痰瘀痹阻证、瘀血阻络证、气血两虚证、肝肾不足证及气阴两虚证，各证型具备主症2项，或主症1项+次症2项，结合舌、脉即可诊断。临床除出现单一证候，也可出现两证或三证夹杂等复合证候。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.5",
+          "text": "推荐意见5：辨证准确是临床疗效的关键，诊断要点应抓住主症。在疾病的发生、发展过程中，患者在不同阶段可呈现不同证候，具有证候个体化、动态演变的特点。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.6",
+          "text": "推荐意见6：推荐选择有效古方及具有循证研究证据的现代方药进行辨病、辨证治疗，可根据患者实际情况选择确有疗效的中药加减，药物剂量可参考《中华人民共和国药典》。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.7",
+          "text": "推荐意见7：可采用中成药进行辨病治疗，依据疾病活动度不同，推荐单独应用或联合其他治疗方案。辨病治疗意指基于RA诊断直接选择中成药品种，不需要对患者进行严格辨证，详见风湿病分会制定并发布的《中成药治疗类风湿关节炎临床应用指南（2022年）》。",
+          "strength": "共识意见",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "4.8",
+          "text": "推荐意见8：RA中成药治疗需注意毒副作用，如生殖系统的毒副作用、肝毒性、肾毒性、消化系统毒副作用等。育龄期妇女或有生育要求的男性患者禁用或全面权衡利弊后遵医嘱使用，儿童、妊娠期和哺乳期妇女禁用。",
+          "strength": "共识意见",
+          "sources": [
+            "p5"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "RA的治疗目标是使每位患者都达到持续缓解或低疾病活动度，即28个关节疾病活动度评分（DAS28）≤3.2或临床疾病活动度指数（CDAI）≤10或简化疾病活动指数（SDAI）≤11。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "RA的中医病机为正虚邪实，正气不足，外感风寒湿热等病邪，化生痰瘀，痹阻筋骨关节甚或脏腑。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "中医治疗以扶正祛邪、三因制宜为基本原则，早期诊断、早期治疗、选择适宜的中医综合治疗方案或中西医联合方案是病情控制的关键。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "RA的常见证候类型包括风湿痹阻证、寒湿痹阻证、湿热痹阻证、痰瘀痹阻证、瘀血阻络证、气血两虚证、肝肾不足证及气阴两虚证。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "辨证准确是临床疗效的关键，诊断要点应抓住主症，患者在不同阶段可呈现不同证候，具有证候个体化、动态演变的特点。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "text": "推荐选择有效古方及具有循证研究证据的现代方药进行辨病、辨证治疗，可根据患者实际情况选择确有疗效的中药加减，药物剂量可参考《中华人民共和国药典》。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "text": "中成药治疗RA需注意毒副作用，如生殖系统的毒副作用、肝毒性、肾毒性、消化系统毒副作用等。育龄期妇女或有生育要求的男性患者禁用或全面权衡利弊后遵医嘱使用，儿童、妊娠期和哺乳期妇女禁用。",
+          "sources": [
+            "p5"
+          ]
+        }
+      ]
+    },
+    "time": 69.94891166687012
+  },
+  {
+    "pdf": "1756705897161_5579292.pdf",
+    "success": true,
+    "doc_type": "REVIEW",
+    "result": {
+      "doc_metadata": {
+        "title": "影像组学研究报告清单（CLEAR）解读",
+        "authors": "钟京谕; 星月; 胡扬帆; 丁德芳; 刘现伟; 代顺; 陆俊捷; 杨加锐; 褚敬申; 宋阳; 陆敏达; 张欢; 杨光; 姚伟武; CLEAR 工作组",
+        "organization": "上海交通大学医学院附属同仁医院影像科; 上海市柔性医疗机器人重点实验室; 斯坦福大学医学院流行病学和人口健康系; 波士顿大学生物医学工程系; 上海交通大学医学院附属瑞金医院科技发展处《诊断学理论与实践》编辑部; 西门子医疗磁共振科研市场部; 西门子医疗磁共振应用部; 上海交通大学医学院附属瑞金医院放射科; 华东师大医学磁共振与分子影像技术研究院; 华东师范大学物理与电子科学学院上海市磁共振重点实验室",
+        "publish_date": "2025-08-01",
+        "year": "2025",
+        "doi": "10.7507/1672-2531.202503173",
+        "document_type": "REVIEW",
+        "sources": [
+          "p1-p5"
+        ]
+      },
+      "scope": {
+        "topic": "影像组学研究报告清单（CLEAR）的制定过程、条目内容及解读",
+        "purpose": "提高影像组学研究的报告透明度，促进研究的可重复性和临床应用",
+        "audience": "从事影像组学研究的科研人员、医学期刊编辑、临床医生及相关领域研究人员"
+      },
+      "key_findings": [
+        {
+          "id": "F1",
+          "finding": "影像组学研究报告清单（CLEAR）由CLEAR工作组制定，包含58项条目，旨在提高影像组学研究的报告透明度。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F2",
+          "finding": "CLEAR清单采用改良德尔菲法形成，经过两轮国际专家咨询和一轮专家共识会议后最终确定。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F3",
+          "finding": "CLEAR清单包含完整版（58项）和简短版（43项），完整版涵盖研究报告的各个方面，包括标题、摘要、关键词、方法、结果、讨论和开放科学。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F4",
+          "finding": "CLEAR清单中特别澄清了术语的使用，如“训练集”“验证集”“测试集”“病例”等，并与人工智能医学影像研究检查清单（CLAIM）保持一致。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F5",
+          "finding": "CLEAR清单条目报告具有三个可选项：“是”“否”“不适用”，建议对“是”的条目标注页码和行号，对“否”或“不适用”的条目说明原因。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F6",
+          "finding": "CLEAR清单条目包括研究设计、数据、图像分割、图像预处理、特征提取、数据准备、模型构建与评估、结果与讨论等部分，涵盖影像组学研究的全流程。",
+          "sources": [
+            "p2-p3"
+          ]
+        },
+        {
+          "id": "F7",
+          "finding": "CLEAR清单建议在标题中明确指出影像组学的应用，并可具体说明技术类型、成像模态、扫描特点、机器学习使用、外部验证及多中心设计等细节。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F8",
+          "finding": "摘要应结构化呈现研究目的、方法、结果和结论，明确基线特征、数据来源、研究性质、图像分割方法、特征提取方法、降维方法、建模细节、验证方法、模型表现指标及开放科学状态。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F9",
+          "finding": "关键词应包括提示是影像组学研究的关键词（如影像组学、纹理分析）及描述研究的关键词（如机器学习、深度学习、可重复性）。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F10",
+          "finding": "引言应定义科学或临床问题，总结相关文献和研究空白，阐述影像组学方法的必要性及对临床实践的潜在影响。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F11",
+          "finding": "研究设计条目要求明确使用CLEAR清单，并作为补充材料提交，同时可提交其他相关清单或指南。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F12",
+          "finding": "伦理细节应包括伦理审批、知情同意和数据保护信息，如去识别化处理。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F13",
+          "finding": "样本量计算应明确说明如何确定样本量或统计效能，以确保模型的可靠性与可重复性。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F14",
+          "finding": "数据来源应说明是私有、公开或混合数据，并明确不同数据子集的使用情况。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F15",
+          "finding": "数据拆分方法应描述训练集、验证集和测试集的划分方式，包括随机拆分、按研究中心拆分、按时间顺序拆分等，并说明数据子集比例及避免信息泄露的措施。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F16",
+          "finding": "成像协议应提供采集参数和后处理细节，包括物理像素和体素尺寸、扫描仪机型、对比剂使用及患者准备过程。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F17",
+          "finding": "非影像组学预测因子应描述人口统计学特征、传统实验室生物标志物及临床常用方法。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F18",
+          "finding": "图像分割策略应说明分割方法及判读人员的细节，图像预处理应包括重采样、离散化及图像类型。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F19",
+          "finding": "特征提取方法应描述特征提取方式、特征类别、数量及默认配置，数据准备应说明缺失数据处理、数据不平衡及特征尺度处理。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F20",
+          "finding": "模型构建与评估应包括算法细节、训练与调试、混杂因素处理、模型选择策略、测试方法、评估指标及不确定性分析。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F21",
+          "finding": "结果部分应包括基线人口学和临床特征、纳入排除标准流程图、特征统计信息及模型表现评估。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F22",
+          "finding": "讨论部分应概述重要结果、与过去研究的差异及对临床实践的影响。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F23",
+          "finding": "开放科学部分应包括数据、代码及模型的共享，如共享图像及分割数据、预处理脚本、建模源代码及最终模型文件。",
+          "sources": [
+            "p3"
+          ]
+        }
+      ],
+      "conclusions": [
+        "CLEAR清单为影像组学研究提供了标准化的报告框架，有助于提升研究的透明度、可重复性及临床应用价值。",
+        "CLEAR清单的使用和强制提交已被证明可以提升医学影像学研究的报告透明度，但目前尚未成为期刊的强制要求。",
+        "影像组学研究应充分报告样本量、数据来源、成像参数及模型构建细节，以确保研究的科学性和可重复性。",
+        "CLEAR清单的推广和应用有助于推动影像组学研究向标准化、规范化发展，促进其在临床实践中的应用。"
+      ]
+    },
+    "time": 67.11332631111145
+  },
+  {
+    "pdf": "1756706418200_5579292.pdf",
+    "success": true,
+    "doc_type": "OTHER",
+    "result": {
+      "doc_metadata": {
+        "title": "影像组学方法学质量评分（METRICS）解读",
+        "document_type": "研究论文",
+        "organization": "上海交通大学医学院附属同仁医院等",
+        "publish_date": "2025",
+        "language": "中文",
+        "sources": [
+          "p1-p5"
+        ]
+      },
+      "scope": {
+        "study_design": "本文介绍了影像组学方法学质量评分（METRICS）的制定过程、内容要点及使用方法，旨在提升影像组学研究的方法学质量。",
+        "methodology": "METRICS 工具基于专家共识制定，包含9个类别、30项条目，涵盖研究设计、影像数据、图像分割、图像预处理和特征提取等多个方面。",
+        "application": "METRICS 工具可用于影像组学研究的设计、论文撰写和同行评审，以提高研究的可重复性和临床适用性。"
+      },
+      "key_findings": [
+        {
+          "finding": "METRICS 工具由 METRICS 工作组制定，采用改良德尔菲法，经过三轮咨询后确定包含30项条目的工具。",
+          "source": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "METRICS 工具包含9个类别，其中“研究设计”权重最高（0.0919），而“开放科学”权重最低（0.0075）。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "METRICS 工具的条目分为“是”或“否”两类，其中6项与研究是否使用手工设计和/或深度学习特征有关。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "METRICS 工具的评分等级分为5个级别，评分≥80%为“优秀”，评分<20%为“非常低”。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "METRICS 工具强调在研究设计阶段就引入适当的指南或检查清单，以提高影像组学研究的方法学质量。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "图像分割方法需清晰描述，若使用全自动分割技术，应展示分割结果实例并进行准确性评估。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "finding": "图像预处理和特征提取需使用标准化软件，并清晰报告参数或声明使用默认配置。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "finding": "METRICS 工具建议使用CLEAR清单和METRICS工具提高影像组学研究的报告透明度和方法学质量。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "finding": "影像组学研究中，数据来源应尽可能多中心，以支持外部测试，提高模型的泛化能力。",
+          "source": [
+            "p4"
+          ]
+        }
+      ],
+      "conclusions": [
+        {
+          "conclusion": "METRICS 工具为影像组学研究提供了标准化的评估框架，有助于提升研究的方法学质量、可重复性和临床适用性。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "conclusion": "METRICS 工具的使用可促进影像组学研究的透明报告，推动其在临床实践中的应用。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "conclusion": "METRICS 工具的制定和应用有助于解决当前影像组学研究中存在的方法学质量参差不齐的问题。",
+          "source": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 30.2781503200531
+  },
+  {
+    "pdf": "1756706468788_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "TRIPOD-LLM 指南解读：规范医疗领域大语言模型研究的报告标准",
+        "authors": "郑卿勇, 吴景玲, 李莫兰, 许建国, 刘明, 周泳佳, 崔雅婷, 李瑞雪, 高亚, 葛龙, 张俊华, 田金徽",
+        "organization": "兰州大学循证医学中心, 甘肃省循证医学重点实验室, 中国医学科学院循证评价与指南研究创新单元",
+        "publish_date": "2025年8月",
+        "year": "2025",
+        "doi": "10.7507/1672-2531.202505023",
+        "document_type": "研究报告",
+        "sources": [
+          "p1-p5"
+        ]
+      },
+      "scope": {
+        "target_population": "医疗健康领域使用大型语言模型（LLM）的研究",
+        "intervention": "TRIPOD-LLM 报告规范",
+        "outcome": "提升LLM研究的透明度、可复现性与科学有效性"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "标题需准确反映研究的核心内容，明确标识研究涉及LLM的开发、微调或评估。关键信息应包括：研究执行的具体任务、研究面向的目标人群，以及所预测的结局指标。",
+          "strength": "推荐",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "摘要应遵循TRIPOD-LLM专门的摘要报告清单，提供研究的摘录信息。摘要须包含研究的关键要素，尤其需明确研究背景目的、所使用的LLM名称与版本、主要数据来源、核心方法步骤、关键性能指标及其量化结果、主要结论和潜在意义等。",
+          "strength": "推荐",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "引言的背景部分需清晰阐述研究所在的医疗健康场景或具体应用案例（如管理流程优化、辅助诊断、治疗决策支持等）。同时，必须论证为何选择使用LLM来解决该场景下的问题，或评估其相对于现有方法的优势。",
+          "strength": "推荐",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "明确并详细陈述本研究的所有目标，具体说明研究旨在LLM的初步构建、微调优化、性能验证，或涵盖了多个不同阶段。",
+          "strength": "推荐",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "分别说明用于模型训练、调整和/或评估的各个数据集来源（如网络语料、临床研究数据、EHR数据或未知来源等），并解释选用这些数据的依据。",
+          "strength": "推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "报告所使用的LLM的具体名称、版本号以及最后训练日期（若可知）。",
+          "strength": "推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "详述LLM的开发过程细节，如模型架构、训练策略、微调程序、对齐策略（例如，强化学习、直接偏好优化等）及其对齐目标（例如，提升有用性、诚实性、无害性等）。",
+          "strength": "推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "报告模型生成文本的具体方式，包括采用的提示工程细节（含保障输出一致性的方法）、推理参数设置（如随机种子、温度、最大输出长度、惩罚项等）及其选择依据。",
+          "strength": "推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "包含旨在捕捉生成式输出质量的评估指标，如与“金标准”相比的一致性、相关性、准确性，以及错误类型分析等。",
+          "strength": "推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.10",
+          "text": "若研究中进行了数据标注工作，需报告文本标注的具体方法，并提供详细的标注指南及示例。",
+          "strength": "推荐",
+          "sources": [
+            "p4"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "e1",
+          "text": "TRIPOD-LLM 是针对医疗健康领域 LLM 研究报告的首个国际性共识规范，旨在填补现有报告规范在系统性涵盖 LLM 特有方法学（如模型对齐策略、提示工程细节、推理过程配置、生成式输出评估等）方面的空白。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "e2",
+          "text": "TRIPOD-LLM 引入了多项关键创新机制，其核心是一套包含19个主项和50个子项的专用报告清单，为研究者系统、详尽地报告 LLM 相关技术细节提供了结构化框架。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "e3",
+          "text": "TRIPOD-LLM 采用高度灵活的模块化设计，允许研究者根据其研究的两个关键维度—“研究设计”（从头开发 LLM、LLM 方法研究、LLM 效能评估、LLM 医疗场景应用评估）和“LLM 任务”（文本分类、结果预测、问答、文档生成等）—来动态筛选出最相关的报告条目。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "e4",
+          "text": "TRIPOD-LLM 推行了“动态指南”的运行模式，建立了持续的审查与更新机制，以确保指南内容能与时俱进，始终反映领域的最新认知与最佳实践。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "e5",
+          "text": "TRIPOD-LLM 的核心分野在于其规范对象从“预测型 AI”向“生成式 AI”的根本性迁移，进一步将内容拓展至提示工程、推理配置及生成式评估等 LLM 特有方法学。",
+          "sources": [
+            "p3"
+          ]
+        }
+      ]
+    },
+    "time": 53.3543221950531
+  },
+  {
+    "pdf": "1756709332581_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Cardiovascular, kidney related, and weight loss effects of therapeutics for type 2 diabetes: a living clinical practice guideline",
+        "authors": "Arnav Agarwal, Reem Mustafa, Veena Manja, Thomas Agoritsas, Helen Macdonald, Sheyu Li, Farid Foroutan, Daniel Rayner, René Rodriguez-Gutierrez, Bjørn Olav Åsvold, Anja Fog Heen, Jenan Gabi, Lixin Guo, Qiukui Hao, Britta Tendel Jeppesen, Vivekanand Jha, Evi Nagler, Adrienne Odom, Nicolas Rodondi, Sahana Shetty, Mieke Vermandere, Robin Wright, Gordon Guyatt, Per Olav Vandvik",
+        "organization": "BMJ",
+        "publish_date": "31 August 2025",
+        "year": "2025",
+        "doi": "10.1136/bmj-2024-082071",
+        "document_type": "Living clinical practice guideline",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "clinical_question": "What are the benefits and harms of medications for adults with type 2 diabetes at varied risks of cardiovascular and kidney related complications?",
+        "context": "Emerging clinical trials of novel medications have demonstrated benefits on cardiovascular, kidney, and weight related outcomes in people with type 2 diabetes. Dynamically updated practice guidelines adhering to standards of trustworthiness are necessary in response to a rapidly evolving evidence base and the availability of multiple medication alternatives. This living practice guideline incorporates the latest available medications and evidence and provides recommendations stratified by risks of cardiovascular and kidney complications to inform diabetes management.",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Lower risk (three or fewer cardiovascular risk factors without established cardiovascular disease (CVD) or chronic kidney disease (CKD)): weak recommendation against SGLT-2 inhibitors or GLP-1 receptor agonists.",
+          "strength": "Weak",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Moderate risk (more than three cardiovascular risk factors without established CVD or CKD; or established CVD and/or CKD at lower risk of complications): weak recommendation in favour of SGLT-2 inhibitors or GLP-1 receptor agonists; and a weak recommendation against finerenone in adults with CKD.",
+          "strength": "Weak",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Higher risk (established CVD and/or CKD at higher risk of complications, or established heart failure): strong recommendation in favour of SGLT-2 inhibitors or GLP-1 receptor agonists; and a weak recommendation in favour of finerenone in adults with CKD.",
+          "strength": "Strong",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Across risk strata: weak recommendation in favour of tirzepatide in adults with obesity.",
+          "strength": "Weak",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "Randomised trials of emerging medications including SGLT-2 inhibitors, GLP-1 receptor agonists and finerenone (a non-steroidal selective mineralocorticoid receptor antagonist with more potent anti-inflammatory and anti-fibrotic effects and less risk of causing hyperkalaemia than steroidal alternatives like spironolactone) have demonstrated cardiovascular and kidney protective benefits.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Trials have also demonstrated substantial weight loss effects with some new medications including GLP-1 receptor agonists and tirzepatide, a dual glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor agonist.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "A systematic review and network meta-analysis evaluating benefits and harms of medications for type 2 diabetes, planned for iterative updates to incorporate new evidence and medications over time: Nong K, Jeppesen BT, Shi Q, et al. Medications for adults with type 2 diabetes: a living systematic review and network meta-analysis. BMJ 2025;390:e083039. doi:10.1136/bmj-2024-0830397",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "A systematic review of prognostic models for estimating the likelihood of cardiovascular and kidney complications for adults with type 2 diabetes: Rayner D, Shah D, Dai S, et al. Prognostic models for cardiovascular and renal outcomes in patients with type 2 diabetes: a living systematic review and meta-analysis of observational studies. BMJ Med 2025;4:e0013698",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "A systematic review of values and preferences of patients with type 2 diabetes: González-Cruz DC, Moreno-Peña PJ, Garcia-Campa M, et al. Values, preferences, and treatment burden for initiation of GLP-1 receptor agonists, SGLT-2 inhibitors, tirzepatide and finerenone in adult patients with type 2 diabetes: a systematic review. [Pending submission to BMJ]",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 37.231677770614624
+  },
+  {
+    "pdf": "1756709678102_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Developing Competencies to Advance Health Care Access and Quality for Latino, Hispanic, and Spanish Origin Populations",
+        "authors": "Débora H. Silva, MD, MEd; John A. Davis Rodríguez, PhD, MD; Hector Rasgado-Flores, PhD; Pilar Ortega, MD, MGM; Deion Ellis, MD, MMS; Fernando Sánchez Mendoza, MD, MPH; Victor Cueto, MD, MS; Fabiola Quintero-Rivera, MD; Norma Iris Poll-Hunter, PhD; Minerva Romero Arenas, MD, MPH; Kenneth Lee Dominguez, MD, MPH; Juan Emilio Carrillo, MD, MPH; José E. Rodríguez, MD; John Paul Sánchez, MD, MPH",
+        "organization": "JAMA Network Open",
+        "publish_date": "August 14, 2025",
+        "year": "2025",
+        "doi": "10.1001/jamanetworkopen.2025.27208",
+        "document_type": "Consensus Statement",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Latina, Latino, Latinx, Latine, Hispanic, or of Spanish Origin (LHS+) populations",
+        "objective": "To develop specific competencies and milestones that address the unique needs of the LHS+ population",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "A 13-member national expert working group (Workgroup) was created in April 2023 to lead the project’s development. The Workgroup selected a modified Delphi process.",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "For the first Delphi round (May to September 2023), based on the Workgroup’s experience and expertise, the Workgroup used targeted literature searches to draft an initial set of competency domains, competencies, and milestones.",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "These were distributed through electronic surveys to 76 reactor panelists in 2 Delphi rounds in September 2023 and March 2024. Consensus was defined as 80% or greater panelist agreement.",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "In round 1 of the modified Delphi process, the Workgroup identified 21 competencies and 38 milestones. After 2 reactor panelist rounds, 19 competencies and 34 milestones across 7 domains reached the 80% consensus threshold.",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "The 7 competency domains included: (1) diversity of LHS+ individuals and families (4 competencies); (2) communicating with individuals, families, and communities who identify as part of the LHS+ community (3 competencies); (3) LHS+ diaspora, immigration, and migration (3 competencies); (4) research (3 competencies); (5) ethics (2 competencies); (6) patient-centered care (3 competencies); and (7) medical and surgical LHS+ workforce disparities (2 competencies).",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "The LHS+ health equity competencies build on the call for competency-based medical education (CBME) and expand the literature focused on marginalized populations.",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "A critical next step is identifying and supporting educators to develop, implement, evaluate, and publish teaching and learning assessment materials aligned with these new competencies.",
+          "strength": "Recommended",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "The LHS+ population is 20% of the US population and experiences disparities in health care access and quality.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Competency-based medical education (CBME) aims to ensure graduates can deliver high-quality and safe patient care.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The LHS+ population has increased 6-fold since the 1970s and is now the largest ethnic or racial group in the US.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The LHS+ population has unique health experiences, disease risk factors, and specific health inequities.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "There are at least 8 LHS+–associated nationalities whose population exceeds 1 million.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Medical students and faculty have reported on the lack of LHS+–related content in medical education and the lack of specific training to understand and address the needs of LHS+ patients.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "There is no known published literature on a standard curriculum or set of competencies to be used in the continuum of medical education and advance health for the US LHS+ population.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The modified Delphi approach was chosen considering its capacity for facilitating consensus among experts and incorporating feedback through iterative rounds.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The New Mexico University Health Sciences Office of Research granted an institutional review board exemption in September 2023.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Demographic data gathered for both groups included current type of position, gender identity, languages spoken, highest academic degree, faculty rank, focus area of career, current or recent roles within the past 10 years, region of current institution, type of medical school, estimated proportion of LHS+ population in the city of the medical school location, and racial or ethnic identity.",
+          "sources": [
+            "p3"
+          ]
+        }
+      ]
+    },
+    "time": 42.753387689590454
+  },
+  {
+    "pdf": "1756709847051_5579292.pdf",
+    "success": true,
+    "doc_type": "REVIEW",
+    "result": {
+      "doc_metadata": {
+        "title": "Role of Micronutrient Supplementation in Promoting Cognitive Healthy Aging in Latin America: Evidence-Based Consensus Statement",
+        "authors": "Nogueira-de-Almeida, C.A.; Gutiérrez, C.A.C.; Ramos, L.R.; Katz, M.; Gonzalez, M.M.; Angel Badillo, B.; Gómez Santa María, O.A.; Reyes Torres, C.A.; O’Neill, S.; Reyes, M.G.; et al.",
+        "organization": "Not Found",
+        "publish_date": "2 August 2025",
+        "year": "2025",
+        "doi": "10.3390/nu17152545",
+        "document_type": "REVIEW",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "topic": "Role of micronutrient supplementation in promoting cognitive healthy aging in Latin America",
+        "target_population": "Older adults in Latin America",
+        "intervention": "Multivitamin and mineral supplements (MVMs)",
+        "geographic_focus": "Latin America",
+        "study_design": "Modified Delphi methodology"
+      },
+      "key_findings": [
+        {
+          "id": "F1",
+          "finding": "Cognitive decline is a growing public health concern in Latin America, driven by rapid aging, widespread micronutrient inadequacies, and socioeconomic disparities.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F2",
+          "finding": "Experts agreed that cognitive aging in Latin America is influenced by neurobiological, lifestyle, and socioeconomic factors, including widespread micronutrient inadequacies (vitamins B-complex, C, D, E, and minerals such as zinc, magnesium, chromium, copper, iron, and selenium).",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F3",
+          "finding": "MVMs can be recommended as a complementary strategy to bridge nutritional gaps, especially where dietary challenges persist.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F4",
+          "finding": "Supporting evidence, including the COSMOS-Mind trials, demonstrate that MVM use improves memory and global cognition, and reduces cognitive aging by up to 2 years in older adults.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F5",
+          "finding": "Dietary reference values for vitamins and minerals vary widely across countries, and comprehensive national nutrition data specific to elderly populations in Latin America remain scarce.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F6",
+          "finding": "Healthcare providers often lack clear, evidence-based guidance on the use of MVMs in cognitive health promotion due to variations in individual health status, lifestyle, and regional contexts.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F7",
+          "finding": "A panel of nine experts in nutritional science, geriatrics, and neurology from five Latin America countries conducted a modified Delphi process to develop consensus statements on the role of MVMs in promoting cognitive healthy aging.",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F8",
+          "finding": "A comprehensive literature search was conducted in PubMed, MEDLINE, and Embase using a pre-specified set of key terms, resulting in 109 publications included to support the final consensus statements.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "conclusions": [
+        "MVMs offer a promising, accessible adjunct for cognitive healthy aging in Latin America’s elderly population, particularly where dietary challenges persist.",
+        "Region-specific guidelines, public health initiatives, and targeted research are warranted to optimize outcomes and reduce health inequities."
+      ]
+    },
+    "time": 25.457767963409424
+  },
+  {
+    "pdf": "1756710006526_5579292.pdf",
+    "success": true,
+    "doc_type": "OTHER",
+    "result": {
+      "doc_metadata": {
+        "title": "German S3 guideline on implant-supported all-ceramic restorations",
+        "document_type": "临床指南",
+        "organization": "German Association of Oral Implantology (DGI) and German Society of Dentistry and Oral Medicine (DGZMK)",
+        "publish_date": "2025",
+        "language": "English",
+        "sources": [
+          "p1-p3"
+        ]
+      },
+      "scope": {
+        "indication": "implant-supported all-ceramic restorations",
+        "material_types": [
+          "lithium disilicate",
+          "silicate ceramics",
+          "zirconia",
+          "polymer-infiltrated ceramics (PICN)"
+        ],
+        "restoration_types": [
+          "single crowns",
+          "short-span fixed dental prostheses (FDPs)",
+          "full-arch restorations"
+        ]
+      },
+      "key_findings": [
+        {
+          "finding": "All-ceramic materials have gained popularity in implant prosthodontics due to increasing demand for aesthetic, metal-free restorations.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "finding": "Lithium disilicate, (leucite-reinforced) silicate, and all generations of zirconia demonstrated favorable 3-year survival rates (~ 96–97%).",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Polymer-infiltrated ceramics showed inferior performance and were not recommended.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Only 3Y-TZP zirconia is supported by clinical evidence for short-span FDPs and full-arch reconstructions.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Micro-veneering and monolithic designs reduce chipping risks in all-ceramic restorations.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Resin nano-ceramic (PICN) restorations show variable but consistently lower survival rates, as low as 14% after one year.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "The guideline allows flexibility in the extent of veneering for single crowns, but monolithic or micro-veneered designs are strongly preferred.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Only second-generation 3Y-TZP zirconia with > 1000 MPa flexural strength has sufficient clinical data for short-span FDPs.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Clinical data for newer zirconia generations or material combinations is limited.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "Full-arch restorations are supported only by 3Y-TZP zirconia, with limited clinical evidence.",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "Patient education is emphasized due to limited evidence for newer materials and full-arch restorations.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "conclusions": [
+        {
+          "conclusion": "All-ceramic implant restorations can be successfully implemented with careful material selection, adherence to bonding protocols, and appropriate prosthetic design.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "conclusion": "Clinical limitations persist, especially in full-arch indications.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "conclusion": "Interdisciplinary collaboration is essential to optimize outcomes and minimize complications.",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 23.8402259349823
+  },
+  {
+    "pdf": "1756710561227_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Enterobacterias productoras de carbapenemasas: diagnóstico y tratamiento",
+        "authors": "SOLEDAD E. GONZÁLEZ1, ANA N. VARELA BAINO2, ANA CALABRIA1, FLORENCIA GIL1, CAROLINA OSUNA1, LORENA ABUSAMRA3, SOFÍA ESPOSTO4,5, MARÍA INÉS SORMANI4, NORMA CUDMANI6, GIANNINA CINQUI7,8, FLAVIA AMALFA9, ROLANDO SOLOAGA10, MAGDALENA MARESCA11, NATALIA CARRION12, MIRIAM BLANCO13, EUGENIA DI LÍBERO1,14, ELISA ESTENSSORO2,13,15",
+        "organization": "Ministerio de Salud de la Provincia de Buenos Aires",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Consenso",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Pacientes con sospecha o infección confirmada por enterobacterias productoras de carbapenemasas (EPC) en hospitales públicos dependientes del Ministerio de Salud de la Provincia de Buenos Aires (PBA)",
+        "clinical_conditions": "Infecciones por EPC, incluyendo bacteriemia asociada a catéter venoso central o dispositivos endovasculares, endocarditis, mediastinitis, infecciones post-neuroquirúrgicas, infecciones en neonatos e infecciones en huéspedes inmunocomprometidos",
+        "sources": [
+          "p1",
+          "p2"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Se recomiendan nuevos betalactámicos con inhibidores de betalactamasas (BL/IBL) para el tratamiento empírico inicial en pacientes con shock séptico en presencia de: determinadas condiciones epidemiológicas y focos asociados como bacteriemia asociada a catéter venoso central o dispositivos endovasculares, endocarditis, mediastinitis, foco intraabdominal, infecciones post-neuroquirúrgicas; e independientemente del foco en neonatos y huéspedes inmunocomprometidos.",
+          "strength": "Recomendación",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Se recomiendan nuevos BL/IBL como terapia dirigida ante infecciones por EPC confirmadas microbiológicamente que cursen con shock séptico, o infecciones con cualquier foco y score de INCREMENT ≥ 8, en bacteriemias en inmunocomprometidos graves o neonatos, endocarditis/foco endovascular no removido (implante), mediastinitis, y infección del SNC post-neuroquirúrgica.",
+          "strength": "Recomendación",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "El presente consenso debe complementarse con la implementación de Programas de Optimización del Uso de Antimicrobianos y la vigilancia intensificada en áreas críticas según los lineamientos del Programa Nacional de Vigilancia y Control de IACS de Argentina.",
+          "strength": "Recomendación",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "El uso adecuado de antibióticos es crucial para garantizar una atención médica eficiente y equitativa. Un uso racional de estos medicamentos no solo prolonga su eficacia en la lucha contra las infecciones, sino que también optimiza la distribución de los recursos.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "No se dispone de lineamientos locales para el tratamiento de EPC.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Se incluyen recomendaciones para tratamiento empírico y dirigido de EPC y para la preparación de informes acumulados de sensibilidad, detección y optimización de antibiogramas para EPC.",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 32.461517572402954
+  },
+  {
+    "pdf": "1756710859463_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "How to Promote Wellbeing in Youth Sport: Recommendations From the 2024 Copenhagen Consensus Conference",
+        "authors": "Glen Nielsen, Peter Krustrup, Niels Nygaard Rossing, Peter Juul Elsborg, Jesper Nøddesbo, Annemette Krabbe, Imran Rashid, Bodil Borg Høj, Janne Mortensen, Søren Østergaard, Thomas Skovgaard, Knud Aagaard Ryom, Kenneth Aggerholm, Sine Agergaard",
+        "organization": "University of Copenhagen, University of Southern Denmark, Aalborg University, Copenhagen University Hospital—Bispebjerg and Frederiksberg, Save the Children, Copenhagen, Norwegian School of Sport Sciences, Aarhus University",
+        "publish_date": "2025-08-29",
+        "year": "2025",
+        "doi": "10.1111/sms.70121",
+        "document_type": "Consensus Statement",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Children and adolescents participating in youth sports",
+        "intervention": "Promotion of wellbeing through youth sports",
+        "setting": "Youth sports clubs, local communities, sports federations, educational settings, and mental health services"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Poor wellbeing among children and adolescents is an increasing concern. Research reviews and longitudinal studies generally indicate that participation in leisure-time club-based sports has a positive impact on young participants’ wellbeing.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "However, studies also reveal that this is not always the case and that some aspects of sports environments can have detrimental effects on wellbeing among young participants.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.1",
+          "text": "In Denmark and other Scandinavian countries, leisure-time youth sport is mainly organized by volunteer coaches in local sports clubs affiliated with regional and national organizations.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.2",
+          "text": "The National Olympic Committee and Sports Confederation of Denmark (DIF) has a responsibility to ensure that club sport environments promote wellbeing among children and adolescents.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.3",
+          "text": "To support this effort, DIF hosted a consensus conference with the aim of gathering knowledge and establishing a shared understanding of what characterizes wellbeing in youth sport and how it can be promoted.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.1",
+          "text": "The consensus process aimed to integrate international research-based knowledge with practice-based knowledge into key factors influencing wellbeing in youth sport.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.2",
+          "text": "A special focus was devoted to how wellbeing in and through sport can be promoted within the context of Danish leisure-time club sport.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.3",
+          "text": "The consensus process was led by one of the coauthors who has led previous consensus conferences.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.4",
+          "text": "The consensus process included the following steps: each of the 13 panelists presented their knowledge, experiences, and perspectives on wellbeing in youth sport.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.5",
+          "text": "Panelists identified the main topics that they were to form consensus statements on, resulting in the four consensus questions described below.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.6",
+          "text": "For each of these main consensus questions, the more specific sub-statements were formed in a two-step process: panelists were divided into three subgroups that each had different research and practical backgrounds represented.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.7",
+          "text": "In these groups, participants’ knowledge and experience about the question addressed were presented and discussed, and the subgroups’ suggestions for statements were then formed.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.8",
+          "text": "These were then presented and argued for to the other groups. The total pool of the groups’ statements was then discussed and negotiated in plenum, leading to those that were similar or overlapping being merged, while those that were disputed by others were discussed and negotiated in depth.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.9",
+          "text": "The guiding principle for final inclusion or exclusion of disputed statements was that all participants did not have to find it ideal or be in 100% agreement, but all panelists had to find the statement acceptable for a specific statement to be included.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.10",
+          "text": "The consensus process and the resulting statements were based on the premise that children and young people's wellbeing depends on structural conditions and resources and is developed in interaction with their environment.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.11",
+          "text": "This system approach to wellbeing in youth sport and how it can be promoted was developed through formulating and discussing statements related to wellbeing for children and adolescents, while considering also the significance of their sports environments, community factors, and policy (recommendations) in line with the socioecological model.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.12",
+          "text": "The following four questions were identified: (1) What characterizes wellbeing in sport for children and adolescents? (2) What characterizes sport environments that promote children and adolescents’ wellbeing? (3) Which factors are important to consider in efforts to develop wellbeing-promoting youth sport environments? (4) How can wellbeing in youth sport be promoted?",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.13",
+          "text": "All consensus conference participants were involved in answering and agreeing on an answer to the questions, drawing on their own research, prior readings, experiences from practice, and a (yet unpublished) literature review that was made by external consultants to support this specific purpose.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3.14",
+          "text": "While answers to the first two questions are based on the literature, the last two questions were answered through a more analytical process. This involved first identifying aspects of the surrounding socio-cultural community that affect local youth sport environments and then describing important concrete actions based on all the agreed statements.",
+          "strength": "Evidence-based",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "source": "p1",
+          "text": "Poor wellbeing among children and adolescents is an increasing concern. Research reviews and longitudinal studies generally indicate that participation in leisure-time club-based sports has a positive impact on young participants’ wellbeing."
+        },
+        {
+          "source": "p1",
+          "text": "However, studies also reveal that this is not always the case and that some aspects of sports environments can have detrimental effects on wellbeing among young participants."
+        },
+        {
+          "source": "p2",
+          "text": "In Denmark and other Scandinavian countries, leisure-time youth sport is mainly organized by volunteer coaches in local sports clubs affiliated with regional and national organizations."
+        },
+        {
+          "source": "p2",
+          "text": "The National Olympic Committee and Sports Confederation of Denmark (DIF) has a responsibility to ensure that club sport environments promote wellbeing among children and adolescents."
+        },
+        {
+          "source": "p2",
+          "text": "To support this effort, DIF hosted a consensus conference with the aim of gathering knowledge and establishing a shared understanding of what characterizes wellbeing in youth sport and how it can be promoted."
+        },
+        {
+          "source": "p2",
+          "text": "The consensus process aimed to integrate international research-based knowledge with practice-based knowledge into key factors influencing wellbeing in youth sport."
+        },
+        {
+          "source": "p2",
+          "text": "A special focus was devoted to how wellbeing in and through sport can be promoted within the context of Danish leisure-time club sport."
+        },
+        {
+          "source": "p2",
+          "text": "The consensus process was led by one of the coauthors who has led previous consensus conferences."
+        },
+        {
+          "source": "p2",
+          "text": "The consensus process included the following steps: each of the 13 panelists presented their knowledge, experiences, and perspectives on wellbeing in youth sport."
+        },
+        {
+          "source": "p2",
+          "text": "Panelists identified the main topics that they were to form consensus statements on, resulting in the four consensus questions described below."
+        },
+        {
+          "source": "p2",
+          "text": "For each of these main consensus questions, the more specific sub-statements were formed in a two-step process: panelists were divided into three subgroups that each had different research and practical backgrounds represented."
+        },
+        {
+          "source": "p2",
+          "text": "In these groups, participants’ knowledge and experience about the question addressed were presented and discussed, and the subgroups’ suggestions for statements were then formed."
+        },
+        {
+          "source": "p2",
+          "text": "These were then presented and argued for to the other groups. The total pool of the groups’ statements was then discussed and negotiated in plenum, leading to those that were similar or overlapping being merged, while those that were disputed by others were discussed and negotiated in depth."
+        },
+        {
+          "source": "p2",
+          "text": "The guiding principle for final inclusion or exclusion of disputed statements was that all participants did not have to find it ideal or be in 100% agreement, but all panelists had to find the statement acceptable for a specific statement to be included."
+        },
+        {
+          "source": "p2",
+          "text": "The consensus process and the resulting statements were based on the premise that children and young people's wellbeing depends on structural conditions and resources and is developed in interaction with their environment."
+        },
+        {
+          "source": "p2",
+          "text": "This system approach to wellbeing in youth sport and how it can be promoted was developed through formulating and discussing statements related to wellbeing for children and adolescents, while considering also the significance of their sports environments, community factors, and policy (recommendations) in line with the socioecological model."
+        },
+        {
+          "source": "p2",
+          "text": "The following four questions were identified: (1) What characterizes wellbeing in sport for children and adolescents? (2) What characterizes sport environments that promote children and adolescents’ wellbeing? (3) Which factors are important to consider in efforts to develop wellbeing-promoting youth sport environments? (4) How can wellbeing in youth sport be promoted?"
+        },
+        {
+          "source": "p2",
+          "text": "All consensus conference participants were involved in answering and agreeing on an answer to the questions, drawing on their own research, prior readings, experiences from practice, and a (yet unpublished) literature review that was made by external consultants to support this specific purpose."
+        },
+        {
+          "source": "p2",
+          "text": "While answers to the first two questions are based on the literature, the last two questions were answered through a more analytical process. This involved first identifying aspects of the surrounding socio-cultural community that affect local youth sport environments and then describing important concrete actions based on all the agreed statements."
+        }
+      ]
+    },
+    "time": 82.66401410102844
+  },
+  {
+    "pdf": "1756711019517_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "The use of high-efficacy disease-modifying therapies in multiple sclerosis: recommendations from an expert Delphi consensus",
+        "authors": "Massimo Filippi, Maria Pia Amato, Diego Centonze, Paolo Gallo, Claudio Gasperini, Matilde Inglese, Francesco Patti, Carlo Pozzilli, Paolo Preziosa, Maria Trojano",
+        "organization": "Not Found",
+        "publish_date": "2025-09-03",
+        "year": "2025",
+        "doi": "10.1007/s00415-025-13293-9",
+        "document_type": "Original Communication",
+        "sources": [
+          "p1-p3"
+        ]
+      },
+      "scope": {
+        "objective": "To establish recommendations based on an expert consensus on the early and appropriate use of high-efficacy disease-modifying therapies (HE-DMTs) in the management of multiple sclerosis (MS) patients, based on current clinical evidence and real-world practice in Italy.",
+        "methods": "A Delphi panel comprising 65 neurologists from 54 Italian MS centers engaged in a two-round consensus process. Experts rated 43 statements across five domains: therapeutic goals, definitions of HE-DMT, MS patient profiling, and use of HE-DMT at diagnosis and later in MS course, using a 5-point Likert scale. A statement reached strong consensus if ≥80% of panelists agreed; whereas between 70% and 80% it was considered as moderate.",
+        "results": "In Round 2, 53 experts completed the survey on 43 statements. Strong consensus was achieved for 33 (76.7%), and moderate consensus for 6 (14.0%) statements. Experts strongly supported early HE-DMT initiation to prevent irreversible disability, endorsed a multidimensional definitions of treatment efficacy, and recommended personalized approaches based on clinical, radiological, and biomarker indicators. Consensus supported initiating HE-DMTs in patients with poor prognostic features and identified magnetic resonance imaging (MRI) activity, neurodegeneration markers, and suboptimal clinical response as specific factors requiring escalation to HE-DMTs.",
+        "conclusion": "This Italian Delphi underscores the importance of early, personalized HE-DMT use to optimize long-term outcomes in MS. The strong expert alignment reflects a paradigm shift toward proactive treatment and highlights actionable clinical, radiological, and biological indicators that should guide therapeutic decisions. These findings may support national policy changes and promote more equitable and evidence-based access to HE-DMTs across healthcare systems."
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Early initiation of an HE-DMT could be associated with a better risk/benefit ratio vs an escalation approach, which is often associated with a lack of disease control.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Experts strongly supported early HE-DMT initiation to prevent irreversible disability.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Experts endorsed a multidimensional definition of treatment efficacy.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Experts recommended personalized approaches based on clinical, radiological, and biomarker indicators.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "Consensus supported initiating HE-DMTs in patients with poor prognostic features.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "MRI activity, neurodegeneration markers, and suboptimal clinical response were identified as specific factors requiring escalation to HE-DMTs.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p3"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "HE-DMTs consistently outperform ME-DMTs in reducing relapse rates, delaying disability progression, and limiting CNS damage accumulation in terms of focal lesions and irreversible tissue loss.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Growing evidence now supports the early use of HE-DMTs to mitigate inflammatory and neurodegenerative processes, preserve neurological function, and improve long-term prognosis, challenging the escalation approach.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Despite emerging evidence, key questions remain regarding patient selection, risk stratification, and the long-term safety, underscoring the need for expert consensus and guidance to support clinical practice.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 32.900667905807495
+  }
+]

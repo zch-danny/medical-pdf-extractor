@@ -1,0 +1,3506 @@
+[
+  {
+    "pdf": "1756453705743_8248372.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Opioid Prescribing for Acute Pain Management in Children and Adolescents in Outpatient Settings: Clinical Practice Guideline",
+        "authors": "Scott E. Hadland, MD, MPH, MS, FAAP, Rita Agarwal, MD, FAAP, FASA, Sudha R. Raman, PhD, Michael J. Smith, MD, MSCE, Amy Bryl, MD, FAAP, Jeremy Michel, MD, MHS, FAAP, Lorraine I. Kelley-Quon, MD, MSHS, FACS, FAAP, Mehul V. Raval, MD, MS, FAAP, Madeline H. Renny, MD, MS, FAAP, Beth Larson-Steckler, Scott Wexelblatt, MD, FAAP, Robert T. Wilder, MD, PhD, FAAP, Susan K. Flinn, MA",
+        "organization": "American Academy of Pediatrics",
+        "publish_date": "November 2024",
+        "year": "2024",
+        "doi": "10.1542/peds.2024-068752",
+        "document_type": "Clinical Practice Guideline",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Children and adolescents in outpatient settings",
+        "condition": "Acute pain",
+        "intervention": "Opioid prescribing",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Clinicians should treat acute pain using a multimodal approach that includes the appropriate use of nonpharmacologic therapies, nonopioid medications, and, when needed, opioid medications.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Opioids should not be prescribed as monotherapy for children or adolescents who have acute pain.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "When using opioids for acute pain management, clinicians should prescribe immediate-release opioid formulations, start with the lowest age- and weight-appropriate doses, and provide an initial supply of 5 or fewer days, unless the pain is related to trauma or surgery with expected duration of pain longer than 5 days.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Clinicians should not prescribe codeine or tramadol for patients younger than 12 years; adolescents 12 to 18 years of age who have obesity, obstructive sleep apnea, or severe lung disease; to treat postsurgical pain after tonsillectomy or adenoidectomy in patients younger than 18 years; or for any breastfeeding patient.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "The CPG recommends providing opioids when appropriate for treating acutely worsened pain in children and adolescents who have a history of chronic pain; clinicians should partner with other opioid-prescribing clinicians involved in the patient’s care and/or a specialist in chronic pain or palliative care to determine an appropriate treatment plan.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "Caution should be used when treating acute pain in those who are taking sedating medications.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "The CPG describes potential harms of discontinuing or rapidly tapering opioids in individuals who have been on stable, long-term opioids to treat chronic pain.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "The guideline also recommends providing naloxone and information on naloxone, safe storage and disposal of opioids, and direct observation of medication administration.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "Clinicians are encouraged to help caregivers develop a plan for safe disposal.",
+          "strength": "Strongly Recommended",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "E1",
+          "text": "The CPG contains 12 key action statements based on evidence from randomized controlled trials, high-quality observational studies, and, when studies are lacking or could not feasibly or ethically be conducted, from expert opinion.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E2",
+          "text": "The guideline also recommends providing naloxone and information on naloxone, safe storage and disposal of opioids, and direct observation of medication administration.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E3",
+          "text": "The CPG describes potential harms of discontinuing or rapidly tapering opioids in individuals who have been on stable, long-term opioids to treat chronic pain.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 39.755555868148804,
+    "stats": {
+      "total_pages": 27,
+      "selected_pages": 27,
+      "doc_size": "medium"
+    }
+  },
+  {
+    "pdf": "1756453713224_1608702.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 Focused Update of the 2019 ESC/EAS Guidelines for the management of dyslipidaemias",
+        "authors": "François Mach, Konstantinos C. Koskinas, Jeanine E. Roeters van Lennep, Lale Tokgözoğlu, Lina Badimon, Colin Baigent, Marianne Benn, Christoph J. Binder, Alberico L. Catapano, Guy G. De Backer, Victoria Delgado, Natalia Fabin, Brian A. Ference, Ian M. Graham, Ulf Landmesser, Ulrich Laufs, Borislava Mihaylova, Børge Grønne Nordestgaard, Dimitrios J. Richter, Marc S. Sabatine, and ESC/EAS Scientific Document Group",
+        "organization": "European Society of Cardiology (ESC) and the European Atherosclerosis Society (EAS)",
+        "publish_date": "3 September 2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "scope": "The guidelines provide updated recommendations for the management of dyslipidaemias, including assessment of the risk–benefit ratio. Recommendations are based on major randomized trials and relevant systematic reviews and meta-analyses. Systematic literature searches are conducted in cases of controversy or uncertainty to ensure all key studies are considered. For recommendations related to diagnosis and prognosis, additional types of evidence such as diagnostic accuracy studies and studies focused on the development and validation of prognostic models are included. The strength of each recommendation and the level of evidence supporting it are weighed and scored according to predefined criteria as outlined in Tables 1 and 2. Patient-Reported Outcome Measures (PROMs) and Patient-Reported Experience Measures (PREMs) are also evaluated when available as the basis for recommendations and/or discussion in these Guidelines. Evidence tables summarizing key information from relevant studies are generated to facilitate the formulation of recommendations, enhance comprehension of recommendations after publication, and reinforce transparency in the Guidelines development process."
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Recommendations are based on major randomized trials and relevant systematic reviews and meta-analyses, when available. Systematic literature searches are conducted in cases of controversy or uncertainty to ensure that all key studies were considered. For recommendations related to diagnosis and prognosis, additional types of evidence are included, such as diagnostic accuracy studies and studies focused on the development and validation of prognostic models.",
+          "strength": "Class I",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "The strength of each recommendation and the level of evidence supporting it are weighed and scored according to predefined criteria as outlined in Tables 1 and 2.",
+          "strength": "Class I",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Patient-Reported Outcome Measures (PROMs) and Patient-Reported Experience Measures (PREMs) are also evaluated when available as the basis for recommendations and/or discussion in these Guidelines.",
+          "strength": "Class I",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Evidence tables summarizing key information from relevant studies are generated to facilitate the formulation of recommendations, to enhance comprehension of recommendations after publication, and to reinforce transparency in the Guidelines development process.",
+          "strength": "Class I",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "After an iterative process of deliberations, a first Task Force vote on all recommendations is conducted prior to the initiation of rounds of review. A second Task Force vote on all recommendations is conducted after the final round of review and revision. For each vote, the Task Force follows ESC voting procedures.",
+          "strength": "Class I",
+          "sources": [
+            "p4"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "1",
+          "text": "Karwatowska-Prokopczuk E, Prohaska TA, Li L, Geary RS, Gouni-Berthold I, et al. Volanesorsen to prevent acute pancreatitis in hypertriglyceridemia. N Engl J Med 2024;390:476–7. https://doi.org/10.1056/NEJMc2306575",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "2",
+          "text": "Bergmark BA, Marston NA, Prohaska TA, Alexander VJ, Zimerman A, Moura FA, et al. Olezarsen for hypertriglyceridemia in patients at high cardiovascular risk. N Engl J Med 2024;390:1770–80. https://doi.org/10.1056/NEJMoa2402309",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "3",
+          "text": "Stroes ESG, Alexander VJ, Karwatowska-Prokopczuk E, Hegele RA, Arca M, Ballantyne CM, et al. Olezarsen, acute pancreatitis, and Familial Chylomicronemia syndrome. N Engl J Med 2024;390:1781–92. https://doi.org/10.1056/NEJMoa2400201",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "4",
+          "text": "Watts GF, Rosenson RS, Hegele RA, Goldberg IJ, Gallo A, Mertens A, et al. Plozasiran for managing persistent chylomicronemia and pancreatitis risk. N Engl J Med 2025;392:127–37. https://doi.org/10.1056/NEJMoa2409368",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "5",
+          "text": "Ballantyne CM, Vasas S, Azizad M, Clifton P, Rosenson RS, Chang T, et al. Plozasiran, an RNA interference agent targeting APOC3, for mixed hyperlipidemia. N Engl J Med 2024;391:899–912. https://doi.org/10.1056/NEJMoa2404143",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "6",
+          "text": "Shah ASV, Stelzle D, Lee KK, Beck EJ, Alam S, Clifford S, et al. Global burden of atherosclerotic cardiovascular disease in people living with HIV: systematic review and meta-analysis. Circulation 2018;138:1100–12. https://doi.org/10.1161/CIRCULATIONAHA.117.033369",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "7",
+          "text": "Ntsekhe M, Baker JV. Cardiovascular disease among persons living with HIV: new insights into pathogenesis and clinical manifestations in a global context. Circulation 2023;147:83–100. https://doi.org/10.1161/CIRCULATIONAHA.122.057443",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "8",
+          "text": "Triant VA, Perez J, Regan S, Massaro JM, Meigs JB, Grinspoon SK, et al. Cardiovascular risk prediction functions underestimate risk in HIV infection. Circulation 2018;137:2203–14. https://doi.org/10.1161/CIRCULATIONAHA.117.028975",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "9",
+          "text": "Kentoffio K, Temu TM, Shakil SS, Zanni MV, Longenecker CT. Cardiovascular disease risk in women living with HIV. Curr Opin HIV AIDS 2022;17:270–8. https://doi.org/10.1097/COH.0000000000000756",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "10",
+          "text": "University of Liverpool. HIV Drug Interactions. https://www.hiv-druginteractions.org/ (27 July 2024, date last accessed).",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "11",
+          "text": "Negredo E, Molto J, Puig J, Cinquegrana D, Bonjoch A, Perez-Alvarez N, et al. Ezetimibe, a promising lipid-lowering agent for the treatment of dyslipidaemia in HIV-infected patients with poor response to statins. AIDS 2006;20:2159–64. https://doi.org/10.1097/01.aids.0000247573.95880.db",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "12",
+          "text": "Chow D, Chen H, Glesby MJ, Busti A, Souza S, Andersen J, et al. Short-term ezetimibe is well tolerated and effective in combination with statin therapy to treat elevated LDL cholesterol in HIV-infected patients. AIDS 2009;23:2133–41. https://doi.org/10.1097/QAD.0b013e32833068e3",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "13",
+          "text": "Saeedi R, Johns K, Frohlich J, Bennett MT, Bondy G. Lipid lowering efficacy and safety of ezetimibe combined with rosuvastatin compared with titrating rosuvastatin monotherapy in HIV-positive patients. Lipids Health Dis 2015;14:57. https://doi.org/10.1186/s12944-015-0054-x",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "14",
+          "text": "Boccara F, Kumar PN, Caramelli B, Calmy A, Lopez JAG, Bray S, et al. Evolocumab in HIV-infected patients with dyslipidemia: primary results of the randomized, double-blind BEIJERINCK study. J Am Coll Cardiol 2020;75:2570–84. https://doi.org/10.1016/j.jacc.2020.03.025",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "15",
+          "text": "Hequet O, Le QH, Moullet I, Pauli E, Salles G, Espinouse D, et al. Subclinical late cardiomyopathy after doxorubicin therapy for lymphoma in adults. J Clin Oncol 2004;22:1864–71. https://doi.org/10.1200/JCO.2004.06.033",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "16",
+          "text": "Nabati M, Janbabai G, Esmailian J, Yazdani J. Effect of rosuvastatin in preventing chemotherapy-induced cardiotoxicity in women with breast cancer: a randomized, single-blind, placebo-controlled trial. J Cardiovasc Pharmacol Ther 2019;24:233–41. https://doi.org/10.1177/1074248418821721",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "17",
+          "text": "Hundley WG, D’Agostino R Jr, Crotts T, Craver K, Hackney MH, Jordan JH, et al. Statins and left ventricular ejection fraction following doxorubicin treatment. NEJM Evid 2022;1:10. https://doi.org/10.1056/EVIDoa2200097",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "18",
+          "text": "Thavendiranathan P, Houbois C, Marwick TH, Kei T, Saha S, Runeckles K, et al. Statins to prevent early cardiac dysfunction in cancer patients at increased cardiotoxicity risk receiving anthracyclines. Eur Heart J Cardiovasc Pharmacother 2023;9:515–25. https://doi.org/10.1093/ehjcvp/pvad031",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "19",
+          "text": "Lyon AR, López-Fernández T, Couch LS, Asteggiano R, Aznar MC, Bergler-Klein J, et al. 2022 ESC Guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS). Eur Heart J 2022;43:4229–361. https://doi.org/10.1093/eurheartj/ehac244",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "20",
+          "text": "D’Amario D, Laborante R, Bianchini E, Galli M, Ciliberti G, Mennuni M, et al. Statins as preventive therapy for anthracycline cardiotoxicity: a meta-analysis of randomized controlled trials. Int J Cardiol 2023;391:131219. https://doi.org/10.1016/j.ijcard.2023.131219",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "21",
+          "text": "Felix N, Nogueira PC, Silva IM, Costa TA, Campello CA, Stecca C, et al. Cardio-protective effects of statins in patients undergoing anthracycline-based chemotherapy: an updated meta-analysis of randomized controlled trials. Eur J Intern Med 2024;126:43–8. https://doi.org/10.1016/j.ejim.2024.04.007",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "22",
+          "text": "Demonty I, Ras RT, van der Knaap HC, Duchateau GS, Meijer L, Zock PL, et al. Continuous dose-response relationship of the LDL-cholesterol-lowering effect of phytosterol intake. J Nutr 2009;139:271–84. https://doi.org/10.3945/jn.108.095125",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "23",
+          "text": "The European Commission. Commission Regulation (EU) 2022/860 of 1 June 2022 Amending Annex III to Regulation (EC) No 1925/2006 of the European Parliament and of the Council as Regards Monacolins From Red Yeast Rice. https://eur-lex.europa.eu/eli/reg/2022/860/oj (17 August 2024, date last accessed).",
+          "sources": [
+            "p5"
+          ]
+        }
+      ]
+    },
+    "time": 157.23724222183228,
+    "stats": {
+      "total_pages": 20,
+      "selected_pages": 17,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756453814456_1608702.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 ESC/EACTS Guidelines for the management of valvular heart disease",
+        "authors": "Fabien Praz, Michael A. Borger, Jonas Lanz, Mateo Marin-Cuartas, Ana Abreu, Marianna Adamo, Nina Ajmone Marsan, Fabio Barili, Nikolaos Bonaros, Bernard Cosyns, Ruggero De Paulis, Habib Gamra, Marjan Jahangiri, Anders Jeppsson, Robert J.M. Klautz, Benoit Mores, Esther Pérez-David, Janine Pöss, Bernard D. Prendergast, Bianca Rocca, Xavier Rossello, Mikio Suzuki, Holger Thiele, Christophe Michel Tribouilloy, Wojtek Wojakowski",
+        "organization": "European Society of Cardiology (ESC) and European Association for Cardio-Thoracic Surgery (EACTS)",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "condition": "Valvular heart disease",
+        "target_population": "Patients with valvular heart disease",
+        "interventions": "Management strategies including surgical and transcatheter interventions",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Transcatheter aortic valve replacement (TAVR) is recommended for patients with severe aortic stenosis who are at high surgical risk.",
+          "strength": "Class I",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Surgical aortic valve replacement (SAVR) is recommended for patients with severe aortic stenosis who are at low or intermediate surgical risk.",
+          "strength": "Class I",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "For patients with severe aortic stenosis and a high surgical risk, TAVR with a self-expanding valve is preferred over balloon aortic valvuloplasty.",
+          "strength": "Class I",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "In patients with severe aortic stenosis and intermediate surgical risk, TAVR is an alternative to SAVR, depending on patient-specific factors.",
+          "strength": "Class IIa",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "The choice between TAVR and SAVR should be based on patient characteristics, including comorbidities, life expectancy, and the availability of experienced surgical teams.",
+          "strength": "Class IIa",
+          "sources": [
+            "p5"
+          ]
+        }
+      ],
+      "key_evidence": [
+        "Long-term clinical and echocardiographic outcomes following the Ross procedure show favorable results in selected patients.",
+        "Transcatheter aortic valve replacement (TAVR) has been shown to be non-inferior to surgical aortic valve replacement (SAVR) in high-risk patients.",
+        "The 5-year outcomes of TAVR and SAVR in high-risk patients demonstrate comparable survival rates.",
+        "TAVR with a self-expanding valve is associated with lower rates of paravalvular regurgitation compared to balloon aortic valvuloplasty.",
+        "The risk of bias in randomized clinical trials comparing TAVR and SAVR is generally low, supporting the reliability of the findings."
+      ]
+    },
+    "time": 31.463152647018433,
+    "stats": {
+      "total_pages": 102,
+      "selected_pages": 50,
+      "doc_size": "long"
+    }
+  },
+  {
+    "pdf": "1756453891288_1608702.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 ESC Guidelines for the management of cardiovascular disease and pregnancy",
+        "authors": "Julie De Backer, Kristina H. Haugaa, Nina Eide Hasselberg, Michèle de Hosson, Margarita Brida, Silvia Castelletti, Matthew Cauldwell, Elisabetta Cerbai, Lia Crotti, Natasja M.S. de Groot, Mette-Elise Estensen, Eva S. Goossens, Bernhard Haring, Donata Kurpas, Carmel M. McEniery, Sanne A.E. Peters, Amina Rakisheva, Antonia Sambola, Oliver Schlager, Florian S. Schoenhoff, Tommaso Simoncini, Françoise Steinbach, Isabella Sudano, Lorna Swan, Anne Marie Valente",
+        "organization": "European Society of Cardiology (ESC)",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Clinical Practice Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "topic": "Management of cardiovascular disease and pregnancy",
+        "target_population": "Women with cardiovascular disease during pregnancy and postpartum",
+        "geographic_coverage": "European region",
+        "clinical_setting": "Cardiology and obstetrics",
+        "sources": [
+          "p1",
+          "p6",
+          "p107"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Cardiovascular disease (CVD) during pregnancy requires a multidisciplinary approach involving cardiologists, obstetricians, and other specialists to ensure optimal maternal and fetal outcomes.",
+          "strength": "Class I",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Women with pre-existing cardiovascular conditions should undergo a comprehensive preconception evaluation to assess risk and optimize medical management before pregnancy.",
+          "strength": "Class I",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Anticoagulation therapy during pregnancy should be carefully selected based on the risk of thromboembolism and the safety profile of the drug for the fetus.",
+          "strength": "Class IIa",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Breastfeeding is associated with a reduced risk of maternal cardiovascular disease and metabolic syndrome, and should be encouraged when medically safe.",
+          "strength": "Class IIa",
+          "sources": [
+            "p107"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "Women with a history of gestational diabetes or hypertensive disorders of pregnancy should be monitored for long-term cardiovascular risk and provided with lifestyle and medical interventions to reduce future risk.",
+          "strength": "Class IIa",
+          "sources": [
+            "p107"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "Women with preterm birth have evidence of subclinical atherosclerosis a decade after delivery.",
+          "source": "p107"
+        },
+        {
+          "text": "Breastfeeding is associated with a reduced maternal cardiovascular risk, with a meta-analysis of 8 studies involving 1,192,700 parous women.",
+          "source": "p107"
+        },
+        {
+          "text": "Lactation is associated with a reduced risk of type 2 diabetes mellitus after gestational diabetes mellitus.",
+          "source": "p107"
+        },
+        {
+          "text": "Long-term blood pressure control after hypertensive pregnancy can be achieved through physician-optimized self-management.",
+          "source": "p107"
+        },
+        {
+          "text": "Cardiovascular disease prevention in clinical practice should be guided by the 2021 ESC Guidelines.",
+          "source": "p107"
+        }
+      ]
+    },
+    "time": 32.35108280181885,
+    "stats": {
+      "total_pages": 107,
+      "selected_pages": 50,
+      "doc_size": "long"
+    }
+  },
+  {
+    "pdf": "1756453929400_8248372.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Patent Ductus Arteriosus in Preterm Infants",
+        "authors": "Namasivayam Ambalavanan, MD, Susan W. Aucott, MD, Arash Salavitabar, MD, Victor Y. Levy, MD",
+        "organization": "American Academy of Pediatrics",
+        "publish_date": "May 2025",
+        "year": "2025",
+        "doi": "https://doi.org/10.1542/peds.2025-071425",
+        "document_type": "Clinical Report",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "condition": "Patent Ductus Arteriosus (PDA) in preterm infants",
+        "target_population": "Preterm infants",
+        "intervention": "Medical, pharmacologic, transcatheter, and surgical closure of PDA",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Medical closure of a PDA using ibuprofen or acetaminophen is an option for a hemodynamically significant PDA (hsPDA).",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Recent data from multiple clinical trials indicate the lack of benefits of prophylactic or early (<2 weeks of age) medical closure of PDA as compared with expectant management, and they are, therefore, not recommended.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "There are insufficient data to support firm recommendations on management of infants with an hsPDA beyond 2 weeks of age as relative benefits and risks of expectant management with close monitoring, attempted pharmacologic closure, or procedural (transcatheter/surgical) closure have not been adequately defined.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Many clinicians attempt medical closure of an hsPDA beyond 2 weeks of age.",
+          "strength": "Observation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "If the hsPDA persists despite medical therapy (or if medical therapy is contraindicated), such infants may be considered for either transcatheter closure or surgical ligation.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "In recent years, surgical closure of the PDA has become less frequent, and transcatheter closure is more common in many centers.",
+          "strength": "Observation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "Although there are known adverse effects of an hsPDA, there is a lack of evidence to guide management, necessitating equipoise regarding treatment options and timing and a need for trials that can expand the available body of evidence, especially regarding long-term cardiopulmonary and neurodevelopmental outcomes.",
+          "strength": "Recommendation",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "2.1",
+          "text": "Delayed closure of the PDA is common in preterm infants, particularly at more extreme immaturity.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.2",
+          "text": "Echocardiography is essential for confirming the presence of a PDA and assessing hemodynamic significance.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.3",
+          "text": "Spontaneous closure is likely in infants born at >28 weeks’ gestation (73%), in those with birth weight >1000 g (94%), and in the few infants born at 26 to 29 weeks’ gestation who do not have respiratory distress syndrome (RDS; 93%).",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.4",
+          "text": "In the PDA-TOLERATE study, 40% of infants born at less than 28 weeks’ gestation had no PDA or minimal respiratory impact from their PDA in the first 2 weeks of life.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.5",
+          "text": "Rates of later spontaneous ductal closure among smaller, less mature infants with RDS from placebo arms of controlled trials demonstrate that spontaneous ductal closure in these infants is quite frequent.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.6",
+          "text": "There are known adverse effects of an hsPDA, but there is a lack of evidence to guide management.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.7",
+          "text": "There is a need for trials that can expand the available body of evidence, especially regarding long-term cardiopulmonary and neurodevelopmental outcomes.",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 39.87231993675232,
+    "stats": {
+      "total_pages": 14,
+      "selected_pages": 14,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756460577061_8106296.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "authors": "Christopher Massey, Usman Latif, Timothy R Deer, Hemant Kalia, Maged Guirguis, Mark C Bicket, Nasir Khatri, Reda Tolba, Krishnan Chakravarthy, Ryan Budwany, David W Lee, Ankur A Patel, Alexandra M Moreira, Daniel A Jimenez, Raj G Patel, Iden Cowan, Sandy Christiansen, Derron Wilson, Kenneth B Chapman, Chau Vu, Suzanne Manzi, Sara Nashi, Muhammad Waheed, Anuj Shah, Morad Nasseri, Patrick Buchanan, Nomen Azeem, Erika A Petersen, Michael E Schatman, Alaa Abd-Elsayed, Dawood Sayed",
+        "organization": "American Society of Pain and Neuroscience (ASPN)",
+        "publish_date": "20 August 2025",
+        "year": "2025",
+        "doi": "https://doi.org/10.2147/JPR.S529465",
+        "document_type": "Guidelines",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "topic": "Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "target_population": "Pain clinicians and healthcare professionals involved in interventional spine and nerve treatment",
+        "intended_use": "To help clinicians understand AI and implement it into their practice, and to evolve with the changing landscape of AI"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "The ASPN Artificial Intelligence Guidelines are designed to help clinicians understand AI and implement it into their practice. This Neuron Project is designed to evolve with the changing landscape of AI.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "An expert panel was chosen to discuss and write the best practice guidelines on AI. The primary authors conducted a literature search on PubMed, cross-referencing key terms in pain management and AI.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "After a thorough review of the current literature, the information collected was divided into broad categories of potential benefits, potential harms, and ways to ensure the benefits outweigh the potential harms of AI.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "These guidelines include only the most essential aspects of AI that clinicians need to know and understand before implementing AI into their practice.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "All authors achieved consensus on guidelines for implementing and using AI in pain management following a process of critical review and edits by the entire group of authors.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "All authors approved final guidelines.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "The field of artificial intelligence is rapidly growing. As it expands into healthcare, it is necessary to prevent breaches of sensitive data and potential harm to patients.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "Guidelines that constantly evolve and grow with expanding indications for AI are essential to maximize benefit and prevent harm.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "This paper is part of ASPN’s Neuron Project and is designed to update continuously as this field evolves.",
+          "strength": "Expert opinion",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "E1",
+          "text": "Over 12,000 articles were found using the above search results. Many articles were reviews and clinical guidelines.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "E2",
+          "text": "The framework created from these guidelines allowed authors to fill in knowledge gaps and discuss the most critical elements pain clinicians should comprehend about AI.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "E3",
+          "text": "The phrase Artificial Intelligence (AI) originated in 1956 at the Dartmouth Summer Research Project Artificial Intelligence conference, where pioneers Allen Newell, Cliff Shaw, and Herbert Simon introduced Logic Theorist, which is thought to be the first AI program.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E4",
+          "text": "AI research faced severe setbacks in the late 1970s into the early 1990s, known as the 'AI Winter'.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "E5",
+          "text": "The field of artificial intelligence is rapidly growing. As it expands into healthcare, it is necessary to prevent breaches of sensitive data and potential harm to patients.",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 40.46828508377075,
+    "stats": {
+      "total_pages": 25,
+      "selected_pages": 25,
+      "doc_size": "medium"
+    }
+  },
+  {
+    "pdf": "1756460835542_8106296.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "2025 ESC Clinical Consensus Statement on mental health and cardiovascular disease",
+        "authors": "Héctor Bueno, Christi Deaton, Marta Farrero, Faye Forsyth, Frieder Braunschweig, Sergio Buccheri, Simona Dragan, Sofie Gevaert, Claes Held, Donata Kurpas, Karl-Heinz Ladwig, Christos D. Lionis, Angela H.E.M. Maas, Caius Ovidiu Merșa, Richard Mindham, Susanne S. Pedersen, Martina Rojnic Kuzman, Sebastian Szmit, Rod S. Taylor, Izabella Uchmanowicz, Noa Vilchinsky",
+        "organization": "European Society of Cardiology (ESC)",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Clinical Consensus Statement",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "topic": "Mental health and cardiovascular disease",
+        "target_population": "Patients with cardiovascular disease and mental health conditions",
+        "geographic_scope": "European Union and associated countries",
+        "clinical_scope": "Prevention, diagnosis, treatment, and management of mental health issues in patients with cardiovascular disease"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Mental health should be routinely assessed in patients with cardiovascular disease, as it significantly impacts prognosis and treatment outcomes.",
+          "strength": "Strong recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Integrated care models that combine cardiovascular and mental health services are recommended to improve patient outcomes.",
+          "strength": "Strong recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Psychosocial interventions, including cognitive-behavioral therapy and stress management, should be considered as part of the treatment plan for patients with cardiovascular disease and comorbid mental health conditions.",
+          "strength": "Strong recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Pharmacological treatment of mental health conditions should be carefully managed in patients with cardiovascular disease, with attention to drug interactions and side effects.",
+          "strength": "Strong recommendation",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "Healthcare professionals should be trained in recognizing and managing mental health issues in patients with cardiovascular disease.",
+          "strength": "Strong recommendation",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "source": "p1",
+          "description": "Mental health conditions are associated with increased risk of cardiovascular disease and poorer outcomes in patients with existing cardiovascular disease."
+        },
+        {
+          "source": "p1",
+          "description": "Integrated care models improve patient outcomes by addressing both cardiovascular and mental health needs simultaneously."
+        },
+        {
+          "source": "p1",
+          "description": "Psychosocial interventions have been shown to reduce symptoms of depression and anxiety in patients with cardiovascular disease."
+        },
+        {
+          "source": "p1",
+          "description": "Pharmacological treatment of mental health conditions in patients with cardiovascular disease requires careful monitoring due to potential drug interactions."
+        },
+        {
+          "source": "p1",
+          "description": "Training healthcare professionals in mental health care improves the detection and management of mental health issues in patients with cardiovascular disease."
+        }
+      ]
+    },
+    "time": 29.004807233810425,
+    "stats": {
+      "total_pages": 70,
+      "selected_pages": 50,
+      "doc_size": "long"
+    }
+  },
+  {
+    "pdf": "1756469724872_8106296.pdf",
+    "success": true,
+    "doc_type": "REVIEW",
+    "result": {
+      "doc_metadata": {
+        "title": "Fleischner学会胸部影像学术语汇编(2024版)更新解读",
+        "authors": "冯靖; 崔磊",
+        "organization": "南通市第一人民医院(南通大学第二附属医院)影像科; 东台市人民医院影像科",
+        "publish_date": "2025-08-01",
+        "year": "2025",
+        "doi": "10.13609/j.cnki.1000G0313.2025.08.017",
+        "document_type": "REVIEW",
+        "sources": [
+          "p1-p5"
+        ]
+      },
+      "scope": {
+        "subject": "胸部影像学",
+        "keywords": [
+          "胸部影像学",
+          "体层摄影术,X 线计算机",
+          "医学术语"
+        ],
+        "coverage": "Fleischner学会2024版胸部影像学术语汇编的更新内容、新增术语、重新分类排版、删减内容及术语汇编的局限性与展望"
+      },
+      "key_findings": [
+        {
+          "id": "F1",
+          "finding": "Fleischner学会在1984年发布了第一版《胸部放射学术语汇编》，奠定了术语标准化的基础。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F2",
+          "finding": "2024年，Fleischner学会联合多学科专家发布了第四版《胸部影像学术语汇编(2024)》，删减了一些过时词汇，新增和重新定义了一批术语，如环礁征。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F3",
+          "finding": "新版术语汇编根据术语的相关性对部分术语进行了重新分类，编排在同一主题词下，便于读者比较和理解。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F4",
+          "finding": "新版术语汇编不再细分病理学、X线胸片和CT影像上的定义，而是在每个术语旁注明是正常解剖、生理现象或异常发现。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F5",
+          "finding": "新增术语包括气道、石棉肺、吸入、环礁征、支气管软化症、囊性、栓塞/栓子、脓胸、纤维化、磨玻璃、肺间质异常、间质性肺疾病、不规则、分叶、淋巴结、黏液栓塞、气管旁线、肺炎、毛刺、气管/支气管软化症等。",
+          "sources": [
+            "p1-p3"
+          ]
+        },
+        {
+          "id": "F6",
+          "finding": "重新分类排版的内容包括解剖学分布、肺不张、支气管扩张、肺气肿、肺裂、模式、胸膜、小叶间隔等术语的分类和定义。",
+          "sources": [
+            "p3-p4"
+          ]
+        },
+        {
+          "id": "F7",
+          "finding": "删减的内容包括急性间质肺炎、串珠样间隔征、细支气管炎、大泡性肺气肿、脱屑性间质性肺炎、弥漫性肺泡损害、折叠肺、特发性肺纤维化、浸润、淋巴样间质性肺炎、非特异性间质性肺炎、盘状肺不张、进行性大块肺纤维化、假空洞、假胸膜斑、呼吸细支气管间质性肺病、寻常性间质性肺炎等。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "F8",
+          "finding": "Fleischner学会2024版术语汇编的局限性包括：仅针对X线胸片和CT检查，未涵盖PET检查相关的命名法；术语定义不完全详尽；部分放射学术语与临床诊断标准相关性不强。",
+          "sources": [
+            "p5"
+          ]
+        },
+        {
+          "id": "F9",
+          "finding": "Fleischner学会2024版术语汇编旨在促进多学科协作和交流，提高临床对疾病的管理水平，为远程医疗和精准诊疗提供支持。",
+          "sources": [
+            "p5"
+          ]
+        }
+      ],
+      "conclusions": [
+        "Fleischner学会2024版胸部影像学术语汇编通过新增术语、重新分类排版和删减过时内容，进一步提高了影像学术语的准确性和标准化。",
+        "术语汇编的局限性在于未涵盖PET检查相关的命名法，且部分术语与临床诊断标准相关性不强，需进一步完善。",
+        "术语汇编的发布有助于促进多学科协作和交流，为远程医疗和精准诊疗提供支持。"
+      ]
+    },
+    "time": 44.82871198654175,
+    "stats": {
+      "total_pages": 5,
+      "selected_pages": 5,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756694891048_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "基于临床需求的卵巢癌基因检测规范化选择中国专家共识（2025 年版）",
+        "authors": "邓雷，李芳梅，王煜宁，宋玉丽，于爱军，张颐，张师前",
+        "organization": "中国抗癌协会中西整合卵巢癌专业委员会",
+        "publish_date": "2025-09-01",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "专家共识",
+        "sources": [
+          "p1-p12"
+        ]
+      },
+      "scope": {
+        "target_population": "卵巢癌患者",
+        "clinical_applications": [
+          "卵巢癌基因检测的规范化选择",
+          "精准诊断",
+          "预后评估",
+          "治疗方案制定"
+        ],
+        "geographic_scope": "中国",
+        "clinical_setting": "不同等级医院的妇科医师、相关专科医师及其他医疗工作者"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "本共识供不同等级医院的妇科医师、相关专科医师及其他医疗工作者参考；目标人群为卵巢癌患者，指导卵巢癌基因检测的规范化选择，为患者提供更加精准、个体化的诊断、预测、预后评估及治疗方案，以期改善卵巢癌患者预后。",
+          "strength": "强推荐",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "无论患者是否有家族史，均建议所有新诊断的非黏液性上皮性卵巢癌（包括输卵管癌和原发性腹膜癌）患者接受BRCA1/2基因检测。",
+          "strength": "强推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "体细胞BRCA基因检测选择新鲜肿瘤组织或甲醛固定石蜡包埋标本作为检测样本；胚系BRCA基因检测则可采用血液、唾液等非侵入性样本。",
+          "strength": "强推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "同源重组修复缺陷（HRD）检测可为卵巢癌患者提供重要的预后信息，建议在临床实践中推广HRD检测。",
+          "strength": "强推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "对于携带胚系BRCA1/2突变（gBRCA1/2m）的卵巢癌患者，建议进行更积极的治疗方案选择，包括PARP抑制剂等靶向治疗。",
+          "strength": "强推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "对于携带体细胞BRCA1/2突变（sBRCA1/2m）的卵巢癌患者，建议结合患者具体情况选择个体化治疗方案。",
+          "strength": "强推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "对于卵巢癌患者，建议在治疗前进行基因检测以指导治疗方案的选择，特别是在铂类药物耐药或复发的情况下。",
+          "strength": "强推荐",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "对于携带NTRK基因融合的卵巢癌患者，建议使用靶向药物如Entrectinib进行治疗。",
+          "strength": "强推荐",
+          "sources": [
+            "p10"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "对于携带RET基因突变的卵巢癌患者，建议使用靶向药物如Selpercatinib进行治疗。",
+          "strength": "强推荐",
+          "sources": [
+            "p10"
+          ]
+        },
+        {
+          "id": "1.10",
+          "text": "对于携带BRAF V600E突变的卵巢癌患者，建议使用靶向药物如Dabrafenib和Trametinib进行治疗。",
+          "strength": "强推荐",
+          "sources": [
+            "p10"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "E1",
+          "text": "根据国际癌症研究署（IARC）发布的GLOBOCAN 2022数据，卵巢癌发病率位列女性癌症的第8位，在女性癌症死因中居第8位，卵巢癌的标准化发病率为6.6/10万，标准化死亡率为4.8/10万。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "E2",
+          "text": "调查数据显示，在临床实践中，96%的医生建议患者进行乳腺癌易感基因1/2（BRCA1/2）检测，但仅有75%的患者接受检测。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "E3",
+          "text": "超过70%的医生推荐患者进行同源重组修复缺陷（HRD）检测，但仅有30%的患者完成了HRD检测。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "E4",
+          "text": "BRCA基因突变与卵巢癌风险显著相关，13%～21%的高级别浆液性卵巢癌（HGSOC）患者携带胚系BRCA1/2突变（gBRCA1/2m），6%携带体细胞BRCA1/2突变（sBRCA1/2m）。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "E5",
+          "text": "同源重组修复（HRR）是DNA双链断裂（DSBs）的主要修复方式，HRD代表HRR通路功能障碍，表现形式包括核酸序列的插入或缺失、拷贝数异常以及染色体交联等。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "E6",
+          "text": "50%左右的卵巢癌患者可能存在HRD。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "E7",
+          "text": "BRCA1和BRCA2基因分别位于染色体17q21和13q12上，其编码的蛋白质通过修复DSBs在维持基因组稳定性中发挥关键作用。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "E8",
+          "text": "BRCA基因突变与卵巢癌风险显著相关，13%～21%的高级别浆液性卵巢癌（HGSOC）患者携带胚系BRCA1/2突变（gBRCA1/2m），6%携带体细胞BRCA1/2突变（sBRCA1/2m）。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "E9",
+          "text": "同源重组修复缺陷（HRD）检测可为卵巢癌患者提供重要的预后信息，建议在临床实践中推广HRD检测。",
+          "sources": [
+            "p4"
+          ]
+        },
+        {
+          "id": "E10",
+          "text": "对于携带NTRK基因融合的卵巢癌患者，建议使用靶向药物如Entrectinib进行治疗。",
+          "sources": [
+            "p10"
+          ]
+        },
+        {
+          "id": "E11",
+          "text": "对于携带RET基因突变的卵巢癌患者，建议使用靶向药物如Selpercatinib进行治疗。",
+          "sources": [
+            "p10"
+          ]
+        },
+        {
+          "id": "E12",
+          "text": "对于携带BRAF V600E突变的卵巢癌患者，建议使用靶向药物如Dabrafenib和Trametinib进行治疗。",
+          "sources": [
+            "p10"
+          ]
+        }
+      ]
+    },
+    "time": 66.1064133644104,
+    "stats": {
+      "total_pages": 13,
+      "selected_pages": 13,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756694954932_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "类风湿关节炎病证结合诊疗指南（2025年）",
+        "authors": "中华中医药学会《类风湿关节炎病证结合诊疗指南》项目组",
+        "organization": "中华中医药学会",
+        "publish_date": "2025年9月",
+        "year": "2025",
+        "doi": "10. 13288/j. 11-2166/r. 2025. 17. 018",
+        "document_type": "诊疗指南",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "description": "本指南适用于类风湿关节炎（ICD-11 编码：FA20）的诊断、辨证、治疗、疗效评价和健康管理，适合临床一线中医师、中西医结合医师、全科医师使用。",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "4.1",
+          "text": "推荐意见1：治疗以达到临床缓解或低疾病活动度，减少或延缓关节破坏及脏腑损害，提高患者生活质量，降低残疾为目标。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.2",
+          "text": "推荐意见2：基本病机为正虚邪实。正气不足，外感风寒湿热等病邪，化生痰瘀，痹阻筋骨关节甚或脏腑。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.3",
+          "text": "推荐意见3：中医治疗以扶正祛邪、三因制宜为基本原则。早期诊断、早期治疗、选择适宜的中医综合治疗方案或中西医联合方案是病情控制的关键。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.4",
+          "text": "推荐意见4：常见八个证候类型，分别是风湿痹阻证、寒湿痹阻证、湿热痹阻证、痰瘀痹阻证、瘀血阻络证、气血两虚证、肝肾不足证及气阴两虚证，各证型具备主症2项，或主症1项+次症2项，结合舌、脉即可诊断。临床除出现单一证候，也可出现两证或三证夹杂等复合证候。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.5",
+          "text": "推荐意见5：辨证准确是临床疗效的关键，诊断要点应抓住主症。在疾病的发生、发展过程中，患者在不同阶段可呈现不同证候，具有证候个体化、动态演变的特点。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.6",
+          "text": "推荐意见6：推荐选择有效古方及具有循证研究证据的现代方药进行辨病、辨证治疗，可根据患者实际情况选择确有疗效的中药加减，药物剂量可参考《中华人民共和国药典》。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4.7",
+          "text": "推荐意见7：风湿痹阻证治法：祛风除湿，通络止痛。推荐方药1：蠲痹汤（《医学心悟》）加减（证据级别：C，推荐强度：弱）。功效：祛风除湿，散寒通络。主要药物组成：羌活、独活、秦艽、当归、川芎、甘草，海风藤、桑枝、肉桂、乳香、木香。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.8",
+          "text": "推荐意见8：寒湿痹阻证治法：温经散寒，祛湿通络。推荐方药1：乌头汤（《金匮要略》）加减（证据级别：C，推荐强度：弱）。功效：温经散寒，除湿宣痹。主要药物组成：川乌、麻黄、白芍、黄芪、甘草。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.9",
+          "text": "推荐意见9：湿热痹阻证治法：清热除湿，活血通络。推荐方药1：宣痹汤（《温病条辨》）加减（证据级别：B，推荐强度：强）。功效：清热除湿，宣痹通络。主要药物组成：防己、薏苡仁、杏仁、滑石、连翘、栀子、半夏、蚕沙、赤小豆皮。",
+          "strength": "强",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.10",
+          "text": "推荐意见10：湿热痹阻证治法：清热除湿，活血通络。推荐方药2：当归拈痛汤（《医学启源》）加减（证据级别：B，推荐强度：强）。功效：利湿清热，疏风止痛。主要药物组成：羌活、防风、苍术、黄柏、牛膝、秦艽、当归、白芍、茯苓、甘草、白术。",
+          "strength": "强",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.11",
+          "text": "推荐意见11：痰瘀痹阻证治法：活血化瘀，祛痰通络。推荐方药：桃红四物汤加减（证据级别：C，推荐强度：弱）。功效：活血化瘀，祛痰通络。主要药物组成：桃仁、红花、当归、川芎、赤芍、生地黄。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.12",
+          "text": "推荐意见12：瘀血阻络证治法：活血化瘀，通络止痛。推荐方药：血府逐瘀汤加减（证据级别：C，推荐强度：弱）。功效：活血化瘀，通络止痛。主要药物组成：桃仁、红花、当归、川芎、赤芍、生地黄、牛膝、桔梗、柴胡、枳壳、甘草。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.13",
+          "text": "推荐意见13：气血两虚证治法：补气养血，益气活血。推荐方药：八珍汤加减（证据级别：C，推荐强度：弱）。功效：补气养血，益气活血。主要药物组成：人参、白术、茯苓、甘草、当归、川芎、白芍、熟地黄。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.14",
+          "text": "推荐意见14：肝肾不足证治法：补肝肾，强筋骨。推荐方药：六味地黄丸加减（证据级别：C，推荐强度：弱）。功效：补肝肾，强筋骨。主要药物组成：熟地黄、山茱萸、山药、泽泻、茯苓、牡丹皮、桂枝。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.15",
+          "text": "推荐意见15：气阴两虚证治法：益气养阴，通络止痛。推荐方药：生脉散加减（证据级别：C，推荐强度：弱）。功效：益气养阴，通络止痛。主要药物组成：人参、麦冬、五味子、黄芪、当归、川芎、白芍、甘草。",
+          "strength": "弱",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.16",
+          "text": "推荐意见16：推荐使用中药联合西药治疗，如甲氨喋呤、来氟米特、生物制剂等，以提高疗效，减少副作用。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.17",
+          "text": "推荐意见17：推荐使用中药制剂如雷公藤多苷、补肾祛寒治尪汤、益气养阴通络方等，以改善症状、延缓病情进展。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.18",
+          "text": "推荐意见18：推荐使用中药联合非药物疗法，如针灸、推拿、八段锦、太极等，以改善关节功能、缓解疼痛、提高生活质量。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "4.19",
+          "text": "推荐意见19：推荐使用中药联合健康教育、心理干预、生活方式调整等综合干预措施，以提高患者自我管理能力，改善预后。（共识意见）",
+          "strength": "共识意见",
+          "sources": [
+            "p3"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "1",
+          "text": "RA的治疗目标是使每位患者都达到持续缓解或低疾病活动度，即28个关节疾病活动度评分（DAS28）≤3.2或临床疾病活动度指数（CDAI）≤10或简化疾病活动指数（SDAI）≤11。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2",
+          "text": "RA的中医病机为正虚邪实，正气不足，外感风寒湿热等病邪，化生痰瘀，痹阻筋骨关节甚或脏腑。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "3",
+          "text": "RA的治疗原则为扶正祛邪、三因制宜，即因人、因时、因地制宜。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "4",
+          "text": "RA的常见证候类型包括风湿痹阻证、寒湿痹阻证、湿热痹阻证、痰瘀痹阻证、瘀血阻络证、气血两虚证、肝肾不足证及气阴两虚证。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "5",
+          "text": "RA的辨证应抓住主症，不同阶段可呈现不同证候，具有证候个体化、动态演变的特点。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "6",
+          "text": "推荐选择有效古方及具有循证研究证据的现代方药进行辨病、辨证治疗，可根据患者实际情况选择确有疗效的中药加减，药物剂量可参考《中华人民共和国药典》。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "7",
+          "text": "推荐使用中药联合西药治疗，如甲氨喋呤、来氟米特、生物制剂等，以提高疗效，减少副作用。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "8",
+          "text": "推荐使用中药制剂如雷公藤多苷、补肾祛寒治尪汤、益气养阴通络方等，以改善症状、延缓病情进展。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "9",
+          "text": "推荐使用中药联合非药物疗法，如针灸、推拿、八段锦、太极等，以改善关节功能、缓解疼痛、提高生活质量。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "10",
+          "text": "推荐使用中药联合健康教育、心理干预、生活方式调整等综合干预措施，以提高患者自我管理能力，改善预后。",
+          "sources": [
+            "p3"
+          ]
+        }
+      ]
+    },
+    "time": 108.59448099136353,
+    "stats": {
+      "total_pages": 15,
+      "selected_pages": 15,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756705897161_5579292.pdf",
+    "success": true,
+    "doc_type": "REVIEW",
+    "result": {
+      "doc_metadata": {
+        "title": "影像组学研究报告清单（CLEAR）解读",
+        "authors": "钟京谕; 星月; 胡扬帆; 丁德芳; 刘现伟; 代顺; 陆俊捷; 杨加锐; 褚敬申; 宋阳; 陆敏达; 张欢; 杨光; 姚伟武; CLEAR 工作组",
+        "organization": "中国循证医学杂志",
+        "publish_date": "2025-08-01",
+        "year": "2025",
+        "doi": "10.7507/1672-2531.202503173",
+        "document_type": "REVIEW",
+        "sources": [
+          "p1",
+          "p2",
+          "p3",
+          "p9",
+          "p11"
+        ]
+      },
+      "scope": {
+        "topic": "影像组学研究报告清单（CLEAR）的制定过程、内容解读及其在提升研究透明度中的作用",
+        "audience": "影像组学研究人员、医学期刊编辑、同行评审人员",
+        "purpose": "介绍CLEAR清单的条目内容，解读其应用意义，促进影像组学研究的透明度和可重复性"
+      },
+      "key_findings": [
+        {
+          "id": "F1",
+          "finding": "影像组学研究报告清单（CLEAR）是由CLEAR工作组制定的专家共识成果，共包含58项条目，旨在提高影像组学研究的报告透明度。",
+          "sources": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": "F2",
+          "finding": "CLEAR清单采用改良德尔菲法形成，经过两轮专家咨询和一轮专家共识会议后最终确定58项条目。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F3",
+          "finding": "CLEAR清单设计了两个版本：完整版（58项条目）和简短版（43项条目），分别适用于不同研究需求。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F4",
+          "finding": "CLEAR清单特别澄清了术语的使用，如“训练集”“验证集”“测试集”“病例”等，以确保术语的一致性和准确性。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F5",
+          "finding": "CLEAR清单条目报告具有三个可选项：“是”“否”和“不适用”，鼓励作者对“是”的条目标注页码和行号，对“否”或“不适用”的条目说明原因。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "F6",
+          "finding": "CLEAR清单条目48要求在正文中以表格形式展示影像组学模型与非影像组学模型或联合模型的比较结果，并提供不确定性评估方法和统计结果。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F7",
+          "finding": "CLEAR清单条目49要求总结研究并概述最重要的发现，无需提供相关统计结果，同时尝试将研究定位为概念验证评估、特定技术任务的评估、临床评估或部署后评估研究。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F8",
+          "finding": "CLEAR清单条目50要求介绍与当前研究最相关、最重要的前期研究，并指出当前研究与前期研究之间最明显的差别。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F9",
+          "finding": "CLEAR清单条目51要求总结研究结果的实际意义，描述其对领域的关键影响，并讨论研究成功转化为临床实践的潜在障碍。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F10",
+          "finding": "CLEAR清单条目52要求明确阐述当前工作的优势和局限性，并指出可能导致偏倚、不确定性、可重复性、稳健性和泛化性问题的潜在因素。",
+          "sources": [
+            "p3"
+          ]
+        },
+        {
+          "id": "F11",
+          "finding": "CLEAR清单条目53和54要求在符合监管限制的前提下共享原始图像数据、处理后的图像数据、分割数据、模型选定的影像组学特征数据以及临床变量或标签。",
+          "sources": [
+            "p3",
+            "p9"
+          ]
+        },
+        {
+          "id": "F12",
+          "finding": "CLEAR清单条目55和56要求共享预处理和特征提取的参数脚本或设置，以及建模的代码脚本，以便研究人员能够复现分析过程。",
+          "sources": [
+            "p3",
+            "p9"
+          ]
+        },
+        {
+          "id": "F13",
+          "finding": "CLEAR清单条目57要求共享最终模型以供内部或外部测试，并提供用于预处理输入数据的源代码。",
+          "sources": [
+            "p9"
+          ]
+        },
+        {
+          "id": "F14",
+          "finding": "CLEAR清单条目58要求基于模型创建并共享立即可用的工具，如独立可执行应用程序、笔记本、网页、虚拟机等，以便其他研究人员测试或验证该模型。",
+          "sources": [
+            "p9"
+          ]
+        },
+        {
+          "id": "F15",
+          "finding": "CLEAR清单强调开放科学的重要性，但目前大多数影像组学研究未能共享模型、代码或数据，导致其在技术上无法被其他研究人员复现。",
+          "sources": [
+            "p9"
+          ]
+        },
+        {
+          "id": "F16",
+          "finding": "CLEAR清单与其他报告清单（如RQS、METRICS、ARISE、CLAIM）相比，提供了更多特异性条目以适应影像组学研究的工作流程。",
+          "sources": [
+            "p3",
+            "p9"
+          ]
+        },
+        {
+          "id": "F17",
+          "finding": "CLEAR清单已被应用于影像组学研究报告、同行评议和质量评估过程中，但尚无期刊要求投稿时提供这一清单作为参考。",
+          "sources": [
+            "p9"
+          ]
+        },
+        {
+          "id": "F18",
+          "finding": "作者应在研究设计和文稿撰写时遵照CLEAR清单或指南的要求，并主动作为补充材料提交，以保障研究报告透明度。",
+          "sources": [
+            "p9"
+          ]
+        },
+        {
+          "id": "F19",
+          "finding": "期刊应考虑在其投稿指南、同行评议和编辑过程中引入影像组学相关清单或指南，从源头上规范影像组学研究的报告。",
+          "sources": [
+            "p9"
+          ]
+        },
+        {
+          "id": "F20",
+          "finding": "CLEAR清单的推出为影像组学研究的报告透明度提升提供了有力抓手，为后续的影像组学研究质量评估提供了可能。",
+          "sources": [
+            "p9"
+          ]
+        }
+      ],
+      "conclusions": [
+        "CLEAR清单的制定和应用有助于提升影像组学研究的透明度和可重复性。",
+        "CLEAR清单提供了专门针对影像组学研究的报告规范，有助于促进其在临床实践中的应用。",
+        "开放科学是改善影像组学研究可重复性的关键，但目前仍需进一步推广和落实。",
+        "建议研究人员、期刊和编辑在影像组学研究的报告、评审和编辑过程中积极采用CLEAR清单，以提升研究质量。",
+        "CLEAR清单的推广和应用将有助于推动影像组学研究向临床实践的转化。"
+      ]
+    },
+    "time": 60.47970962524414,
+    "stats": {
+      "total_pages": 11,
+      "selected_pages": 10,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756706418200_5579292.pdf",
+    "success": true,
+    "doc_type": "OTHER",
+    "result": {
+      "doc_metadata": {
+        "title": "影像组学方法学质量评分（METRICS）解读",
+        "document_type": "研究论文",
+        "organization": "上海交通大学医学院附属同仁医院、斯坦福大学医学院、波士顿大学等",
+        "publish_date": "2025",
+        "language": "中文",
+        "sources": [
+          "p1-p7"
+        ]
+      },
+      "scope": {
+        "study_design": "影像组学方法学质量评估工具的开发与解读",
+        "target_population": "从事影像组学研究的科研人员、临床医生、医学影像专家",
+        "intervention": "开发并解读影像组学方法学质量评分工具（METRICS）",
+        "outcome_measures": "影像组学研究的方法学质量评估、可重复性、泛化能力、临床应用潜力"
+      },
+      "key_findings": [
+        {
+          "finding": "影像组学方法学质量评分（METRICS）是由METRICS工作组制定的专家共识成果，旨在提高影像组学研究的方法学质量。",
+          "source": [
+            "p1"
+          ]
+        },
+        {
+          "finding": "METRICS工具包含9个类别、30项条目，涵盖研究设计、图像预处理、特征提取、模型构建、外部测试、开放科学等方面。",
+          "source": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "finding": "METRICS工具的条目权重根据专家对其重要性的评估进行分配，权重最高的是“研究设计”，最低的是“开放科学”。",
+          "source": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "METRICS工具的条目报告具有两个可选项，即“是”或“否”，部分条目需要确认其适用性。",
+          "source": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "METRICS工具的总分仅针对研究适用的条目计算百分比，并根据结果拟定5个不同的研究质量评价等级。",
+          "source": [
+            "p2"
+          ]
+        },
+        {
+          "finding": "METRICS工具特别强调图像预处理的合理性，包括灰度归一化、图像配准、特征提取技术的选择等。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "特征提取需使用标准化软件（如符合IBSI标准的软件），并应包括版本号信息。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "特征处理包括测试-再测试分析、特征选择、病例/特征比例的合理性评估等。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "模型构建准备要求数据拆分应随机且可重复，应在患者级别进行，而非扫描级别。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "模型评估需使用适当的模型表现指标，如AUC、准确率、灵敏度、特异度等，并应包含混淆矩阵。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "METRICS工具鼓励使用单一成像模态，而非多模态输入的复杂模型，以提高临床应用的可行性。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "影像组学模型应与非影像组学方法进行比较，如语义特征、影像报告、RECIST评分等。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "影像组学模型应与简单的基线参考模型进行比较，如零规则、无信息率分类器。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "模型应在独立数据集上进行测试，包括同一来源的独立数据集和不同机构的独立数据。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "开放科学要求研究共享影像、分割、临床或影像组学分析数据，以及相关脚本和最终模型。",
+          "source": [
+            "p3"
+          ]
+        },
+        {
+          "finding": "METRICS工具与RQS（影像组学质量评分）相比，条目更详细，评分更系统，但尚未正式发布。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "finding": "METRICS工具与CLEAR清单存在对应关系，但更关注条目的合理性，而非仅报告透明度。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "finding": "METRICS工具和CLEAR清单分别注重方法学质量和报告透明度，最终目的都是提高影像组学研究的可重复性。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "finding": "METRICS工具已在影像组学研究设计、同行评议和质量评估过程中得到应用，但尚未被期刊强制要求使用。",
+          "source": [
+            "p4"
+          ]
+        }
+      ],
+      "conclusions": [
+        {
+          "conclusion": "METRICS工具为影像组学研究的方法学质量评估提供了参考标准，有助于提高研究的可重复性、再现性和泛化应用潜力。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "conclusion": "建议相关领域研究人员在研究设计之初引入METRICS工具，并在文稿撰写时参考CLEAR清单，以提升研究质量。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "conclusion": "期刊应考虑引入METRICS工具和CLEAR清单，在投稿指南中推荐或要求使用和提交，以提升影像组学研究的质量。",
+          "source": [
+            "p4"
+          ]
+        },
+        {
+          "conclusion": "影像组学研究需在方法学质量、报告透明度和临床应用潜力之间取得平衡，以推动其进入临床实践。",
+          "source": [
+            "p4"
+          ]
+        }
+      ]
+    },
+    "time": 49.722843647003174,
+    "stats": {
+      "total_pages": 9,
+      "selected_pages": 7,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756706468788_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "TRIPOD-LLM 指南解读：规范医疗领域大语言模型研究的报告标准",
+        "authors": "郑卿勇, 吴景玲, 李莫兰, 许建国, 刘明, 周泳佳, 崔雅婷, 李瑞雪, 高亚, 葛龙, 张俊华, 田金徽",
+        "organization": "兰州大学循证医学中心, 甘肃省循证医学重点实验室, 中国医学科学院循证评价与指南研究创新单元等",
+        "publish_date": "2025年8月",
+        "year": "2025",
+        "doi": "10.7507/1672-2531.202505023",
+        "document_type": "研究报告",
+        "sources": [
+          "p1-p11"
+        ]
+      },
+      "scope": {
+        "target_population": "医疗健康领域的大型语言模型（LLM）研究",
+        "intervention": "TRIPOD-LLM 报告规范",
+        "outcome": "提升LLM研究的透明度、可复现性、科学性和公平性"
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "TRIPOD-LLM 是针对医疗健康领域LLM研究报告的首个国际性共识规范，由汇集了人工智能、医学信息学、临床医学、统计学及伦理学等多元背景的国际专家团队精心研制，并于2025年1月在Nature Medicine正式发表。",
+          "strength": "强推荐",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "TRIPOD-LLM 是TRIPOD+AI指南的官方扩展，旨在填补现有报告规范在系统性涵盖LLM特有方法学（如模型对齐策略、提示工程细节、推理过程配置、生成式输出评估等）方面的空白，为相关研究提供清晰、全面且标准化的最低报告基准。",
+          "strength": "强推荐",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "TRIPOD-LLM 的核心价值在于其广泛的适用性和针对LLM特性的创新设计，其明确突破了传统报告规范（如早期TRIPOD仅主要关注预测模型）的局限，将适用范围扩展至所有涉及在医学研究中开发、微调、评估或应用LLM的工作，无论研究处于何种阶段，也无论LLM被用于何种具体任务。",
+          "strength": "强推荐",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "TRIPOD-LLM 引入了多项关键创新机制，其核心是一套包含19个主项和50个子项的专用报告清单，为研究者系统、详尽地报告LLM相关技术细节提供了结构化框架。",
+          "strength": "强推荐",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "TRIPOD-LLM 采用了高度灵活的模块化设计，允许研究者根据其研究的两个关键维度—“研究设计”（从头开发LLM、LLM方法研究、LLM效能评估、LLM医疗场景应用评估）和“LLM任务”（文本分类、文本摘要、信息检索、智能问答、内容摘要、分类或翻译等）—提供定制化的报告清单。",
+          "strength": "强推荐",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "TRIPOD-LLM 引入了“动态指南”机制，允许指南根据研究进展和新发现进行持续更新，以适应快速发展的LLM研究领域。",
+          "strength": "强推荐",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "TRIPOD-LLM 的适用范围包括所有涉及在医学研究中开发、微调、评估或应用LLM的工作，无论研究处于何种阶段，也无论LLM被用于何种具体任务（包括但不限于文本生成、信息检索、智能问答、内容摘要、分类或翻译等）。",
+          "strength": "强推荐",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "TRIPOD-LLM 的核心目标是通过提升研究过程的透明度，确保研究结果的科学有效性与可信度，并审慎评估其在特定应用场景中的公平性与局限性。",
+          "strength": "强推荐",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "TRIPOD-LLM 的实施将有助于促进我国医疗LLM领域研究的高质量、规范化发展，提升研究成果的全球可信度与临床转化潜力。",
+          "strength": "强推荐",
+          "sources": [
+            "p2"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "2.1",
+          "text": "TRIPOD-LLM 是针对医疗健康领域LLM研究报告的首个国际性共识规范，由汇集了人工智能、医学信息学、临床医学、统计学及伦理学等多元背景的国际专家团队精心研制，并于2025年1月在Nature Medicine正式发表。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.2",
+          "text": "TRIPOD-LLM 是TRIPOD+AI指南的官方扩展，旨在填补现有报告规范在系统性涵盖LLM特有方法学（如模型对齐策略、提示工程细节、推理过程配置、生成式输出评估等）方面的空白，为相关研究提供清晰、全面且标准化的最低报告基准。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.3",
+          "text": "TRIPOD-LLM 的核心价值在于其广泛的适用性和针对LLM特性的创新设计，其明确突破了传统报告规范（如早期TRIPOD仅主要关注预测模型）的局限，将适用范围扩展至所有涉及在医学研究中开发、微调、评估或应用LLM的工作，无论研究处于何种阶段，也无论LLM被用于何种具体任务。",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2.4",
+          "text": "TRIPOD-LLM 引入了多项关键创新机制，其核心是一套包含19个主项和50个子项的专用报告清单，为研究者系统、详尽地报告LLM相关技术细节提供了结构化框架。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.5",
+          "text": "TRIPOD-LLM 采用了高度灵活的模块化设计，允许研究者根据其研究的两个关键维度—“研究设计”（从头开发LLM、LLM方法研究、LLM效能评估、LLM医疗场景应用评估）和“LLM任务”（文本分类、文本摘要、信息检索、智能问答、内容摘要、分类或翻译等）—提供定制化的报告清单。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.6",
+          "text": "TRIPOD-LLM 引入了“动态指南”机制，允许指南根据研究进展和新发现进行持续更新，以适应快速发展的LLM研究领域。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.7",
+          "text": "TRIPOD-LLM 的适用范围包括所有涉及在医学研究中开发、微调、评估或应用LLM的工作，无论研究处于何种阶段，也无论LLM被用于何种具体任务（包括但不限于文本生成、信息检索、智能问答、内容摘要、分类或翻译等）。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.8",
+          "text": "TRIPOD-LLM 的核心目标是通过提升研究过程的透明度，确保研究结果的科学有效性与可信度，并审慎评估其在特定应用场景中的公平性与局限性。",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "2.9",
+          "text": "TRIPOD-LLM 的实施将有助于促进我国医疗LLM领域研究的高质量、规范化发展，提升研究成果的全球可信度与临床转化潜力。",
+          "sources": [
+            "p2"
+          ]
+        }
+      ]
+    },
+    "time": 74.90116024017334,
+    "stats": {
+      "total_pages": 12,
+      "selected_pages": 11,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756709332581_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Cardiovascular, kidney related, and weight loss effects of therapeutics for type 2 diabetes: a living clinical practice guideline",
+        "authors": "Arnav Agarwal, Reem Mustafa, Veena Manja, Thomas Agoritsas, Helen Macdonald, Sheyu Li, Farid Foroutan, Daniel Rayner, René Rodriguez-Gutierrez, Bjørn Olav Åsvold, Anja Fog Heen, Jenan Gabi, Lixin Guo, Qiukui Hao, Britta Tendel Jeppesen, Vivekanand Jha, Evi Nagler, Adrienne Odom, Nicolas Rodondi, Sahana Shetty, Mieke Vermandere, Robin Wright, Gordon Guyatt, Per Olav Vandvik",
+        "organization": "BMJ",
+        "publish_date": "31 August 2025",
+        "year": "2025",
+        "doi": "10.1136/bmj-2024-082071",
+        "document_type": "Living clinical practice guideline",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "clinical_question": "What are the benefits and harms of medications for adults with type 2 diabetes at varied risks of cardiovascular and kidney related complications?",
+        "context": "Emerging clinical trials of novel medications have demonstrated benefits on cardiovascular, kidney, and weight related outcomes in people with type 2 diabetes. Dynamically updated practice guidelines adhering to standards of trustworthiness are necessary in response to a rapidly evolving evidence base and the availability of multiple medication alternatives. This living practice guideline incorporates the latest available medications and evidence and provides recommendations stratified by risks of cardiovascular and kidney complications to inform diabetes management.",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Lower risk (three or fewer cardiovascular risk factors without established cardiovascular disease (CVD) or chronic kidney disease (CKD)): weak recommendation against SGLT-2 inhibitors or GLP-1 receptor agonists.",
+          "strength": "Weak",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Moderate risk (more than three cardiovascular risk factors without established CVD or CKD; or established CVD and/or CKD at lower risk of complications): weak recommendation in favour of SGLT-2 inhibitors or GLP-1 receptor agonists; and a weak recommendation against finerenone in adults with CKD.",
+          "strength": "Weak",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Higher risk (established CVD and/or CKD at higher risk of complications, or established heart failure): strong recommendation in favour of SGLT-2 inhibitors or GLP-1 receptor agonists; and a weak recommendation in favour of finerenone in adults with CKD.",
+          "strength": "Strong",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Across risk strata: weak recommendation in favour of tirzepatide in adults with obesity.",
+          "strength": "Weak",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "Emerging clinical trials of novel medications have demonstrated benefits on cardiovascular, kidney, and weight related outcomes in people with type 2 diabetes.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Randomised trials of emerging medications including SGLT-2 inhibitors, GLP-1 receptor agonists and finerenone (a non-steroidal selective mineralocorticoid receptor antagonist with more potent anti-inflammatory and anti-fibrotic effects and less risk of causing hyperkalaemia than steroidal alternatives like spironolactone) have demonstrated cardiovascular and kidney protective benefits.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Trials have also demonstrated substantial weight loss effects with some new medications including GLP-1 receptor agonists and tirzepatide, a dual glucose-dependent insulinotropic polypeptide (GIP)/GLP-1 receptor agonist.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "More evidence is anticipated to address existing and emerging drug classes and their impact on patient-important outcomes.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "The panel followed standards for trustworthy guidelines and used the GRADE approach, explicitly considering the balance of benefits, harms and burdens of treatment from an individual patient perspective.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Recommendations were informed by a linked living systematic review and network meta-analysis evaluating relative benefits and harms updated to 31 July 2024; and by linked systematic reviews addressing risk prediction models and values and preferences of adults with type 2 diabetes.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Candidate therapeutics are prioritised based on availability of sufficient randomised trial data, relevance to a global audience and likelihood of changing practice.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Type 2 diabetes affects half a billion people worldwide. It is the ninth leading cause of death internationally, and is associated with multi-organ morbidity.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Preventing macrovascular and microvascular sequelae including cardiovascular and kidney complications is central to diabetes management.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "The guideline is part of the BMJ Rapid Recommendations series. MAGICapp displays the most recent version of the guideline and full content including evidence summaries and decision aids; major updates will be published in The BMJ.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "We encourage re-use, adaptation and translation of these living guidelines, and recognise that the lack of availability or high costs of some medications may be prohibitive and will impact on how these recommendations are implemented across different health care systems.",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 44.03651785850525,
+    "stats": {
+      "total_pages": 10,
+      "selected_pages": 10,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756709678102_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Developing Competencies to Advance Health Care Access and Quality for Latino, Hispanic, and Spanish Origin Populations",
+        "authors": "Débora H. Silva, MD, MEd; John A. Davis Rodríguez, PhD, MD; Hector Rasgado-Flores, PhD; Pilar Ortega, MD, MGM; Deion Ellis, MD, MMS; Fernando Sánchez Mendoza, MD, MPH; Victor Cueto, MD, MS; Fabiola Quintero-Rivera, MD; Norma Iris Poll-Hunter, PhD; Minerva Romero Arenas, MD, MPH; Kenneth Lee Dominguez, MD, MPH; Juan Emilio Carrillo, MD, MPH; José E. Rodríguez, MD; John Paul Sánchez, MD, MPH",
+        "organization": "JAMA Network Open",
+        "publish_date": "August 14, 2025",
+        "year": "2025",
+        "doi": "10.1001/jamanetworkopen.2025.27208",
+        "document_type": "Consensus Statement",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "target_population": "Latina, Latino, Latinx, Latine, Hispanic, or of Spanish Origin (LHS+) populations",
+        "objective": "To develop specific competencies and milestones that address the unique needs of the LHS+ population",
+        "methodology": "A modified Delphi process involving a 13-member national expert working group and a reactor panel of 76 panelists",
+        "sources": [
+          "p1",
+          "p2"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "A 13-member national expert working group (Workgroup) was created in April 2023 to lead the project’s development. The Workgroup selected a modified Delphi process.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "For the first Delphi round (May to September 2023), based on the Workgroup’s experience and expertise, the Workgroup used targeted literature searches to draft an initial set of competency domains, competencies, and milestones.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "These were distributed through electronic surveys to 76 reactor panelists in 2 Delphi rounds in September 2023 and March 2024. Consensus was defined as 80% or greater panelist agreement.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "In round 1 of the modified Delphi process, the Workgroup identified 21 competencies and 38 milestones.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "After 2 reactor panelist rounds, 19 competencies and 34 milestones across 7 domains reached the 80% consensus threshold.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "The 7 competency domains included: (1) diversity of LHS+ individuals and families (4 competencies); (2) communicating with individuals, families, and communities who identify as part of the LHS+ community (3 competencies); (3) LHS+ diaspora, immigration, and migration (3 competencies); (4) research (3 competencies); (5) ethics (2 competencies); (6) patient-centered care (3 competencies); and (7) medical and surgical LHS+ workforce disparities (2 competencies).",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "The LHS+ health equity competencies build on the call for competency-based medical education (CBME) and expand the literature focused on marginalized populations.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "A critical next step is identifying and supporting educators to develop, implement, evaluate, and publish teaching and learning assessment materials aligned with these new competencies.",
+          "strength": "Consensus",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "text": "The LHS+ population is 20% of the US population and experiences disparities in health care access and quality.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Competency-based medical education (CBME) aims to ensure graduates can deliver high-quality and safe patient care.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "CBME can also advance health equity by prioritizing patient and population needs, incorporating public health content, and promoting equity-oriented efforts.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The LHS+ population has increased 6-fold since the 1970s and is now the largest ethnic or racial group in the US.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "There are currently at least 8 LHS+–associated nationalities whose population exceeds 1 million.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The LHS+ population has unique health experiences, disease risk factors, specific health inequities, and health-related social needs.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Some social determinants of health are shared by substantial segments of the LHS+ population, including Spanish language preference, time in the US or recent immigration, and socioeconomic status.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "Although some medical schools and community-based research centers have developed LHS+–related curricula, there remains a pressing need for generalizable competencies to guide curriculum development and assessment.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The LHS+ population is not a monolithic group, yet some social determinants of health are shared by substantial segments of the LHS+ population.",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "text": "The Workgroup used targeted literature searches to draft an initial set of competency domains, competencies, and milestones.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "Consensus was achieved through 3 Delphi rounds, with the final competencies demonstrating high agreement among panelists.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "text": "These validated LHS+ health equity competencies and milestones provide a framework for medical educators to develop curricula and assessments that address the unique needs of LHS+ communities, ultimately improving health care outcomes.",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 51.43101906776428,
+    "stats": {
+      "total_pages": 17,
+      "selected_pages": 17,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756709847051_5579292.pdf",
+    "success": true,
+    "doc_type": "REVIEW",
+    "result": {
+      "doc_metadata": {
+        "title": "Role of Micronutrient Supplementation in Promoting Cognitive Healthy Aging in Latin America: Evidence-Based Consensus Statement",
+        "authors": "Nogueira-de-Almeida, C.A.; Gutiérrez, C.A.C.; Ramos, L.R.; Katz, M.; Gonzalez, M.M.; Angel Badillo, B.; Gómez Santa María, O.A.; Reyes Torres, C.A.; O’Neill, S.; Reyes, M.G.; et al.",
+        "organization": "Not Found",
+        "publish_date": "2 August 2025",
+        "year": "2025",
+        "doi": "10.3390/nu17152545",
+        "document_type": "REVIEW",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "topic": "Micronutrient supplementation and cognitive healthy aging in Latin America",
+        "geographic_focus": "Latin America",
+        "target_population": "Older adults",
+        "intervention": "Multivitamin and mineral supplements (MVMs)",
+        "outcome": "Cognitive health and aging"
+      },
+      "key_findings": [
+        {
+          "id": "F1",
+          "finding": "Cognitive decline is a growing public health concern in Latin America, driven by rapid aging, widespread micronutrient inadequacies, and socioeconomic disparities.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F2",
+          "finding": "Many older adults struggle to meet daily dietary micronutrient requirements, increasing the risk of mild cognitive impairment (MCI).",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F3",
+          "finding": "Consensus was reached on 14 statements regarding the role of MVMs in promoting cognitive healthy aging.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F4",
+          "finding": "Cognitive aging in Latin America is influenced by neurobiological, lifestyle, and socioeconomic factors, including widespread micronutrient inadequacies such as vitamins B-complex, C, D, E, and minerals like zinc, magnesium, chromium, copper, iron, and selenium.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F5",
+          "finding": "MVMs can be recommended as a complementary strategy to bridge nutritional gaps, especially where a balanced diet is not consistently achievable.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F6",
+          "finding": "Supporting evidence, including the COSMOS-Mind trials, demonstrates that MVM use improves memory and global cognition and reduces cognitive aging by up to 2 years in older adults.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F7",
+          "finding": "Micronutrient inadequacies in Latin America are linked to cognitive impairment through mechanisms involving oxidative stress, inflammation, and homocysteine accumulation.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F8",
+          "finding": "Multivitamin and mineral supplements (MVMs) offer a practical strategy to address nutritional gaps in older adults.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "F9",
+          "finding": "Vitamin D deficiency is prevalent in older adults in Latin America, with studies showing associations with cognitive decline, functional performance, and conditions like T2DM and anemia.",
+          "sources": [
+            "p1",
+            "p21"
+          ]
+        },
+        {
+          "id": "F10",
+          "finding": "Zinc deficiency is associated with cognitive decline in community-dwelling older adults.",
+          "sources": [
+            "p21"
+          ]
+        },
+        {
+          "id": "F11",
+          "finding": "Folic acid supplementation has been shown to improve cognitive function and Aβ-related biomarkers in individuals with mild cognitive impairment.",
+          "sources": [
+            "p21"
+          ]
+        },
+        {
+          "id": "F12",
+          "finding": "B vitamin supplementation has been found to prevent cognitive decline in older adults with mild cognitive impairment.",
+          "sources": [
+            "p21"
+          ]
+        },
+        {
+          "id": "F13",
+          "finding": "Vitamin D supplementation improves cognitive function through reducing oxidative stress regulated by telomere length in older adults with mild cognitive impairment.",
+          "sources": [
+            "p21"
+          ]
+        },
+        {
+          "id": "F14",
+          "finding": "Vitamin D supplementation has been shown to improve cognitive outcomes in older women, with three doses demonstrating positive effects.",
+          "sources": [
+            "p21"
+          ]
+        },
+        {
+          "id": "F15",
+          "finding": "Vitamin D supplementation has been associated with improved cognitive function and blood lipid profiles in older adults.",
+          "sources": [
+            "p21"
+          ]
+        }
+      ],
+      "conclusions": [
+        "MVMs offer a promising, accessible adjunct for cognitive healthy aging in Latin America’s elderly population, particularly where dietary challenges persist.",
+        "Region-specific guidelines, public health initiatives, and targeted research are warranted to optimize outcomes and reduce health inequities."
+      ]
+    },
+    "time": 39.20569348335266,
+    "stats": {
+      "total_pages": 21,
+      "selected_pages": 21,
+      "doc_size": "medium"
+    }
+  },
+  {
+    "pdf": "1756710006526_5579292.pdf",
+    "success": true,
+    "doc_type": "OTHER",
+    "result": {
+      "doc_metadata": {
+        "title": "German S3 guideline on implant-supported all-ceramic restorations",
+        "document_type": "临床指南",
+        "organization": "German Association of Oral Implantology (DGI) and German Society of Dentistry and Oral Medicine (DGZMK)",
+        "publish_date": "2025",
+        "language": "English",
+        "sources": [
+          "p1",
+          "p2",
+          "p6"
+        ]
+      },
+      "scope": {
+        "indication_1": "Implant-supported single crowns",
+        "indication_2": "Short-span fixed dental prostheses (FDPs)",
+        "indication_3": "Full-arch restorations",
+        "material_1": "Lithium disilicate",
+        "material_2": "Silicate ceramics",
+        "material_3": "All generations of zirconia",
+        "material_4": "3Y-TZP zirconia",
+        "material_5": "Polymer-infiltrated ceramics",
+        "design_feature_1": "Micro-veneering",
+        "design_feature_2": "Monolithic designs",
+        "methodology": "Systematic literature review based on the AWMF guidelines and GRADE approach",
+        "recommendation_strength": "Strong (A ⇑⇑), Moderate (B ⇑), Weak (0 ⇔)"
+      },
+      "key_findings": [
+        "All-ceramic materials have gained popularity in implant prosthodontics due to increasing demand for aesthetic, metal-free restorations.",
+        "The long-term clinical performance of all-ceramic implant-supported restorations remains unresolved.",
+        "For implant-supported single crowns, lithium disilicate, silicate ceramics, and all generations of zirconia demonstrated favorable 3-year survival rates (~ 96–97%).",
+        "Polymer-infiltrated ceramics showed inferior performance and were not recommended.",
+        "For short-span FDPs and full-arch reconstructions, only 3Y-TZP zirconia is supported by clinical evidence.",
+        "Micro-veneering and monolithic designs reduce chipping risks.",
+        "Patient education is emphasized due to limited evidence for newer materials and full-arch restorations.",
+        "The guideline was developed based on the regulatory framework of the Association of the Scientific Medical Societies in Germany (AWMF) in accordance with the AGREE II.",
+        "The quality of evidence was rated with the GRADE approach.",
+        "The guideline was divided into three sections to address the available evidence and formulate recommendations for different indications precisely.",
+        "Recommendations were formulated after group discussion based on evidence or expert consensus.",
+        "A strong consensus was reached for every recommendation.",
+        "The strength of the recommendation reflects the degree of confidence in the recommendation considering both the quality of evidence and the potential benefits and risks of following it.",
+        "The guideline includes a list of references to supporting studies and clinical trials."
+      ],
+      "conclusions": [
+        "All-ceramic implant restorations can be successfully implemented with careful material selection, adherence to bonding protocols, and appropriate prosthetic design.",
+        "Clinical limitations persist, especially in full-arch indications.",
+        "Interdisciplinary collaboration is essential to optimize outcomes and minimize complications."
+      ]
+    },
+    "time": 23.09595823287964,
+    "stats": {
+      "total_pages": 6,
+      "selected_pages": 6,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756710561227_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "Enterobacterias productoras de carbapenemasas: diagnóstico y tratamiento",
+        "authors": "SOLEDAD E. GONZÁLEZ1, ANA N. VARELA BAINO2, ANA CALABRIA1, FLORENCIA GIL1, CAROLINA OSUNA1, LORENA ABUSAMRA3, SOFÍA ESPOSTO4,5, MARÍA INÉS SORMANI4, NORMA CUDMANI6, GIANNINA CINQUI7,8, FLAVIA AMALFA9, ROLANDO SOLOAGA10, MAGDALENA MARESCA11, NATALIA CARRION12, MIRIAM BLANCO13, EUGENIA DI LÍBERO1,14, ELISA ESTENSSORO2,13,15",
+        "organization": "Ministerio de Salud de la Provincia de Buenos Aires",
+        "publish_date": "2025",
+        "year": "2025",
+        "doi": "Not Found",
+        "document_type": "Consenso",
+        "sources": [
+          "p1",
+          "p2",
+          "p32"
+        ]
+      },
+      "scope": {
+        "target_population": "Pacientes con infecciones por enterobacterias productoras de carbapenemasas (EPC)",
+        "conditions": "Shock séptico, bacteremia, infecciones con foco específico (como endocarditis, mediastinitis, infecciones post-neuroquirúrgicas), infecciones en neonatos e inmunocomprometidos",
+        "settings": "Hospitales y centros de salud con programas de vigilancia y control de infecciones asociadas al cuidado de la salud (IACS)",
+        "sources": [
+          "p1",
+          "p2",
+          "p32"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Se recomiendan nuevos betalactámicos con inhibidores de betalactamasas (BL/IBL) para el tratamiento empírico inicial en pacientes con shock séptico en presencia de: determinadas condiciones epidemiológicas y focos asociados como bacteriemia asociada a catéter venoso central o dispositivos endovasculares, endocarditis, mediastinitis, foco intraabdominal, infecciones post-neuroquirúrgicas; e independientemente del foco en neonatos y huéspedes inmunocomprometidos.",
+          "strength": "Recomendación",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Se recomiendan nuevos BL/IBL como terapia dirigida ante infecciones por EPC confirmadas microbiológicamente que cursen con shock séptico, o infecciones con cualquier foco y score de INCREMENT ≥ 8, en bacteriemias en inmunocomprometidos graves o neonatos, endocarditis/foco endovascular no removido (implante), mediastinitis, y infección del SNC post-neuroquirúrgica.",
+          "strength": "Recomendación",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "El presente consenso debe complementarse con la implementación de Programas de Optimización del Uso de Antimicrobianos y la vigilancia intensificada en áreas críticas según los lineamientos del Programa Nacional de Vigilancia y Control de IACS de Argentina.",
+          "strength": "Recomendación",
+          "sources": [
+            "p2"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "CAZ-AVI se eliminan por vía renal, por lo que debe reducirse la dosis de acuerdo con el grado de insuficiencia renal.",
+          "strength": "Recomendación",
+          "sources": [
+            "p32"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "Imipenem y cilastatina se excretan en la leche materna en cantidades pequeñas. Se desconoce si el relebactam se excreta también por esta vía. Se debe decidir si suspender la lactancia materna o suspender el tratamiento con IMI-REL, teniendo en cuenta el beneficio de la lactancia materna en el niño y el beneficio del tratamiento en la mujer.",
+          "strength": "Recomendación",
+          "sources": [
+            "p32"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "1",
+          "text": "El documento explica el proceso de diagnóstico de los distintos mecanismos de resistencia de las EPC y detalla los puntos clave para realizar un informe acumulado de sensibilidad de patógenos prevalentes en los distintos hospitales, información local no registrada adecuadamente hasta el momento.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "2",
+          "text": "Los BL/IBL son recomendados para el tratamiento empírico inicial en pacientes con shock séptico y ciertas condiciones epidemiológicas, así como para el tratamiento dirigido en infecciones confirmadas por EPC.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "3",
+          "text": "Se mencionan los efectos adversos de los medicamentos como reacciones de hipersensibilidad, diarrea por Clostridium difficile, cefalea, mareo, náuseas y vómitos, constipación, ansiedad, eosinofilia, trombocitopenia, tiempo de protrombina prolongado, aumento de GGT, ALT, AST o FAL, hipocalemia, insuficiencia renal aguda, rash y candidiasis.",
+          "sources": [
+            "p32"
+          ]
+        },
+        {
+          "id": "4",
+          "text": "Se incluyen referencias a guías internacionales como las de la European Society of Clinical Microbiology and Infectious Diseases (ESCMID) y la Infectious Diseases Society of America (IDSA), así como a la Organización Panamericana de la Salud (OPS).",
+          "sources": [
+            "p32"
+          ]
+        }
+      ]
+    },
+    "time": 49.99915432929993,
+    "stats": {
+      "total_pages": 32,
+      "selected_pages": 32,
+      "doc_size": "medium"
+    }
+  },
+  {
+    "pdf": "1756710859463_5579292.pdf",
+    "success": true,
+    "doc_type": "OTHER",
+    "result": {
+      "doc_metadata": {
+        "title": "How to Promote Wellbeing in Youth Sport: Recommendations From the 2024 Copenhagen Consensus Conference",
+        "document_type": "共识声明",
+        "organization": "Scandinavian Journal of Medicine & Science in Sports",
+        "publish_date": "2025",
+        "language": "English",
+        "sources": [
+          "p1",
+          "p2",
+          "p5"
+        ]
+      },
+      "scope": {
+        "key_findings": [
+          "Poor wellbeing among children and adolescents is an increasing concern [1].",
+          "Participation in leisure-time club-based sports has a positive impact on young participants’ wellbeing [2–5].",
+          "Some aspects of sports environments can have detrimental effects on wellbeing among young participants [6–8].",
+          "In Denmark and other Scandinavian countries, leisure-time youth sport is mainly organized by volunteer coaches in local sports clubs affiliated with regional and national organizations.",
+          "The National Olympic Committee and Sports Confederation of Denmark (DIF) has a responsibility to ensure that club sport environments promote wellbeing among children and adolescents.",
+          "A 2-day consensus conference was held in Copenhagen, Denmark, on August 29 and 30, 2024, with seven researchers and six expert practitioners.",
+          "The consensus process integrated international research-based knowledge with practice-based knowledge into statements about key factors influencing wellbeing in youth sport.",
+          "Four system levels (the individual, interpersonal, community, and policy levels) were addressed in answering the following questions: (1) What characterizes wellbeing in sport for children and adolescents? (2) What characterizes sport environments that promote children and adolescents’ wellbeing? (3) Which factors are important to consider in efforts to develop wellbeing promoting youth sport environments? (4) How can wellbeing in youth sport be promoted?",
+          "In total, 19 consensus statement sentences were formulated on how young sports participants (3), parents/caretakers (5), coaches and leaders/managers (5), local sport communities (3) and sports federations (3) can promote wellbeing in youth sport."
+        ],
+        "conclusions": [
+          "The consensus process and the resulting statements were based on a system approach to wellbeing in youth sport and how it can be promoted.",
+          "The consensus conference aimed to gather knowledge and establish a shared understanding of what characterizes wellbeing in youth sport and how it can be promoted.",
+          "The consensus panel included researchers from various disciplines and expert practitioners with extensive knowledge about and experience with promoting wellbeing in and through youth sport."
+        ]
+      },
+      "key_findings": [
+        "Poor wellbeing among children and adolescents is an increasing concern [1].",
+        "Participation in leisure-time club-based sports has a positive impact on young participants’ wellbeing [2–5].",
+        "Some aspects of sports environments can have detrimental effects on wellbeing among young participants [6–8].",
+        "In Denmark and other Scandinavian countries, leisure-time youth sport is mainly organized by volunteer coaches in local sports clubs affiliated with regional and national organizations.",
+        "The National Olympic Committee and Sports Confederation of Denmark (DIF) has a responsibility to ensure that club sport environments promote wellbeing among children and adolescents.",
+        "A 2-day consensus conference was held in Copenhagen, Denmark, on August 29 and 30, 2024, with seven researchers and six expert practitioners.",
+        "The consensus process integrated international research-based knowledge with practice-based knowledge into statements about key factors influencing wellbeing in youth sport.",
+        "Four system levels (the individual, interpersonal, community, and policy levels) were addressed in answering the following questions: (1) What characterizes wellbeing in sport for children and adolescents? (2) What characterizes sport environments that promote children and adolescents’ wellbeing? (3) Which factors are important to consider in efforts to develop wellbeing promoting youth sport environments? (4) How can wellbeing in youth sport be promoted?",
+        "In total, 19 consensus statement sentences were formulated on how young sports participants (3), parents/caretakers (5), coaches and leaders/managers (5), local sport communities (3) and sports federations (3) can promote wellbeing in youth sport."
+      ],
+      "conclusions": [
+        "The consensus process and the resulting statements were based on a system approach to wellbeing in youth sport and how it can be promoted.",
+        "The consensus conference aimed to gather knowledge and establish a shared understanding of what characterizes wellbeing in youth sport and how it can be promoted.",
+        "The consensus panel included researchers from various disciplines and expert practitioners with extensive knowledge about and experience with promoting wellbeing in and through youth sport."
+      ]
+    },
+    "time": 33.24241876602173,
+    "stats": {
+      "total_pages": 5,
+      "selected_pages": 5,
+      "doc_size": "short"
+    }
+  },
+  {
+    "pdf": "1756711019517_5579292.pdf",
+    "success": true,
+    "doc_type": "GUIDELINE",
+    "result": {
+      "doc_metadata": {
+        "title": "The use of high-efficacy disease-modifying therapies in multiple sclerosis: recommendations from an expert Delphi consensus",
+        "authors": "Massimo Filippi, Maria Pia Amato, Diego Centonze, Paolo Gallo, Claudio Gasperini, Matilde Inglese, Francesco Patti, Carlo Pozzilli, Paolo Preziosa, Maria Trojano",
+        "organization": "Italian MS Centers",
+        "publish_date": "2025-07-21",
+        "year": "2025",
+        "doi": "10.1007/s00415-025-13293-9",
+        "document_type": "Original Communication",
+        "sources": [
+          "p1"
+        ]
+      },
+      "scope": {
+        "objective": "To establish recommendations based on an expert consensus on the early and appropriate use of high-efficacy disease-modifying therapies (HE-DMTs) in the management of multiple sclerosis (MS) patients, based on current clinical evidence and real-world practice in Italy.",
+        "methods": "A Delphi panel comprising 65 neurologists from 54 Italian MS centers engaged in a two-round consensus process. Experts rated 43 statements across five domains: therapeutic goals, definitions of HE-DMT, MS patient profiling, and use of HE-DMT at diagnosis and later in MS course, using a 5-point Likert scale. A statement reached strong consensus if ≥80% of panelists agreed; whereas between 70% and 80% it was considered as moderate.",
+        "sources": [
+          "p1"
+        ]
+      },
+      "recommendations": [
+        {
+          "id": "1.1",
+          "text": "Experts strongly supported early HE-DMT initiation to prevent irreversible disability.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.2",
+          "text": "Experts endorsed a multidimensional definitions of treatment efficacy.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.3",
+          "text": "Experts recommended personalized approaches based on clinical, radiological, and biomarker indicators.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.4",
+          "text": "Consensus supported initiating HE-DMTs in patients with poor prognostic features.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.5",
+          "text": "Consensus identified magnetic resonance imaging (MRI) activity, neurodegeneration markers, and suboptimal clinical response as specific factors requiring escalation to HE-DMTs.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.6",
+          "text": "Strong consensus was achieved for 33 (76.7%) statements, and moderate consensus for 6 (14.0%) statements.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.7",
+          "text": "In Round 2, 53 experts completed the survey on 43 statements.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.8",
+          "text": "The strong expert alignment reflects a paradigm shift toward proactive treatment.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "1.9",
+          "text": "These findings may support national policy changes and promote more equitable and evidence-based access to HE-DMTs across healthcare systems.",
+          "strength": "Strong consensus",
+          "sources": [
+            "p1"
+          ]
+        }
+      ],
+      "key_evidence": [
+        {
+          "id": "e1",
+          "text": "HE-DMTs consistently outperform ME-DMTs in reducing relapse rates, delaying disability progression, and limiting CNS damage accumulation in terms of focal lesions and irreversible tissue loss.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e2",
+          "text": "Growing evidence now supports the early use of HE-DMTs to mitigate inflammatory and neurodegenerative processes, preserve neurological function, and improve long-term prognosis, challenging the escalation approach.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e3",
+          "text": "Despite emerging evidence, key questions remain regarding patient selection, risk stratification, and the long-term safety, underscoring the need for expert consensus and guidance to support clinical practice.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e4",
+          "text": "A two-round Delphi consensus process was conducted involving 65 MS specialists from 54 Italian MS centers.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e5",
+          "text": "MS centers were selected according to the number of MS patients under management, with at least 500 MS patients being treated, as recorded in the Italian MS and Related Disorders (I-MS&RD) Register (accessed April 2024).",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e6",
+          "text": "The participating centers were categorized as follows: 12 centers managing 500–1,000 MS patients.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e7",
+          "text": "The study design and Delphi methodology were conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e8",
+          "text": "A Scientific Board comprising nine neurologists with great expertise in MS patients’ treatment was appointed at the outset of the project.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e9",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e10",
+          "text": "The study employed the Delphi method to gather and synthesize expert opinions on the appropriate use of HE-DMTs in the treatment of MS patients in Italy.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e11",
+          "text": "The goal was to address current areas of clinical uncertainty, barriers and practice variability and barriers that may delay the timely adoption of HE-DMTs in clinical practice.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e12",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e13",
+          "text": "The study design and Delphi methodology were conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e14",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e15",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e16",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e17",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e18",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e19",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e20",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e21",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e22",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e23",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e24",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e25",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e26",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e27",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e28",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e29",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e30",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e31",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e32",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e33",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e34",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e35",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e36",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e37",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e38",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e39",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e40",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e41",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e42",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e43",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e44",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e45",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e46",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e47",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e48",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e49",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e50",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e51",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e52",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e53",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e54",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e55",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e56",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e57",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e58",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e59",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e60",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e61",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e62",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e63",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e64",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e65",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e66",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e67",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e68",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e69",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e70",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e71",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e72",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e73",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e74",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e75",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e76",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e77",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e78",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e79",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e80",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e81",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e82",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e83",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e84",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e85",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e86",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e87",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e88",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e89",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e90",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e91",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e92",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e93",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e94",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e95",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e96",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e97",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e98",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e99",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        },
+        {
+          "id": "e100",
+          "text": "The Delphi process was conducted according to established literature-based methodological procedures.",
+          "sources": [
+            "p1"
+          ]
+        }
+      ]
+    },
+    "time": 252.5030596256256,
+    "stats": {
+      "total_pages": 13,
+      "selected_pages": 13,
+      "doc_size": "short"
+    }
+  }
+]

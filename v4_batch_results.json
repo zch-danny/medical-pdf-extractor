@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "pages": 27,
+      "coverage": 81.48148148148148,
+      "findings": 20,
+      "conclusions": 4,
+      "recs": 9,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 49.90344476699829
+    },
+    {
+      "pages": 20,
+      "coverage": 65.0,
+      "findings": 10,
+      "conclusions": 3,
+      "recs": 4,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 40.541746377944946
+    },
+    {
+      "pages": 102,
+      "coverage": 52.94117647058824,
+      "findings": 16,
+      "conclusions": 9,
+      "recs": 19,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 86.31111097335815
+    },
+    {
+      "pages": 107,
+      "coverage": 57.943925233644855,
+      "findings": 18,
+      "conclusions": 6,
+      "recs": 32,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 120.46307897567749
+    },
+    {
+      "pages": 14,
+      "coverage": 71.42857142857143,
+      "findings": 13,
+      "conclusions": 4,
+      "recs": 7,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 71.41492414474487
+    },
+    {
+      "pages": 25,
+      "coverage": 88.0,
+      "findings": 10,
+      "conclusions": 4,
+      "recs": 10,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 39.7003493309021
+    },
+    {
+      "pages": 70,
+      "coverage": 55.714285714285715,
+      "findings": 43,
+      "conclusions": 5,
+      "recs": 0,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 90.97250509262085
+    },
+    {
+      "pages": 5,
+      "coverage": 100.0,
+      "findings": 29,
+      "conclusions": 3,
+      "recs": 0,
+      "success": true,
+      "type": "REVIEW",
+      "time": 103.93538737297058
+    },
+    {
+      "pages": 13,
+      "coverage": 76.92307692307693,
+      "findings": 20,
+      "conclusions": 5,
+      "recs": 4,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 93.15882587432861
+    },
+    {
+      "pages": 15,
+      "coverage": 100.0,
+      "findings": 0,
+      "conclusions": 5,
+      "recs": 0,
+      "success": true,
+      "type": "GUIDELINE",
+      "time": 237.3192958831787
+    }
+  ],
+  "summary": {
+    "success_rate": 1.0,
+    "avg_coverage": 74.94325172516486
+  }
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "pdf": "1756453705743_8248372.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "medium",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6
+    }
+  },
+  {
+    "pdf": "1756453713224_1608702.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 10,
+      "average": 8.8
+    }
+  },
+  {
+    "pdf": "1756453814456_1608702.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "long",
+    "scores": {
+      "accuracy": 8,
+      "completeness": 7,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 8,
+      "average": 8
+    }
+  },
+  {
+    "pdf": "1756453891288_1608702.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "long",
+    "scores": {
+      "accuracy": 8,
+      "completeness": 7,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 8,
+      "average": 8
+    }
+  },
+  {
+    "pdf": "1756453929400_8248372.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 9,
+      "no_hallucination": 9,
+      "average": 8.8
+    }
+  },
+  {
+    "pdf": "1756460577061_8106296.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "medium",
+    "scores": {
+      "accuracy": 8,
+      "completeness": 7,
+      "structure": 8,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8
+    }
+  },
+  {
+    "pdf": "1756460835542_8106296.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "long",
+    "scores": {
+      "accuracy": 8,
+      "completeness": 7,
+      "structure": 9,
+      "source_citation": 6,
+      "no_hallucination": 8,
+      "average": 7.6
+    }
+  },
+  {
+    "pdf": "1756469724872_8106296.pdf",
+    "doc_type": "REVIEW",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4
+    }
+  },
+  {
+    "pdf": "1756694891048_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4
+    }
+  },
+  {
+    "pdf": "1756694954932_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4
+    }
+  },
+  {
+    "pdf": "1756705897161_5579292.pdf",
+    "doc_type": "REVIEW",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4
+    }
+  },
+  {
+    "pdf": "1756706418200_5579292.pdf",
+    "doc_type": "OTHER",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4
+    }
+  },
+  {
+    "pdf": "1756706468788_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 10,
+      "average": 9.4
+    }
+  },
+  {
+    "pdf": "1756709332581_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.8
+    }
+  },
+  {
+    "pdf": "1756709678102_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6
+    }
+  },
+  {
+    "pdf": "1756709847051_5579292.pdf",
+    "doc_type": "REVIEW",
+    "doc_size": "medium",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 9,
+      "average": 8.6
+    }
+  },
+  {
+    "pdf": "1756710006526_5579292.pdf",
+    "doc_type": "OTHER",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 9,
+      "structure": 10,
+      "source_citation": 8,
+      "no_hallucination": 10,
+      "average": 9.2
+    }
+  },
+  {
+    "pdf": "1756710561227_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "medium",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 9,
+      "no_hallucination": 9,
+      "average": 8.8
+    }
+  },
+  {
+    "pdf": "1756710859463_5579292.pdf",
+    "doc_type": "OTHER",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 9,
+      "source_citation": 8,
+      "no_hallucination": 10,
+      "average": 8.8
+    }
+  },
+  {
+    "pdf": "1756711019517_5579292.pdf",
+    "doc_type": "GUIDELINE",
+    "doc_size": "short",
+    "scores": {
+      "accuracy": 9,
+      "completeness": 8,
+      "structure": 10,
+      "source_citation": 9,
+      "no_hallucination": 9,
+      "average": 9
+    }
+  }
+]
