@@ -1,6 +1,9 @@
 """
-生产级医学PDF结构化提取器 v7.2
-改进：处理超长文档 + 修复JSON控制字符问题
+生产级医学PDF结构化提取器 v7.6
+混合策略：根据文档大小自适应页面选择
+- 短文档(≤15页): 全部保留，只跳过空白页
+- 中等文档(16-50页): 跳过目录/参考文献/空白页
+- 长文档(>50页): 智能选择最多50页关键内容
 """
 import json
 import re
@@ -8,29 +11,43 @@ import time
 import requests
 import fitz
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List, Tuple
 
 LOCAL_API = "http://localhost:8000/v1/chat/completions"
 FEWSHOT_DIR = Path(__file__).parent / "fewshot_samples"
 
+# 文档大小阈值
+SHORT_DOC_THRESHOLD = 15
+MEDIUM_DOC_THRESHOLD = 50
+
+# 页面过滤模式
+SKIP_PATTERNS = [
+    r'^table\s+of\s+contents?$', r'^contents?$', r'^目录$',
+    r'^references?$', r'^bibliography$', r'^参考文献$',
+    r'^appendix', r'^附录', r'^acknowledge?ments?$', r'^致谢$',
+]
+
+PRIORITY_PATTERNS = [
+    (r'abstract|摘要|summary|executive\s+summary', 10),
+    (r'conclusion|结论|讨论|discussion', 8),
+    (r'recommend|建议|推荐|results?|结果', 7),
+    (r'method|方法|材料', 5),
+    (r'introduction|背景|background|引言', 4),
+]
+
+
 def clean_json_string(s: str) -> str:
-    """清理JSON字符串中的控制字符"""
     return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', s)
 
+
 def extract_first_json(text: str) -> Optional[str]:
-    """提取第一个完整的JSON对象"""
     text = re.sub(r'^```json\s*', '', text.strip())
     text = re.sub(r'\s*```$', '', text)
     text = clean_json_string(text)
-    
     start = text.find('{')
     if start == -1:
         return None
-    
-    depth = 0
-    in_string = False
-    escape = False
-    
+    depth, in_string, escape = 0, False, False
     for i, c in enumerate(text[start:], start):
         if escape:
             escape = False
@@ -52,10 +69,112 @@ def extract_first_json(text: str) -> Optional[str]:
     return None
 
 
+class HybridPageSelector:
+    """混合策略页面选择器"""
+    
+    def __init__(self, max_long_doc_pages: int = 50, min_content_chars: int = 100):
+        self.max_long_doc_pages = max_long_doc_pages
+        self.min_content_chars = min_content_chars
+    
+    def _is_empty_page(self, text: str) -> bool:
+        return len(re.sub(r'\s+', '', text)) < self.min_content_chars
+    
+    def _should_skip_page(self, text: str) -> bool:
+        first_lines = '\n'.join(text.lower().strip().split('\n')[:5])
+        for pattern in SKIP_PATTERNS:
+            if re.search(pattern, first_lines, re.IGNORECASE):
+                return True
+        if len(re.findall(r'\.\s*\d{1,3}\s*$', text, re.MULTILINE)) > 10:
+            return True
+        return False
+    
+    def _get_page_priority(self, text: str, page_num: int, total_pages: int) -> int:
+        first_lines = '\n'.join(text.lower().split('\n')[:5])
+        priority = 0
+        for pattern, score in PRIORITY_PATTERNS:
+            if re.search(pattern, first_lines, re.IGNORECASE):
+                priority = max(priority, score)
+        if page_num <= 3 or page_num > total_pages - 3:
+            priority += 3
+        return priority
+    
+    def select_pages(self, doc: fitz.Document) -> Tuple[List[Tuple[int, str]], str]:
+        """混合策略选择页面"""
+        total_pages = len(doc)
+        
+        # 确定文档大小类型
+        if total_pages <= SHORT_DOC_THRESHOLD:
+            doc_size = 'short'
+        elif total_pages <= MEDIUM_DOC_THRESHOLD:
+            doc_size = 'medium'
+        else:
+            doc_size = 'long'
+        
+        # 短文档(≤15页)：全部保留，只跳过空白页
+        if doc_size == 'short':
+            pages = []
+            for i in range(total_pages):
+                text = doc[i].get_text()
+                if not self._is_empty_page(text):
+                    pages.append((i, text))
+            return pages, doc_size
+        
+        # 中等文档(16-50页)：跳过目录/参考文献/空白页
+        if doc_size == 'medium':
+            pages = []
+            for i in range(total_pages):
+                text = doc[i].get_text()
+                if self._is_empty_page(text):
+                    continue
+                if self._should_skip_page(text):
+                    continue
+                pages.append((i, text))
+            return pages, doc_size
+        
+        # 长文档(>50页)：智能选择最多50页
+        page_info = []
+        for i in range(total_pages):
+            text = doc[i].get_text()
+            if self._is_empty_page(text):
+                continue
+            if self._should_skip_page(text):
+                continue
+            priority = self._get_page_priority(text, i + 1, total_pages)
+            page_info.append({
+                'index': i, 'text': text,
+                'priority': priority, 'char_count': len(text.strip())
+            })
+        
+        if len(page_info) <= self.max_long_doc_pages:
+            return [(p['index'], p['text']) for p in page_info], doc_size
+        
+        # 智能选择
+        selected = set()
+        for p in page_info[:5]:
+            selected.add(p['index'])
+        for p in page_info[-3:]:
+            selected.add(p['index'])
+        priority_sorted = sorted(page_info, key=lambda x: -x['priority'])
+        for p in priority_sorted[:20]:
+            if len(selected) >= self.max_long_doc_pages:
+                break
+            selected.add(p['index'])
+        remaining = self.max_long_doc_pages - len(selected)
+        if remaining > 0:
+            other = [p for p in page_info if p['index'] not in selected]
+            other.sort(key=lambda x: -x['char_count'])
+            for p in other[:remaining]:
+                selected.add(p['index'])
+        
+        result = [(p['index'], p['text']) for p in page_info if p['index'] in selected]
+        result.sort(key=lambda x: x[0])
+        return result, doc_size
+
+
 class MedicalPDFExtractor:
-    def __init__(self, api_url: str = LOCAL_API, max_pages: int = 15):
+    def __init__(self, api_url: str = LOCAL_API):
         self.api_url = api_url
-        self.max_pages = max_pages
+        self.page_selector = HybridPageSelector()
         self._fewshot_cache = {}
     
     def _call_llm(self, prompt: str, max_tokens: int = 6000) -> str:
@@ -75,15 +194,23 @@ class MedicalPDFExtractor:
             raise Exception(f"LLM API错误: {data.get('error', data)}")
         return data["choices"][0]["message"]["content"]
     
-    def _extract_text(self, pdf_path: str) -> str:
+    def _extract_text(self, pdf_path: str) -> Tuple[str, Dict]:
         doc = fitz.open(pdf_path)
-        pages = []
-        for i, page in enumerate(doc):
-            if i >= self.max_pages:
-                break
-            pages.append(f"=== 第{i+1}页 ===\n{page.get_text()}")
+        total_pages = len(doc)
+        
+        selected_pages, doc_size = self.page_selector.select_pages(doc)
+        
+        pages_text = []
+        for idx, text in selected_pages:
+            pages_text.append(f"=== 第{idx+1}页 ===\n{text}")
+        
         doc.close()
-        return "\n".join(pages)
+        
+        return "\n".join(pages_text), {
+            'total_pages': total_pages,
+            'selected_pages': len(selected_pages),
+            'doc_size': doc_size
+        }
     
     def _load_fewshot(self, doc_type: str) -> Optional[Dict]:
         if doc_type not in self._fewshot_cache:
@@ -105,7 +232,6 @@ class MedicalPDFExtractor:
 """ + text[:2500] + """
 
 只返回类型名："""
-        
         result = self._call_llm(prompt, max_tokens=50)
         for t in ["GUIDELINE", "REVIEW", "OTHER"]:
             if t in result.upper():
@@ -137,9 +263,11 @@ class MedicalPDFExtractor:
         else:
             fmt = '{"doc_metadata":{...},"scope":{...},"key_findings":[...],"conclusions":[...]}'
         
-        max_len = 10000
+        max_len = 12000
         if len(text) > max_len:
-            text = text[:max_len] + "\n...[截断]"
+            head = text[:max_len // 2]
+            tail = text[-(max_len // 2):]
+            text = head + "\n\n...[中间部分省略]...\n\n" + tail
         
         return f"{base}{fewshot_section}格式：{fmt}\n\n文档：\n{text}\n\n返回JSON："
 
@@ -147,7 +275,7 @@ class MedicalPDFExtractor:
         start_time = time.time()
         
         try:
-            text = self._extract_text(pdf_path)
+            text, stats = self._extract_text(pdf_path)
             if len(text.strip()) < 100:
                 return {"success": False, "error": "PDF内容过少", "time": time.time() - start_time}
             
@@ -163,7 +291,8 @@ class MedicalPDFExtractor:
                     "success": True,
                     "doc_type": doc_type,
                     "result": data,
-                    "time": time.time() - start_time
+                    "time": time.time() - start_time,
+                    "stats": stats
                 }
             else:
                 return {"success": False, "error": "未找到有效JSON", "time": time.time() - start_time}
@@ -183,5 +312,8 @@ if __name__ == "__main__":
     pdf = sys.argv[1] if len(sys.argv) > 1 else "example.pdf"
     result = extract_pdf(pdf)
     print(f"类型: {result.get('doc_type')}, 成功: {result.get('success')}, 耗时: {result.get('time', 0):.1f}s")
+    if 'stats' in result:
+        s = result['stats']
+        print(f"文档: {s['doc_size']} ({s['total_pages']}页→{s['selected_pages']}页)")
     if result.get("success"):
-        print(json.dumps(result["result"], ensure_ascii=False, indent=2)[:1500])
+        print(json.dumps(result["result"], ensure_ascii=False, indent=2)[:2000])
