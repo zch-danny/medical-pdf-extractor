@@ -1,9 +1,6 @@
 """
-生产级医学PDF结构化提取器 v7.6
-混合策略：根据文档大小自适应页面选择
-- 短文档(≤15页): 全部保留，只跳过空白页
-- 中等文档(16-50页): 跳过目录/参考文献/空白页
-- 长文档(>50页): 智能选择最多50页关键内容
+生产级医学PDF结构化提取器 v7.3
+智能页面选择版：跳过目录/参考文献，最多选择50页关键内容
 """
 import json
 import re
@@ -15,9 +12,6 @@ from typing import Optional, Dict, Any, List, Tuple
 
 LOCAL_API = "http://localhost:8000/v1/chat/completions"
 FEWSHOT_DIR = Path(__file__).parent / "fewshot_samples"
-
-SHORT_DOC_THRESHOLD = 15
-MEDIUM_DOC_THRESHOLD = 50
 
 SKIP_PATTERNS = [
     r'^table\s+of\s+contents?$', r'^contents?$', r'^目录$',
@@ -64,9 +58,11 @@ def extract_first_json(text: str) -> Optional[str]:
                 return text[start:i+1]
     return None
 
-class HybridPageSelector:
-    def __init__(self, max_long_doc_pages: int = 50, min_content_chars: int = 100):
-        self.max_long_doc_pages = max_long_doc_pages
+class SmartPageSelector:
+    """智能页面选择器：跳过无用页面，选择关键内容"""
+    
+    def __init__(self, max_pages: int = 50, min_content_chars: int = 100):
+        self.max_pages = max_pages
         self.min_content_chars = min_content_chars
     
     def _is_empty_page(self, text: str) -> bool:
@@ -77,6 +73,7 @@ class HybridPageSelector:
         for pattern in SKIP_PATTERNS:
             if re.search(pattern, first_lines, re.IGNORECASE):
                 return True
+        # 检测目录页（多个页码引用）
         if len(re.findall(r'\.\s*\d{1,3}\s*$', text, re.MULTILINE)) > 10:
             return True
         return False
@@ -87,69 +84,78 @@ class HybridPageSelector:
         for pattern, score in PRIORITY_PATTERNS:
             if re.search(pattern, first_lines, re.IGNORECASE):
                 priority = max(priority, score)
+        # 首尾页面加分
         if page_num <= 3 or page_num > total_pages - 3:
             priority += 3
         return priority
     
-    def select_pages(self, doc: fitz.Document) -> Tuple[List[Tuple[int, str]], str]:
+    def select_pages(self, doc: fitz.Document) -> Tuple[List[Tuple[int, str]], Dict]:
         total_pages = len(doc)
         
-        if total_pages <= SHORT_DOC_THRESHOLD:
-            doc_size = 'short'
-        elif total_pages <= MEDIUM_DOC_THRESHOLD:
-            doc_size = 'medium'
-        else:
-            doc_size = 'long'
-        
-        if doc_size == 'short':
-            pages = []
-            for i in range(total_pages):
-                text = doc[i].get_text()
-                if not self._is_empty_page(text):
-                    pages.append((i, text))
-            return pages, doc_size
-        
-        if doc_size == 'medium':
-            pages = []
-            for i in range(total_pages):
-                text = doc[i].get_text()
-                if self._is_empty_page(text) or self._should_skip_page(text):
-                    continue
-                pages.append((i, text))
-            return pages, doc_size
-        
+        # 收集所有有效页面
         page_info = []
         for i in range(total_pages):
             text = doc[i].get_text()
-            if self._is_empty_page(text) or self._should_skip_page(text):
+            if self._is_empty_page(text):
+                continue
+            if self._should_skip_page(text):
                 continue
             priority = self._get_page_priority(text, i + 1, total_pages)
-            page_info.append({'index': i, 'text': text, 'priority': priority, 'char_count': len(text.strip())})
+            page_info.append({
+                'index': i, 
+                'text': text, 
+                'priority': priority,
+                'char_count': len(text.strip())
+            })
         
-        if len(page_info) <= self.max_long_doc_pages:
-            return [(p['index'], p['text']) for p in page_info], doc_size
+        # 如果页面不多，全部保留
+        if len(page_info) <= self.max_pages:
+            return [(p['index'], p['text']) for p in page_info], {
+                'total_pages': total_pages,
+                'selected_pages': len(page_info),
+                'strategy': 'all'
+            }
         
+        # 智能选择最多max_pages页
         selected = set()
+        
+        # 1. 首5页必选
         for p in page_info[:5]:
             selected.add(p['index'])
+        
+        # 2. 末3页必选
         for p in page_info[-3:]:
             selected.add(p['index'])
-        for p in sorted(page_info, key=lambda x: -x['priority'])[:20]:
-            if len(selected) < self.max_long_doc_pages:
-                selected.add(p['index'])
-        remaining = self.max_long_doc_pages - len(selected)
-        if remaining > 0:
-            for p in sorted([x for x in page_info if x['index'] not in selected], key=lambda x: -x['char_count'])[:remaining]:
+        
+        # 3. 按优先级选择高分页
+        sorted_by_priority = sorted(page_info, key=lambda x: -x['priority'])
+        for p in sorted_by_priority:
+            if len(selected) >= self.max_pages:
+                break
+            selected.add(p['index'])
+        
+        # 4. 如果还不够，按内容长度补充
+        if len(selected) < self.max_pages:
+            remaining = self.max_pages - len(selected)
+            unselected = [p for p in page_info if p['index'] not in selected]
+            sorted_by_length = sorted(unselected, key=lambda x: -x['char_count'])
+            for p in sorted_by_length[:remaining]:
                 selected.add(p['index'])
         
+        # 按页码顺序输出
         result = [(p['index'], p['text']) for p in page_info if p['index'] in selected]
         result.sort(key=lambda x: x[0])
-        return result, doc_size
+        
+        return result, {
+            'total_pages': total_pages,
+            'selected_pages': len(result),
+            'strategy': 'smart_select'
+        }
 
 class MedicalPDFExtractor:
     def __init__(self, api_url: str = LOCAL_API):
         self.api_url = api_url
-        self.page_selector = HybridPageSelector()
+        self.page_selector = SmartPageSelector()
         self._fewshot_cache = {}
     
     def _call_llm(self, prompt: str, max_tokens: int = 6000) -> str:
@@ -167,15 +173,10 @@ class MedicalPDFExtractor:
     
     def _extract_text(self, pdf_path: str) -> Tuple[str, Dict]:
         doc = fitz.open(pdf_path)
-        total_pages = len(doc)
-        selected_pages, doc_size = self.page_selector.select_pages(doc)
+        selected_pages, stats = self.page_selector.select_pages(doc)
         pages_text = [f"=== 第{idx+1}页 ===\n{text}" for idx, text in selected_pages]
         doc.close()
-        return "\n".join(pages_text), {
-            'total_pages': total_pages,
-            'selected_pages': len(selected_pages),
-            'doc_size': doc_size
-        }
+        return "\n".join(pages_text), stats
     
     def _load_fewshot(self, doc_type: str) -> Optional[Dict]:
         if doc_type not in self._fewshot_cache:
@@ -197,6 +198,7 @@ class MedicalPDFExtractor:
     
     def _build_prompt(self, doc_type: str, text: str, fewshot: Optional[Dict]) -> str:
         base = f"医学文献信息提取专家。从{doc_type}文档提取结构化信息。\n\n要求：\n1. sources标注页码如[\"p1\"]或[\"p3-p5\"]\n2. 只提取原文存在的信息，不编造\n3. 提取具体内容，不是章节标题\n4. 推荐/建议要完整引用原文\n\n"
+        
         fewshot_section = ""
         if fewshot:
             ex = fewshot["expected_output"]
@@ -208,10 +210,11 @@ class MedicalPDFExtractor:
         fmt_map = {
             "GUIDELINE": '{"doc_metadata":{...},"scope":{...},"recommendations":[{"id":"1.1","text":"完整推荐内容","strength":"强度","sources":["px"]}],"key_evidence":[...]}',
             "REVIEW": '{"doc_metadata":{...},"scope":{...},"key_findings":[{"id":"F1","finding":"具体发现","sources":["px"]}],"conclusions":[...]}',
-            "OTHER": '{"doc_metadata":{...},"scope":{...},"key_findings":[...],"conclusions":[...]}'
+            "OTHER": '{"doc_metadata":{...},"scope":{...},"key_findings":[...],conclusions":[...]}'
         }
         fmt = fmt_map.get(doc_type, fmt_map["OTHER"])
         
+        # 长文本截断
         if len(text) > 12000:
             text = text[:6000] + "\n\n...[中间部分省略]...\n\n" + text[-6000:]
         
@@ -250,4 +253,4 @@ if __name__ == "__main__":
     print(f"类型: {result.get('doc_type')}, 成功: {result.get('success')}, 耗时: {result.get('time', 0):.1f}s")
     if 'stats' in result:
         s = result['stats']
-        print(f"文档: {s['doc_size']} ({s['total_pages']}页→{s['selected_pages']}页)")
+        print(f"页面: {s['total_pages']}→{s['selected_pages']} ({s['strategy']})")

@@ -1,118 +1,85 @@
-# Medical PDF Extractor
+# Medical PDF Structured Information Extractor
 
-基于 Qwen3-8B 的医学文献结构化信息提取系统。
+医学PDF结构化信息提取系统，基于Qwen3-8B模型，支持指南、综述、其他类型医学文献的自动化提取。
 
-## 功能特点
+## 核心特性
 
-- **自动分类**: 识别文档类型 (GUIDELINE/REVIEW/OTHER)
-- **动态Few-shot**: 根据类型加载对应高质量示例
-- **结构化提取**: 提取元数据、推荐意见、关键发现、结论等
-- **来源追溯**: 每项信息标注页码来源
-- **长文档支持**: 方案5支持处理超长文档(100+页)
+- **智能文档分类**: 自动识别GUIDELINE/REVIEW/OTHER类型
+- **动态Few-shot**: 根据文档类型加载对应高质量示例
+- **分流架构**: 根据文档大小自动选择最优提取策略
+- **结构化输出**: JSON格式，包含元数据、推荐/发现、证据、结论
+
+## 当前版本
+
+**v7.9** - 分流架构版
+
+| 文档大小 | 策略 | 说明 |
+|---------|------|------|
+| ≤50页 | single_short | 智能选页，一次性提取 |
+| 51-80页 | single_long | 选60页，一次性提取 |
+| >80页 | mapreduce | 先选80页，分块提取后合并 |
 
 ## 性能指标
 
-### v7.2 生产版本 (100个PDF)
-
-| 指标 | 结果 |
-|------|------|
-| 成功率 | 97% |
-| 平均评分 | 9.60/10 (GPT-5.2评估) |
-| ≥8分占比 | 100% |
-| 平均耗时 | ~58秒/文件 |
-| 文档限制 | ≤15页 |
-
-### 方案5 v4 长文档版本 (10个PDF测试)
-
-| 指标 | 结果 |
-|------|------|
-| 成功率 | 100% |
-| 平均覆盖率 | 74.9% |
-| 平均耗时 | ~78秒/文件 |
-| 文档支持 | 无页数限制 |
-
-**按文档长度表现:**
-- 短文档(≤30页): 83%覆盖率
-- 中等(31-100页): 56%覆盖率
-- 长文档(>100页): 55%覆盖率
+| 文档类型 | 平均评分 | 平均耗时 |
+|---------|---------|---------|
+| 短文档(≤15页) | 8.3/10 | 35s |
+| 中文档(16-50页) | 6.5/10 | 45s |
+| 长文档(>50页) | 6.0/10 | 90s |
 
 ## 快速开始
 
-### 环境要求
-- Python 3.8+
-- CUDA GPU (推荐V100 16GB+)
-- vLLM 0.13.0+
-
-### 安装依赖
-```bash
-pip install vllm pymupdf requests
-```
-
-### 使用示例
-
-#### 标准版本 (≤15页文档)
 ```python
-from production_extractor_v7 import extract_pdf
+from production_extractor_v79 import extract_pdf
 
-result = extract_pdf("/path/to/medical.pdf")
-
-if result["success"]:
-    print(f"文档类型: {result['doc_type']}")
-    print(f"耗时: {result['time']:.1f}s")
-    print(f"提取结果: {result['result']}")
+result = extract_pdf("your_medical_paper.pdf")
+print(result['doc_type'])  # GUIDELINE/REVIEW/OTHER
+print(result['result'])    # 结构化提取结果
 ```
 
-#### 长文档版本 (方案5)
-```python
-from field_retrieval_extractor import extract_pdf
+## 部署要求
 
-result = extract_pdf("/path/to/long_document.pdf")
+- Python 3.10+
+- vLLM (Qwen3-8B, fp16, max_model_len=16384)
+- PyMuPDF (fitz)
 
-print(f"文档类型: {result['doc_type']}")
-print(f"覆盖率: {result['stats']['coverage_ratio']*100:.0f}%")
-print(f"推荐意见: {len(result.get('recommendations', []))}条")
-print(f"关键发现: {len(result.get('key_findings', []))}条")
+## 文件结构
+
+```
+├── production_extractor_v79.py  # 主提取器（生产版）
+├── fewshot_samples/             # Few-shot示例
+│   ├── GUIDELINE_sample.json
+│   ├── REVIEW_sample.json
+│   └── OTHER_sample.json
+├── test_v79.py                  # 测试脚本
+└── docs/                        # 文档
 ```
 
-## 输出格式
+## 待优化方向
 
-### GUIDELINE类型
-```json
-{
-  "doc_metadata": {"title": "...", "organization": "...", "sources": ["p1"]},
-  "scope": {"population": "...", "conditions": "...", "sources": ["px"]},
-  "recommendations": [
-    {"id": "1.1", "text": "推荐内容", "strength": "强度", "sources": ["px"]}
-  ],
-  "key_findings": [{"finding": "...", "sources": ["px"]}],
-  "conclusions": [{"text": "...", "sources": ["px"]}]
-}
-```
+### 1. Milvus语义检索集成（高优先级）
+- 当前：启发式关键词选页
+- 优化：用Milvus+BGE-M3/Qwen3-embedding语义检索选页
+- 预期：长文档准确度提升1-2分
 
-### REVIEW类型
-```json
-{
-  "doc_metadata": {"title": "...", "authors": "...", "journal": "...", "sources": ["p1"]},
-  "scope": {"objective": "...", "sources": ["px"]},
-  "key_findings": [{"id": "F1", "finding": "...", "sources": ["px"]}],
-  "conclusions": [{"id": "C1", "text": "...", "sources": ["px"]}]
-}
-```
+### 2. 提示词优化
+- Quote-then-Structure：先摘录原文再结构化
+- JSON Schema约束：更严格的输出格式
+- 思维链引导
+
+### 3. 长文档分块策略
+- 先选后分块（已实现）
+- 锚点窗口检索
+- 自适应chunk大小
 
 ## 版本历史
 
-| 版本 | 平均分 | 改进 |
-|------|--------|------|
-| v4 | 4.1 | 基线 |
-| v6 | 7.1 | 静态few-shot |
-| v7.2 | **9.6** | 动态few-shot + 健壮性优化 |
-| 方案5 v4 | - | 字段级检索增强，支持长文档 |
-
-## 核心文件
-
-- `production_extractor_v7.py` - 生产版本提取器 (≤15页)
-- `field_retrieval_extractor.py` - 方案5长文档提取器
-- `fewshot_samples/` - Few-shot示例目录
+| 版本 | 日期 | 评分 | 改进 |
+|------|------|------|------|
+| v7.2 | 01-08 | 9.6 | 动态Few-shot |
+| v7.3 | 01-12 | 8.3 | 智能页面选择 |
+| v7.6 | 01-12 | 7.5 | 混合策略 |
+| v7.9 | 01-13 | 7.0 | 分流架构 |
 
 ## License
 
