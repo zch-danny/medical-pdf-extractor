@@ -1,93 +1,86 @@
-# Medical PDF Extractor v7.6
+# Medical PDF Structured Information Extractor
 
-医学PDF结构化信息提取系统，使用Qwen3-8B模型进行文档分类和信息提取。
+医学PDF结构化信息提取系统，基于Qwen3-8B模型，支持指南、综述、其他类型医学文献的自动化提取。
 
-## 特性
+## 核心特性
 
 - **智能文档分类**: 自动识别GUIDELINE/REVIEW/OTHER类型
-- **混合页面策略**: 根据文档大小自适应选择最优提取策略
 - **动态Few-shot**: 根据文档类型加载对应高质量示例
-- **高准确率**: GPT-5.2评分9.0+，≥8分占比100%
+- **分流架构**: 根据文档大小自动选择最优提取策略
+- **结构化输出**: JSON格式，包含元数据、推荐/发现、证据、结论
 
-## 混合策略
+## 当前版本
 
-| 文档大小 | 页面策略 |
-|---------|---------|
-| ≤15页 (短文档) | 全部保留，只跳过空白页 |
-| 16-50页 (中等) | 跳过目录/参考文献/空白页 |
-| >50页 (长文档) | 智能选择最多50页关键内容 |
+**v7.9** - 分流架构版
+
+| 文档大小 | 策略 | 说明 |
+|---------|------|------|
+| ≤50页 | single_short | 智能选页，一次性提取 |
+| 51-80页 | single_long | 选60页，一次性提取 |
+| >80页 | mapreduce | 先选80页，分块提取后合并 |
+
+## 性能指标
+
+| 文档类型 | 平均评分 | 平均耗时 |
+|---------|---------|---------|
+| 短文档(≤15页) | 8.3/10 | 35s |
+| 中文档(16-50页) | 6.5/10 | 45s |
+| 长文档(>50页) | 6.0/10 | 90s |
 
 ## 快速开始
 
-### 1. 启动vLLM服务
-```bash
-bash /root/autodl-tmp/vllm_server_v13.sh
-# 等待约2分钟模型加载
-curl http://localhost:8000/v1/models
-```
-
-### 2. 提取PDF
 ```python
-from production_extractor_v7 import extract_pdf
+from production_extractor_v79 import extract_pdf
 
-result = extract_pdf("/path/to/medical.pdf")
-if result["success"]:
-    print(f"类型: {result['doc_type']}")
-    print(f"文档大小: {result['stats']['doc_size']}")
-    print(f"结果: {result['result']}")
+result = extract_pdf("your_medical_paper.pdf")
+print(result['doc_type'])  # GUIDELINE/REVIEW/OTHER
+print(result['result'])    # 结构化提取结果
 ```
 
-## 输出格式
+## 部署要求
 
-```json
-{
-  "success": true,
-  "doc_type": "GUIDELINE",
-  "result": {
-    "doc_metadata": {"title": "...", "authors": "...", "sources": ["p1"]},
-    "scope": {"content_summary": "...", "sources": ["p2"]},
-    "recommendations": [
-      {"id": "1.1", "text": "推荐内容", "strength": "强", "sources": ["p5"]}
-    ],
-    "key_evidence": [...]
-  },
-  "stats": {
-    "total_pages": 27,
-    "selected_pages": 27,
-    "doc_size": "medium"
-  },
-  "time": 42.5
-}
-```
+- Python 3.10+
+- vLLM (Qwen3-8B, fp16, max_model_len=16384)
+- PyMuPDF (fitz)
 
 ## 文件结构
 
 ```
-production_extractor_v7.py   # 主提取器(v7.6混合策略)
-fewshot_samples/
-  ├── GUIDELINE_sample.json
-  ├── REVIEW_sample.json
-  └── OTHER_sample.json
+├── production_extractor_v79.py  # 主提取器（生产版）
+├── fewshot_samples/             # Few-shot示例
+│   ├── GUIDELINE_sample.json
+│   ├── REVIEW_sample.json
+│   └── OTHER_sample.json
+├── test_v79.py                  # 测试脚本
+└── docs/                        # 文档
 ```
 
-## 性能指标
+## 待优化方向
 
-| 指标 | 结果 |
-|------|------|
-| 成功率 | 100% |
-| GPT-5.2评分 | 9.0+ |
-| ≥8分占比 | 100% |
-| 平均耗时 | ~45秒 |
+### 1. Milvus语义检索集成（高优先级）
+- 当前：启发式关键词选页
+- 优化：用Milvus+BGE-M3/Qwen3-embedding语义检索选页
+- 预期：长文档准确度提升1-2分
+
+### 2. 提示词优化
+- Quote-then-Structure：先摘录原文再结构化
+- JSON Schema约束：更严格的输出格式
+- 思维链引导
+
+### 3. 长文档分块策略
+- 先选后分块（已实现）
+- 锚点窗口检索
+- 自适应chunk大小
 
 ## 版本历史
 
-- **v7.6** (2026-01-12): 混合策略，兼顾短文档高评分和长文档支持
-- **v7.3** (2026-01-12): 智能页面选择，支持长文档
-- **v7.2** (2026-01-08): 动态Few-shot，评分9.60
+| 版本 | 日期 | 评分 | 改进 |
+|------|------|------|------|
+| v7.2 | 01-08 | 9.6 | 动态Few-shot |
+| v7.3 | 01-12 | 8.3 | 智能页面选择 |
+| v7.6 | 01-12 | 7.5 | 混合策略 |
+| v7.9 | 01-13 | 7.0 | 分流架构 |
 
-## 依赖
+## License
 
-- Python 3.8+
-- vLLM 0.13.0
-- PyMuPDF (fitz)
-- requests
+MIT
