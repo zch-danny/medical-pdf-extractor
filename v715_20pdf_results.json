@@ -1,0 +1,348 @@
+{
+  "version": "v7.15",
+  "total_pdfs": 20,
+  "successful": 18,
+  "scored": 18,
+  "avg_overall": 4.633333333333334,
+  "avg_accuracy": 5.666666666666667,
+  "avg_completeness": 4.055555555555555,
+  "avg_source_accuracy": 4.166666666666667,
+  "avg_items": 5.444444444444445,
+  "total_time": 900.4063096046448,
+  "results": [
+    {
+      "pdf": "1756711187745_5579292.pdf",
+      "success": true,
+      "items": 5,
+      "extract_time": 14.254891872406006,
+      "verify": {
+        "total": 5,
+        "verified": 5,
+        "fixed": 0,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 9.0,
+        "completeness": 7.0,
+        "source_accuracy": 10.0,
+        "overall": 8.7
+      }
+    },
+    {
+      "pdf": "1756711584225_1608702.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=180)"
+    },
+    {
+      "pdf": "1756453891288_1608702.pdf",
+      "success": true,
+      "items": 10,
+      "extract_time": 24.123160362243652,
+      "verify": {
+        "total": 10,
+        "verified": 0,
+        "fixed": 10,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 2.0,
+        "completeness": 2.0,
+        "source_accuracy": 1.0,
+        "overall": 1.7
+      }
+    },
+    {
+      "pdf": "1756694891048_5579292.pdf",
+      "success": true,
+      "items": 5,
+      "extract_time": 49.7265248298645,
+      "verify": {
+        "total": 10,
+        "verified": 0,
+        "fixed": 5,
+        "removed": 5
+      },
+      "scores": {
+        "accuracy": 6.0,
+        "completeness": 5.0,
+        "source_accuracy": 3.0,
+        "overall": 4.7
+      }
+    },
+    {
+      "pdf": "1756694954932_5579292.pdf",
+      "success": true,
+      "items": 0,
+      "extract_time": 36.00764608383179,
+      "verify": {
+        "total": 10,
+        "verified": 0,
+        "fixed": 0,
+        "removed": 10
+      },
+      "scores": {
+        "accuracy": 9.0,
+        "completeness": 1.0,
+        "source_accuracy": 1.0,
+        "overall": 3.7
+      }
+    },
+    {
+      "pdf": "1756710561227_5579292.pdf",
+      "success": true,
+      "items": 4,
+      "extract_time": 20.669525384902954,
+      "verify": {
+        "total": 6,
+        "verified": 3,
+        "fixed": 1,
+        "removed": 2
+      },
+      "scores": {
+        "accuracy": 5.0,
+        "completeness": 6.0,
+        "source_accuracy": 4.0,
+        "overall": 5.0
+      }
+    },
+    {
+      "pdf": "1756711019517_5579292.pdf",
+      "success": true,
+      "items": 5,
+      "extract_time": 13.532147407531738,
+      "verify": {
+        "total": 5,
+        "verified": 2,
+        "fixed": 3,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 7.0,
+        "completeness": 6.0,
+        "source_accuracy": 6.0,
+        "overall": 6.3
+      }
+    },
+    {
+      "pdf": "1756710006526_5579292.pdf",
+      "success": true,
+      "items": 5,
+      "extract_time": 14.105308771133423,
+      "verify": {
+        "total": 5,
+        "verified": 4,
+        "fixed": 1,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 8.0,
+        "completeness": 7.0,
+        "source_accuracy": 7.0,
+        "overall": 7.3
+      }
+    },
+    {
+      "pdf": "1756705897161_5579292.pdf",
+      "success": true,
+      "items": 1,
+      "extract_time": 45.456300497055054,
+      "verify": {
+        "total": 10,
+        "verified": 0,
+        "fixed": 1,
+        "removed": 9
+      },
+      "scores": {
+        "accuracy": 2.0,
+        "completeness": 2.0,
+        "source_accuracy": 1.0,
+        "overall": 1.7
+      }
+    },
+    {
+      "pdf": "1756709847051_5579292.pdf",
+      "success": true,
+      "items": 10,
+      "extract_time": 21.52121901512146,
+      "verify": {
+        "total": 10,
+        "verified": 1,
+        "fixed": 9,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 3.0,
+        "completeness": 4.0,
+        "source_accuracy": 2.0,
+        "overall": 3.0
+      }
+    },
+    {
+      "pdf": "1756460577061_8106296.pdf",
+      "success": true,
+      "items": 4,
+      "extract_time": 8.50245475769043,
+      "verify": {
+        "total": 4,
+        "verified": 4,
+        "fixed": 0,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 6.0,
+        "completeness": 5.0,
+        "source_accuracy": 4.0,
+        "overall": 5.0
+      }
+    },
+    {
+      "pdf": "1756706418200_5579292.pdf",
+      "success": true,
+      "items": 0,
+      "extract_time": 30.562520503997803,
+      "verify": {
+        "total": 10,
+        "verified": 0,
+        "fixed": 0,
+        "removed": 10
+      },
+      "scores": {
+        "accuracy": 9.0,
+        "completeness": 1.0,
+        "source_accuracy": 2.0,
+        "overall": 4.0
+      }
+    },
+    {
+      "pdf": "1756706468788_5579292.pdf",
+      "success": true,
+      "items": 2,
+      "extract_time": 34.177470207214355,
+      "verify": {
+        "total": 10,
+        "verified": 0,
+        "fixed": 2,
+        "removed": 8
+      },
+      "scores": {
+        "accuracy": 3.0,
+        "completeness": 2.0,
+        "source_accuracy": 2.0,
+        "overall": 2.3
+      }
+    },
+    {
+      "pdf": "1756460835542_8106296.pdf",
+      "success": true,
+      "items": 14,
+      "extract_time": 25.845726013183594,
+      "verify": {
+        "total": 14,
+        "verified": 0,
+        "fixed": 14,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 2.0,
+        "completeness": 3.0,
+        "source_accuracy": 1.0,
+        "overall": 2.0
+      }
+    },
+    {
+      "pdf": "1756710859463_5579292.pdf",
+      "success": true,
+      "items": 10,
+      "extract_time": 22.282469749450684,
+      "verify": {
+        "total": 10,
+        "verified": 10,
+        "fixed": 0,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 9.0,
+        "completeness": 7.0,
+        "source_accuracy": 9.0,
+        "overall": 8.3
+      }
+    },
+    {
+      "pdf": "1756453814456_1608702.pdf",
+      "success": true,
+      "items": 10,
+      "extract_time": 26.915743589401245,
+      "verify": {
+        "total": 10,
+        "verified": 10,
+        "fixed": 0,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 3.0,
+        "completeness": 3.0,
+        "source_accuracy": 8.0,
+        "overall": 4.7
+      }
+    },
+    {
+      "pdf": "1756453929400_8248372.pdf",
+      "success": true,
+      "items": 10,
+      "extract_time": 33.35301089286804,
+      "verify": {
+        "total": 10,
+        "verified": 10,
+        "fixed": 0,
+        "removed": 0
+      },
+      "scores": {
+        "accuracy": 6.0,
+        "completeness": 6.0,
+        "source_accuracy": 2.0,
+        "overall": 4.7
+      }
+    },
+    {
+      "pdf": "1756711869723_1608702.pdf",
+      "success": true,
+      "items": 1,
+      "extract_time": 19.92768359184265,
+      "verify": {
+        "total": 5,
+        "verified": 1,
+        "fixed": 0,
+        "removed": 4
+      },
+      "scores": {
+        "accuracy": 10.0,
+        "completeness": 4.0,
+        "source_accuracy": 10.0,
+        "overall": 8.0
+      }
+    },
+    {
+      "pdf": "1756711687858_1608702.pdf",
+      "success": true,
+      "items": 2,
+      "extract_time": 19.688183069229126,
+      "verify": {
+        "total": 5,
+        "verified": 1,
+        "fixed": 1,
+        "removed": 3
+      },
+      "scores": {
+        "accuracy": 3.0,
+        "completeness": 2.0,
+        "source_accuracy": 2.0,
+        "overall": 2.3
+      }
+    },
+    {
+      "pdf": "1756711943364_1608702.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=180)"
+    }
+  ]
+}

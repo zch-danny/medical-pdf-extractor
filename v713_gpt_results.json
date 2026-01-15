@@ -1,0 +1,66 @@
+[
+  {
+    "pdf": "1756460577061_8106296.pdf",
+    "items": 10,
+    "extract_time": 54.15247201919556,
+    "scores": {
+      "overall": 3.0,
+      "accuracy": 3.0,
+      "completeness": 4.0,
+      "source_accuracy": 2.0,
+      "std": 0,
+      "n_runs": 1,
+      "ref_pages": [
+        1,
+        2,
+        3,
+        8,
+        12,
+        14,
+        15,
+        24,
+        25
+      ],
+      "details": [
+        {
+          "accuracy": 3,
+          "completeness": 4,
+          "source_accuracy": 2,
+          "overall": 3.0,
+          "reason": "多条提取涉及原文未提供/无法验证的伦理监管与p25内容，且多处页码引用明显错配（如把p8/p12内容标到p2/p25），同时对原文已给出的具体方法与安全应用等关键信息提取不全。"
+        }
+      ]
+    },
+    "eval_time": 3.845945358276367
+  },
+  {
+    "pdf": "1756694891048_5579292.pdf",
+    "items": 10,
+    "extract_time": 23.69788360595703,
+    "scores": {
+      "overall": 3.0,
+      "accuracy": 4.0,
+      "completeness": 3.0,
+      "source_accuracy": 2.0,
+      "std": 0,
+      "n_runs": 1,
+      "ref_pages": [
+        1,
+        2,
+        3,
+        12,
+        13
+      ],
+      "details": [
+        {
+          "accuracy": 4,
+          "completeness": 3,
+          "source_accuracy": 2,
+          "overall": 3.0,
+          "reason": "仅p2-p3内容可直接核对且有一处页码错误（BRCA/HRD认知差距应在p3非p2），其余多条关于HRD/PARP/HER2/RRSO及不同治疗阶段检测推荐（标注p4/p5/p7）在给定原文页(1,2,3,12,13)中无法验证，导致准确性、完整性与页码可靠性均明显受限。"
+        }
+      ]
+    },
+    "eval_time": 4.967592477798462
+  }
+]

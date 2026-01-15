@@ -1,0 +1,219 @@
+{
+  "version": "v7.16",
+  "total_pdfs": 20,
+  "successful": 15,
+  "scored": 15,
+  "avg_overall": 4.693333333333333,
+  "avg_accuracy": 5.8,
+  "avg_completeness": 4.333333333333333,
+  "avg_source_accuracy": 3.933333333333333,
+  "avg_items": 13.066666666666666,
+  "total_time": 3014.3332512378693,
+  "results": [
+    {
+      "pdf": "1756711187745_5579292.pdf",
+      "success": true,
+      "items": 20,
+      "extract_time": 59.33196210861206,
+      "scores": {
+        "accuracy": 5.0,
+        "completeness": 6.0,
+        "source_accuracy": 4.0,
+        "overall": 5.0
+      }
+    },
+    {
+      "pdf": "1756711584225_1608702.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=300)"
+    },
+    {
+      "pdf": "1756453891288_1608702.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=300)"
+    },
+    {
+      "pdf": "1756694891048_5579292.pdf",
+      "success": true,
+      "items": 17,
+      "extract_time": 125.36340808868408,
+      "scores": {
+        "accuracy": 6.0,
+        "completeness": 6.0,
+        "source_accuracy": 5.0,
+        "overall": 5.7
+      }
+    },
+    {
+      "pdf": "1756694954932_5579292.pdf",
+      "success": true,
+      "items": 28,
+      "extract_time": 249.66355109214783,
+      "scores": {
+        "accuracy": 8.0,
+        "completeness": 5.0,
+        "source_accuracy": 8.0,
+        "overall": 7.0
+      }
+    },
+    {
+      "pdf": "1756710561227_5579292.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=300)"
+    },
+    {
+      "pdf": "1756711019517_5579292.pdf",
+      "success": true,
+      "items": 39,
+      "extract_time": 73.20769572257996,
+      "scores": {
+        "accuracy": 6.0,
+        "completeness": 6.0,
+        "source_accuracy": 5.0,
+        "overall": 5.7
+      }
+    },
+    {
+      "pdf": "1756710006526_5579292.pdf",
+      "success": true,
+      "items": 11,
+      "extract_time": 31.96385145187378,
+      "scores": {
+        "accuracy": 5.0,
+        "completeness": 6.0,
+        "source_accuracy": 4.0,
+        "overall": 5.0
+      }
+    },
+    {
+      "pdf": "1756705897161_5579292.pdf",
+      "success": true,
+      "items": 0,
+      "extract_time": 237.48926401138306,
+      "scores": {
+        "accuracy": 9.0,
+        "completeness": 1.0,
+        "source_accuracy": 2.0,
+        "overall": 4.0
+      }
+    },
+    {
+      "pdf": "1756709847051_5579292.pdf",
+      "success": true,
+      "items": 13,
+      "extract_time": 29.940706253051758,
+      "scores": {
+        "accuracy": 4.0,
+        "completeness": 4.0,
+        "source_accuracy": 2.0,
+        "overall": 3.3
+      }
+    },
+    {
+      "pdf": "1756460577061_8106296.pdf",
+      "success": true,
+      "items": 21,
+      "extract_time": 47.358620166778564,
+      "scores": {
+        "accuracy": 4.0,
+        "completeness": 5.0,
+        "source_accuracy": 3.0,
+        "overall": 4.0
+      }
+    },
+    {
+      "pdf": "1756706418200_5579292.pdf",
+      "success": true,
+      "items": 2,
+      "extract_time": 71.89178347587585,
+      "scores": {
+        "accuracy": 7.0,
+        "completeness": 3.0,
+        "source_accuracy": 2.0,
+        "overall": 4.0
+      }
+    },
+    {
+      "pdf": "1756706468788_5579292.pdf",
+      "success": true,
+      "items": 1,
+      "extract_time": 96.97097945213318,
+      "scores": {
+        "accuracy": 8.0,
+        "completeness": 3.0,
+        "source_accuracy": 1.0,
+        "overall": 4.0
+      }
+    },
+    {
+      "pdf": "1756460835542_8106296.pdf",
+      "success": true,
+      "items": 3,
+      "extract_time": 44.367692708969116,
+      "scores": {
+        "accuracy": 2.0,
+        "completeness": 2.0,
+        "source_accuracy": 1.0,
+        "overall": 1.7
+      }
+    },
+    {
+      "pdf": "1756710859463_5579292.pdf",
+      "success": true,
+      "items": 12,
+      "extract_time": 34.7474570274353,
+      "scores": {
+        "accuracy": 8.0,
+        "completeness": 6.0,
+        "source_accuracy": 7.0,
+        "overall": 7.0
+      }
+    },
+    {
+      "pdf": "1756453814456_1608702.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=300)"
+    },
+    {
+      "pdf": "1756453929400_8248372.pdf",
+      "success": true,
+      "items": 11,
+      "extract_time": 38.48990249633789,
+      "scores": {
+        "accuracy": 4.0,
+        "completeness": 5.0,
+        "source_accuracy": 3.0,
+        "overall": 4.0
+      }
+    },
+    {
+      "pdf": "1756711869723_1608702.pdf",
+      "success": true,
+      "items": 3,
+      "extract_time": 55.57944416999817,
+      "scores": {
+        "accuracy": 7.0,
+        "completeness": 4.0,
+        "source_accuracy": 9.0,
+        "overall": 6.7
+      }
+    },
+    {
+      "pdf": "1756711687858_1608702.pdf",
+      "success": false,
+      "error": "HTTPConnectionPool(host='localhost', port=8000): Read timed out. (read timeout=300)"
+    },
+    {
+      "pdf": "1756711943364_1608702.pdf",
+      "success": true,
+      "items": 15,
+      "extract_time": 248.71300506591797,
+      "scores": {
+        "accuracy": 4.0,
+        "completeness": 3.0,
+        "source_accuracy": 3.0,
+        "overall": 3.3
+      }
+    }
+  ]
+}
