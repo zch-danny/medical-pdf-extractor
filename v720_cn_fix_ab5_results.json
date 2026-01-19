@@ -1,0 +1,106 @@
+{
+  "v716": [
+    {
+      "pdf": "1756460835542_8106296.pdf",
+      "items": 2,
+      "removed": 100,
+      "accuracy": 9,
+      "completeness": 7,
+      "source_accuracy": 9,
+      "overall": 8.33,
+      "comment": "提取的信息准确反映了原文的主要观点，但未能覆盖所有关键信息，整体质量较高。"
+    },
+    {
+      "pdf": "1756469724872_8106296.pdf",
+      "items": 3,
+      "removed": 9,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 10,
+      "overall": 9,
+      "comment": "提取结果准确反映了原文的关键信息，覆盖面较广，页码标注准确。"
+    },
+    {
+      "pdf": "1756694891048_5579292.pdf",
+      "items": 0,
+      "removed": 0,
+      "accuracy": 1,
+      "completeness": 1,
+      "source_accuracy": 1,
+      "overall": 1,
+      "comment": "提取结果为空，未能反映原文的任何信息，准确性、完整性和来源准确性均为最低分。"
+    },
+    {
+      "pdf": "1756706468788_5579292.pdf",
+      "items": 0,
+      "removed": 0,
+      "accuracy": 2,
+      "completeness": 1,
+      "source_accuracy": 0,
+      "overall": 1,
+      "comment": "提取结果为空，未能反映原文的任何信息，准确性、完整性和来源准确性均为最低分。"
+    },
+    {
+      "pdf": "1756453705743_8248372.pdf",
+      "items": 56,
+      "removed": 0,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 9,
+      "overall": 8.67,
+      "comment": "提取结果准确地反映了原文的关键信息，涵盖了主要推荐内容，但部分细节可能缺失。来源页码标注准确。"
+    }
+  ],
+  "v720": [
+    {
+      "pdf": "1756460835542_8106296.pdf",
+      "items": 117,
+      "removed": 0,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 9,
+      "overall": 8.67,
+      "comment": "提取的信息准确反映了原文的主要观点，涵盖了多个关键推荐，但可能遗漏了一些细节。页码标注准确。"
+    },
+    {
+      "pdf": "1756469724872_8106296.pdf",
+      "items": 9,
+      "removed": 0,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 9,
+      "overall": 8.67,
+      "comment": "提取结果准确反映了原文的关键信息，覆盖了主要内容，但在完整性上略有不足，部分细节未被提及。"
+    },
+    {
+      "pdf": "1756694891048_5579292.pdf",
+      "items": 24,
+      "removed": 0,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 9,
+      "overall": 8.67,
+      "comment": "提取结果准确反映了原文的关键信息，覆盖了主要推荐内容，页码标注也基本正确，但仍有部分细节未涵盖。"
+    },
+    {
+      "pdf": "1756706468788_5579292.pdf",
+      "items": 55,
+      "removed": 0,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 9,
+      "overall": 8.67,
+      "comment": "提取结果准确反映了原文的关键信息，涵盖了大部分重要内容，但在完整性上略有不足，可能缺少一些细节。页码标注基本正确。"
+    },
+    {
+      "pdf": "1756453705743_8248372.pdf",
+      "items": 28,
+      "removed": 0,
+      "accuracy": 9,
+      "completeness": 8,
+      "source_accuracy": 9,
+      "overall": 8.67,
+      "comment": "提取结果准确地反映了原文的关键信息，涵盖了主要推荐内容，页码标注也较为准确，但在完整性方面仍有提升空间，尤其是对某些细节的提取。"
+    }
+  ]
+}

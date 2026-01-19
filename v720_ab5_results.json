@@ -1,0 +1,140 @@
+{
+  "compare": {
+    "v7.16": {
+      "version": "v7.16",
+      "total_pdfs": 5,
+      "successful": 3,
+      "scored": 3,
+      "avg_overall": 4.0,
+      "avg_accuracy": 4.666666666666667,
+      "avg_completeness": 3.3333333333333335,
+      "avg_source_accuracy": 4.0,
+      "avg_items": 21.666666666666668,
+      "avg_extract_time": 172.282604376475,
+      "total_time": 559.8612225055695,
+      "details": [
+        {
+          "pdf": "1756711187745_5579292.pdf",
+          "success": true,
+          "items": 22,
+          "extract_time": 59.19378399848938,
+          "scores": {
+            "overall": 3.7,
+            "accuracy": 3.0,
+            "completeness": 5.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756711584225_1608702.pdf",
+          "success": true,
+          "items": 33,
+          "extract_time": 226.11256527900696,
+          "scores": {
+            "overall": 6.0,
+            "accuracy": 8.0,
+            "completeness": 3.0,
+            "source_accuracy": 7.0
+          }
+        },
+        {
+          "pdf": "1756453891288_1608702.pdf",
+          "success": true,
+          "items": 10,
+          "extract_time": 231.5414638519287,
+          "scores": {
+            "overall": 2.3,
+            "accuracy": 3.0,
+            "completeness": 2.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756694891048_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 13004 input tokens (6000 > 16384 - 13004). None"
+        },
+        {
+          "pdf": "1756694954932_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 16240 input tokens (6000 > 16384 - 16240). None"
+        }
+      ]
+    },
+    "v7.20": {
+      "version": "v7.20",
+      "total_pdfs": 5,
+      "successful": 5,
+      "scored": 5,
+      "avg_overall": 5.66,
+      "avg_accuracy": 5.6,
+      "avg_completeness": 6.0,
+      "avg_source_accuracy": 5.4,
+      "avg_items": 24.4,
+      "avg_extract_time": 100.1116051197052,
+      "total_time": 530.7392485141754,
+      "details": [
+        {
+          "pdf": "1756711187745_5579292.pdf",
+          "success": true,
+          "items": 11,
+          "extract_time": 27.833781480789185,
+          "scores": {
+            "overall": 7.3,
+            "accuracy": 7.0,
+            "completeness": 7.0,
+            "source_accuracy": 8.0
+          }
+        },
+        {
+          "pdf": "1756711584225_1608702.pdf",
+          "success": true,
+          "items": 13,
+          "extract_time": 86.92715167999268,
+          "scores": {
+            "overall": 7.7,
+            "accuracy": 9.0,
+            "completeness": 5.0,
+            "source_accuracy": 9.0
+          }
+        },
+        {
+          "pdf": "1756453891288_1608702.pdf",
+          "success": true,
+          "items": 67,
+          "extract_time": 182.1443109512329,
+          "scores": {
+            "overall": 4.7,
+            "accuracy": 4.0,
+            "completeness": 6.0,
+            "source_accuracy": 4.0
+          }
+        },
+        {
+          "pdf": "1756694891048_5579292.pdf",
+          "success": true,
+          "items": 18,
+          "extract_time": 82.70804238319397,
+          "scores": {
+            "overall": 4.3,
+            "accuracy": 4.0,
+            "completeness": 6.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756694954932_5579292.pdf",
+          "success": true,
+          "items": 13,
+          "extract_time": 120.94473910331726,
+          "scores": {
+            "overall": 4.3,
+            "accuracy": 4.0,
+            "completeness": 6.0,
+            "source_accuracy": 3.0
+          }
+        }
+      ]
+    }
+  }
+}

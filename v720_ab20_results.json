@@ -1,0 +1,423 @@
+{
+  "compare": {
+    "v7.16": {
+      "version": "v7.16",
+      "total_pdfs": 20,
+      "successful": 11,
+      "scored": 11,
+      "avg_overall": 4.427272727272728,
+      "avg_accuracy": 5.090909090909091,
+      "avg_completeness": 4.2727272727272725,
+      "avg_source_accuracy": 3.909090909090909,
+      "avg_items": 26.181818181818183,
+      "avg_extract_time": 127.47921709580855,
+      "total_time": 1527.4270794391632,
+      "details": [
+        {
+          "pdf": "1756711187745_5579292.pdf",
+          "success": true,
+          "items": 20,
+          "extract_time": 55.9151725769043,
+          "scores": {
+            "overall": 4.0,
+            "accuracy": 4.0,
+            "completeness": 5.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756711584225_1608702.pdf",
+          "success": true,
+          "items": 33,
+          "extract_time": 233.3133683204651,
+          "scores": {
+            "overall": 5.7,
+            "accuracy": 7.0,
+            "completeness": 4.0,
+            "source_accuracy": 6.0
+          }
+        },
+        {
+          "pdf": "1756453891288_1608702.pdf",
+          "success": true,
+          "items": 9,
+          "extract_time": 28.068997621536255,
+          "scores": {
+            "overall": 2.7,
+            "accuracy": 3.0,
+            "completeness": 3.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756694891048_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 13004 input tokens (6000 > 16384 - 13004). None"
+        },
+        {
+          "pdf": "1756694954932_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 16240 input tokens (6000 > 16384 - 16240). None"
+        },
+        {
+          "pdf": "1756710561227_5579292.pdf",
+          "success": true,
+          "items": 32,
+          "extract_time": 238.02109932899475,
+          "scores": {
+            "overall": 2.3,
+            "accuracy": 3.0,
+            "completeness": 2.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756711019517_5579292.pdf",
+          "success": true,
+          "items": 120,
+          "extract_time": 232.56695103645325,
+          "scores": {
+            "overall": 5.3,
+            "accuracy": 6.0,
+            "completeness": 6.0,
+            "source_accuracy": 4.0
+          }
+        },
+        {
+          "pdf": "1756710006526_5579292.pdf",
+          "success": true,
+          "items": 17,
+          "extract_time": 53.50996160507202,
+          "scores": {
+            "overall": 5.3,
+            "accuracy": 6.0,
+            "completeness": 6.0,
+            "source_accuracy": 4.0
+          }
+        },
+        {
+          "pdf": "1756705897161_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 13345 input tokens (6000 > 16384 - 13345). None"
+        },
+        {
+          "pdf": "1756709847051_5579292.pdf",
+          "success": true,
+          "items": 14,
+          "extract_time": 39.57694101333618,
+          "scores": {
+            "overall": 3.0,
+            "accuracy": 4.0,
+            "completeness": 3.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756460577061_8106296.pdf",
+          "success": true,
+          "items": 10,
+          "extract_time": 28.84151840209961,
+          "scores": {
+            "overall": 3.7,
+            "accuracy": 4.0,
+            "completeness": 4.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756706418200_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 12185 input tokens (6000 > 16384 - 12185). None"
+        },
+        {
+          "pdf": "1756706468788_5579292.pdf",
+          "success": false,
+          "error": "LLM调用失败(重试3次): LLM响应无choices: 'max_tokens' or 'max_completion_tokens' is too large: 6000. This model's maximum context length is 16384 tokens and your request has 13511 input tokens (6000 > 16384 - 13511). None"
+        },
+        {
+          "pdf": "1756460835542_8106296.pdf",
+          "success": true,
+          "items": 13,
+          "extract_time": 232.99816060066223,
+          "scores": {
+            "overall": 2.7,
+            "accuracy": 3.0,
+            "completeness": 3.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756710859463_5579292.pdf",
+          "success": true,
+          "items": 11,
+          "extract_time": 33.867560148239136,
+          "scores": {
+            "overall": 7.0,
+            "accuracy": 8.0,
+            "completeness": 7.0,
+            "source_accuracy": 6.0
+          }
+        },
+        {
+          "pdf": "1756709583588_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756709583588_5579292.pdf'"
+        },
+        {
+          "pdf": "1756710727953_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756710727953_5579292.pdf'"
+        },
+        {
+          "pdf": "1756711072746_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756711072746_5579292.pdf'"
+        },
+        {
+          "pdf": "1756711126015_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756711126015_5579292.pdf'"
+        },
+        {
+          "pdf": "1756711943364_1608702.pdf",
+          "success": true,
+          "items": 9,
+          "extract_time": 225.59165740013123,
+          "scores": {
+            "overall": 7.0,
+            "accuracy": 8.0,
+            "completeness": 4.0,
+            "source_accuracy": 9.0
+          }
+        }
+      ]
+    },
+    "v7.20": {
+      "version": "v7.20",
+      "total_pdfs": 20,
+      "successful": 16,
+      "scored": 16,
+      "avg_overall": 5.46875,
+      "avg_accuracy": 5.875,
+      "avg_completeness": 5.5,
+      "avg_source_accuracy": 5.0625,
+      "avg_items": 28.625,
+      "avg_extract_time": 126.71383112668991,
+      "total_time": 2131.115047931671,
+      "details": [
+        {
+          "pdf": "1756711187745_5579292.pdf",
+          "success": true,
+          "items": 11,
+          "extract_time": 28.385052919387817,
+          "scores": {
+            "overall": 7.3,
+            "accuracy": 8.0,
+            "completeness": 7.0,
+            "source_accuracy": 7.0
+          }
+        },
+        {
+          "pdf": "1756711584225_1608702.pdf",
+          "success": true,
+          "items": 13,
+          "extract_time": 93.53688502311707,
+          "scores": {
+            "overall": 7.7,
+            "accuracy": 9.0,
+            "completeness": 5.0,
+            "source_accuracy": 9.0
+          }
+        },
+        {
+          "pdf": "1756453891288_1608702.pdf",
+          "success": true,
+          "items": 67,
+          "extract_time": 188.0807008743286,
+          "scores": {
+            "overall": 3.3,
+            "accuracy": 3.0,
+            "completeness": 4.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756694891048_5579292.pdf",
+          "success": true,
+          "items": 18,
+          "extract_time": 90.10101008415222,
+          "scores": {
+            "overall": 4.3,
+            "accuracy": 4.0,
+            "completeness": 6.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756694954932_5579292.pdf",
+          "success": true,
+          "items": 13,
+          "extract_time": 123.21706247329712,
+          "scores": {
+            "overall": 5.0,
+            "accuracy": 6.0,
+            "completeness": 5.0,
+            "source_accuracy": 4.0
+          }
+        },
+        {
+          "pdf": "1756710561227_5579292.pdf",
+          "success": true,
+          "items": 28,
+          "extract_time": 183.08114767074585,
+          "scores": {
+            "overall": 5.0,
+            "accuracy": 6.0,
+            "completeness": 5.0,
+            "source_accuracy": 4.0
+          }
+        },
+        {
+          "pdf": "1756711019517_5579292.pdf",
+          "success": true,
+          "items": 39,
+          "extract_time": 75.92710542678833,
+          "scores": {
+            "overall": 6.0,
+            "accuracy": 6.0,
+            "completeness": 7.0,
+            "source_accuracy": 5.0
+          }
+        },
+        {
+          "pdf": "1756710006526_5579292.pdf",
+          "success": true,
+          "items": 18,
+          "extract_time": 41.179590940475464,
+          "scores": {
+            "overall": 8.3,
+            "accuracy": 8.0,
+            "completeness": 8.0,
+            "source_accuracy": 9.0
+          }
+        },
+        {
+          "pdf": "1756705897161_5579292.pdf",
+          "success": true,
+          "items": 3,
+          "extract_time": 194.17468285560608,
+          "scores": {
+            "overall": 7.0,
+            "accuracy": 7.0,
+            "completeness": 5.0,
+            "source_accuracy": 9.0
+          }
+        },
+        {
+          "pdf": "1756709847051_5579292.pdf",
+          "success": true,
+          "items": 35,
+          "extract_time": 80.62695837020874,
+          "scores": {
+            "overall": 4.3,
+            "accuracy": 4.0,
+            "completeness": 6.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756460577061_8106296.pdf",
+          "success": true,
+          "items": 20,
+          "extract_time": 57.021761894226074,
+          "scores": {
+            "overall": 4.0,
+            "accuracy": 4.0,
+            "completeness": 5.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756706418200_5579292.pdf",
+          "success": true,
+          "items": 9,
+          "extract_time": 79.12817788124084,
+          "scores": {
+            "overall": 5.0,
+            "accuracy": 6.0,
+            "completeness": 6.0,
+            "source_accuracy": 3.0
+          }
+        },
+        {
+          "pdf": "1756706468788_5579292.pdf",
+          "success": true,
+          "items": 5,
+          "extract_time": 177.09374952316284,
+          "scores": {
+            "overall": 3.0,
+            "accuracy": 3.0,
+            "completeness": 4.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756460835542_8106296.pdf",
+          "success": true,
+          "items": 117,
+          "extract_time": 297.5230929851532,
+          "scores": {
+            "overall": 3.0,
+            "accuracy": 3.0,
+            "completeness": 4.0,
+            "source_accuracy": 2.0
+          }
+        },
+        {
+          "pdf": "1756710859463_5579292.pdf",
+          "success": true,
+          "items": 27,
+          "extract_time": 59.52290225028992,
+          "scores": {
+            "overall": 8.0,
+            "accuracy": 9.0,
+            "completeness": 7.0,
+            "source_accuracy": 8.0
+          }
+        },
+        {
+          "pdf": "1756709583588_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756709583588_5579292.pdf'"
+        },
+        {
+          "pdf": "1756710727953_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756710727953_5579292.pdf'"
+        },
+        {
+          "pdf": "1756711072746_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756711072746_5579292.pdf'"
+        },
+        {
+          "pdf": "1756711126015_5579292.pdf",
+          "success": false,
+          "error": "no such file: '/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756711126015_5579292.pdf'"
+        },
+        {
+          "pdf": "1756711943364_1608702.pdf",
+          "success": true,
+          "items": 35,
+          "extract_time": 258.8214168548584,
+          "scores": {
+            "overall": 6.3,
+            "accuracy": 8.0,
+            "completeness": 4.0,
+            "source_accuracy": 7.0
+          }
+        }
+      ]
+    }
+  }
+}

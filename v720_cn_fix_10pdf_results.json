@@ -1,0 +1,107 @@
+[
+  {
+    "pdf": "1756705897161_5579292.pdf",
+    "items": 10,
+    "removed": 0,
+    "time": 193.9991397857666,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果总体准确且来源标注良好，但在完整性上略有遗漏。"
+  },
+  {
+    "pdf": "1756706418200_5579292.pdf",
+    "items": 23,
+    "removed": 0,
+    "time": 78.65603184700012
+  },
+  {
+    "pdf": "1756706468788_5579292.pdf",
+    "items": 55,
+    "removed": 0,
+    "time": 163.8659040927887,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果准确且来源标注正确，但覆盖面略有不足。"
+  },
+  {
+    "pdf": "1756709332581_5579292.pdf",
+    "items": 18,
+    "removed": 0,
+    "time": 41.26307225227356,
+    "accuracy": 7,
+    "completeness": 6,
+    "source_accuracy": 8,
+    "overall": 7,
+    "brief": "提取结果总体准确，但遗漏了一些关键内容，且部分翻译存在不准确之处。"
+  },
+  {
+    "pdf": "1756709678102_5579292.pdf",
+    "items": 13,
+    "removed": 0,
+    "time": 38.203303813934326,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果总体准确且来源标注合理，但内容覆盖略有不足。"
+  },
+  {
+    "pdf": "1756709847051_5579292.pdf",
+    "items": 35,
+    "removed": 0,
+    "time": 80.83825135231018,
+    "accuracy": 9,
+    "completeness": 7,
+    "source_accuracy": 8,
+    "overall": 8,
+    "brief": "提取结果整体准确，但内容覆盖不够全面，部分信息缺失。"
+  },
+  {
+    "pdf": "1756710006526_5579292.pdf",
+    "items": 18,
+    "removed": 1,
+    "time": 41.094144344329834,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果整体准确且来源标注清晰，但存在部分内容遗漏。"
+  },
+  {
+    "pdf": "1756710561227_5579292.pdf",
+    "items": 28,
+    "removed": 0,
+    "time": 183.32830595970154,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果总体准确，覆盖了主要内容，但仍有小部分遗漏。"
+  },
+  {
+    "pdf": "1756710859463_5579292.pdf",
+    "items": 27,
+    "removed": 5,
+    "time": 59.42647409439087,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果总体准确且来源标注良好，但在内容覆盖上略有不足。"
+  },
+  {
+    "pdf": "1756711019517_5579292.pdf",
+    "items": 47,
+    "removed": 0,
+    "time": 94.52470803260803,
+    "accuracy": 9,
+    "completeness": 8,
+    "source_accuracy": 9,
+    "overall": 8.67,
+    "brief": "提取结果总体准确，覆盖了大部分重要内容，来源标注准确。"
+  }
+]
