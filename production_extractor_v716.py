@@ -83,7 +83,7 @@ class MedicalPDFExtractorV716:
         self.use_cache = use_cache
         self.cache = ExtractionCache(cache_path) if use_cache else None
     
-    def _call_llm(self, prompt: str, max_tokens: int = 2000, json_mode: bool = False) -> Tuple[str, Dict]:
+    def _call_llm(self, prompt: str, max_tokens: int = 2000, json_mode: bool = False, retries: int = 3) -> Tuple[str, Dict]:
         payload = {
             "model": self.model,
             "messages": [{"role": "user", "content": prompt}],
@@ -92,10 +92,21 @@ class MedicalPDFExtractorV716:
         }
         if json_mode:
             payload["response_format"] = {"type": "json_object"}
-        
-        resp = requests.post(self.api_url, json=payload, timeout=300)
-        result = resp.json()
-        return result["choices"][0]["message"]["content"], result.get("usage", {})
+
+        last_error = None
+        for attempt in range(retries):
+            try:
+                resp = requests.post(self.api_url, json=payload, timeout=300)
+                result = resp.json()
+                if "choices" not in result:
+                    err_msg = result.get("error", {}).get("message", str(result))
+                    raise RuntimeError(f"LLM响应无choices: {err_msg}")
+                return result["choices"][0]["message"]["content"], result.get("usage", {})
+            except Exception as e:
+                last_error = e
+                import time as _t
+                _t.sleep(2 * (attempt + 1))
+        raise RuntimeError(f"LLM调用失败(重试{retries}次): {last_error}")
     
     def _extract_json(self, text: str) -> Dict:
         """鲁棒的JSON解析"""
@@ -278,7 +289,7 @@ class MedicalPDFExtractorV716:
 请确保提取完整，输出JSON:"""
         
         # 增加max_tokens以避免截断
-        resp, usage = self._call_llm(prompt, 10000, json_mode=True)
+        resp, usage = self._call_llm(prompt, 6000, json_mode=True)
         result = self._extract_json(resp)
         
         return result, pages_text, usage, doc_type

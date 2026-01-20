@@ -17,7 +17,7 @@ from collections import Counter
 jieba.setLogLevel(jieba.logging.INFO)
 
 class MedicalSummarizer:
-    VERSION = "v7.11"
+    VERSION = "v7.16"
 
     MEDICAL_TERMS = [
         '心肌梗死','糖尿病','高血压','冠心病','脑卒中','心力衰竭','心房颤动',
@@ -42,7 +42,7 @@ class MedicalSummarizer:
         doc.close()
         return text
 
-    def _smart_extract_content(self, text: str, max_chars: int = 24000) -> str:
+    def _smart_extract_content(self, text: str, max_chars: int = 30000) -> str:
         """智能提取正文内容，跳过目录"""
         total_len = len(text)
         
@@ -55,9 +55,9 @@ class MedicalSummarizer:
         
         # 模式1：查找"1. Preamble"或"1. Introduction"后跟正文段落
         patterns = [
-            r'1\.\s*Preamble\s+(?:Guidelines|This)',
+            r'1\.\s*Preamble\s+(?:Guidelines|This|The)',
             r'1\.\s*Introduction\s+(?:The|This|In)',
-            r'Preamble\s+(?:Guidelines|This)',
+            r'Preamble\s+(?:Guidelines|This|The)',
             r'Introduction\s+(?:The|This|In)',
         ]
         
@@ -70,8 +70,8 @@ class MedicalSummarizer:
         # 如果找到正文开始位置且与开头差距较大
         if content_start > 5000:
             # 提取：元信息(3000) + 正文内容
-            meta_text = text[:3000]
-            content_text = text[content_start:content_start + max_chars - 3000]
+            meta_text = text[:5000]
+            content_text = text[content_start:content_start + max_chars - 5000]
             return meta_text + "\n...[目录省略]...\n" + content_text
         
         # 否则直接返回前面部分
@@ -128,7 +128,7 @@ class MedicalSummarizer:
             result = self._parse_json(response)
             
             summary = result.get('summary', '')
-            summary = self._post_process(summary, text)
+            summary = self._post_process(summary, content)
             result['summary'] = summary
             
             return result
@@ -168,7 +168,7 @@ class MedicalSummarizer:
             'summary': result.get('summary', ''),
             'key_points': result.get('key_points', []),
             'keywords': keywords,
-            'mode': 'smart_extract_v7.11',
+            'mode': 'smart_extract_v7.16',
             'stats': {
                 'total_chars': len(full_text),
                 'summary_words': len(result.get('summary', '')),
@@ -183,6 +183,7 @@ class MedicalSummarizer:
             "messages": [{"role": "user", "content": prompt}],
             "max_tokens": max_tokens,
             "temperature": 0.05,
+            "seed": 42,
             "chat_template_kwargs": {"enable_thinking": False}
         }
         r = requests.post(self.api_url, json=payload, timeout=180)
@@ -204,4 +205,4 @@ if __name__ == "__main__":
     summarizer = MedicalSummarizer()
     pdf = "/root/autodl-tmp/pdf_input/pdf_input_09-1125/1756453814456_1608702.pdf"
     result = summarizer.generate_summary(pdf)
-    print(f"v7.11: {result['summary'][:500]}...")
+    print(f"v7.16: {result['summary'][:500]}...")
